@@ -1,0 +1,72 @@
+body {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    background: #dddcdc;
+    margin: 0;
+    padding: 0;
+}
+.block {
+    display: block;
+}
+.text--smaller {
+    font-size: smaller;
+}
+.text--italic {
+    font-style: italic;
+}
+.ml-medium {
+    margin-left: 20px;
+}
+.mt-small {
+    margin-top: 5px;
+}
+.mt-none {
+    margin-top: 0px;
+}
+.mb-none {
+    margin-bottom: 0px;
+}
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #f2eeee;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    padding: 16px;
+    position: relative;
+}
+h1 {
+    color: #2c3e50;
+}
+ul {
+    padding: 0;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+li {
+    margin: 0 0 5px 10px;
+}
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.list-style-none {
+    list-style: none;
+}
+.abstract {
+    font-size: smaller;
+    font-style: italic;
+    color: #8aa5bf;
+}
+.panel {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
