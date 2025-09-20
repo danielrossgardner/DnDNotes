@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: #f8f8f8;
+        }
+        .dice-row {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-bottom: 16px;
+        }
+        .dice-col {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 80px;
+        }
+        .dice-header {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        .dice-input {
+            width: 48px;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        .btn {
+            display: block;
+            padding: 10px 32px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .btn-roll {
+            background: #4a90e2;
+            color: #fff;
+            min-width: 120px;
+            margin-right: 20px;
+        }
+        .btn-quick {
+            background: #27ae60;
+            color: #fff;
+            min-width: 120px;
+            margin-right: 20px;
+        }
+        .btn-clear {
+            background: #e74c3c;
+            color: #fff;
+            min-width: 120px;
+        }
+        #results {
+            text-align: center;
+            font-size: 1.2em;
+            margin-top: 16px;
+            background: #fff;
+            padding: 16px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Dice Roller</h1>
+    <div class="dice-row">
+        <div class="dice-col">
+            <div class="dice-header">d4</div>
+            <input class="dice-input" type="number" min="0" max="99" value="0" id="d4-count">
+        </div>
+        <div class="dice-col">
+            <div class="dice-header">d6</div>
+            <input class="dice-input" type="number" min="0" max="99" value="0" id="d6-count">
+        </div>
+        <div class="dice-col">
+            <div class="dice-header">d8</div>
+            <input class="dice-input" type="number" min="0" max="99" value="0" id="d8-count">
+        </div>
+        <div class="dice-col">
+            <div class="dice-header">d10</div>
+            <input class="dice-input" type="number" min="0" max="99" value="0" id="d10-count">
+        </div>
+        <div class="dice-col">
+            <div class="dice-header">d12</div>
+            <input class="dice-input" type="number" min="0" max="99" value="0" id="d12-count">
+        </div>
+        <div class="dice-col">
+            <div class="dice-header">d20</div>
+            <input class="dice-input" type="number" min="0" max="99" value="0" id="d20-count">
+        </div>
+    </div>
+    <div style="display:flex; align-items:center; justify-content:center; margin-bottom:8px; width:100%;">
+    <button id="roll-btn" class="btn btn-roll">Roll</button>
+    <button id="quick-btn" class="btn btn-quick">Quick Roll</button>
+    <button id="clear-btn" class="btn btn-clear">Clear</button>
+    </div>
+    <div id="results"></div>
+    <script>
+        function rollDie(sides) {
+            return Math.floor(Math.random() * sides) + 1;
+        }
+        const diceTypes = [
+            {name: 'd4', sides: 4},
+            {name: 'd6', sides: 6},
+            {name: 'd8', sides: 8},
+            {name: 'd10', sides: 10},
+            {name: 'd12', sides: 12},
+            {name: 'd20', sides: 20}
+        ];
+
+        function doRoll() {
+            let output = '';
+            diceTypes.forEach(type => {
+                const count = parseInt(document.getElementById(type.name + '-count').value, 10) || 0;
+                if (count > 0) {
+                    let rolls = [];
+                    for (let i = 0; i < count; i++) {
+                        rolls.push(rollDie(type.sides));
+                    }
+                    const sum = rolls.reduce((a, b) => a + b, 0);
+                    output += `<div><strong>${count} ${type.name}:</strong> ${rolls.join(' + ')} = <b>${sum}</b></div>`;
+                }
+            });
+            if (!output) {
+                output = '<em>No dice selected.</em>';
+            }
+            document.getElementById('results').innerHTML = output;
+        }
+
+        document.getElementById('roll-btn').addEventListener('click', doRoll);
+
+        document.getElementById('clear-btn').addEventListener('click', function() {
+            diceTypes.forEach(type => {
+                document.getElementById(type.name + '-count').value = 0;
+            });
+            document.getElementById('results').innerHTML = '';
+        });
+
+        document.getElementById('quick-btn').addEventListener('click', function() {
+            diceTypes.forEach(type => {
+                document.getElementById(type.name + '-count').value = (type.name === 'd20') ? 1 : 0;
+            });
+            doRoll();
+        });
+    </script>
+</body>
+</html>
