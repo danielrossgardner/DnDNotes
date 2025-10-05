@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Combat & Monk Quick Reference</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    :root{
+      --bg:#0f1724;
+      --card:#0b1220;
+      --accent:#8fd3ff;
+      --muted:#9aa7b2;
+      --panel:#071124;
+      --pill-bg:#102036;
+      --glass: rgba(255,255,255,0.03);
+      --radius:12px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color:#e6eef6;
+    }
+    body{
+      background: linear-gradient(180deg,#071124 0%, #091725 100%);
+      margin:0;
+      padding:28px;
+      color:var(--muted);
+      line-height:1.45;
+    }
+    .wrap{
+      max-width:980px;
+      margin:0 auto;
+    }
+    header h1{
+      margin:0 0 6px 0;
+      color:var(--accent);
+      font-size:20px;
+      letter-spacing:0.4px;
+    }
+    header p{ margin:0 0 18px 0; color: #bcd8ee; font-size:13px; }
+
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border:1px solid rgba(255,255,255,0.04);
+      padding:18px;
+      border-radius:var(--radius);
+      box-shadow: 0 8px 30px rgba(3,8,16,0.6);
+      margin-bottom:14px;
+    }
+
+    .row{
+      display:flex;
+      gap:12px;
+      align-items:flex-start;
+      flex-wrap:wrap;
+    }
+
+    .pill{
+      display:inline-block;
+      background:var(--pill-bg);
+      color:var(--accent);
+      padding:6px 10px;
+      border-radius:999px;
+      font-weight:600;
+      font-size:13px;
+      border:1px solid rgba(143,211,255,0.06);
+      margin-right:8px;
+    }
+
+    h2{
+      margin:0 0 8px 0;
+      color:#dff6ff;
+      font-size:16px;
+    }
+    h3{
+      margin:0 0 6px 0;
+      color:#d6ecff;
+      font-size:14px;
+    }
+
+    ul{ margin:8px 0 12px 20px; color: #cfe9ff; }
+    li{ margin:6px 0; }
+
+    .muted{ color:var(--muted); font-size:13px; }
+    .small{ font-size:13px; color:#b7dff6; }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:12px;
+    }
+
+    .example{
+      background: linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border:1px dashed rgba(255,255,255,0.03);
+      padding:12px;
+      border-radius:10px;
+      color:#dff6ff;
+      font-size:14px;
+    }
+
+    footer{ margin-top:8px; color:var(--muted); font-size:13px; }
+    code{ background:var(--glass); padding:2px 6px; border-radius:6px; color:#bfe8ff; font-size:13px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Combat & Monk Quick Reference</h1>
+      <p class="small">Compact guide: what you get each turn, available action types, monk specifics, and a short example opener.</p>
+    </header>
+
+    <section class="card" aria-labelledby="turn-heading">
+      <h2 id="turn-heading">What you get on your turn (combat)</h2>
+      <div class="row">
+        <span class="pill">Action</span>
+        <span class="pill">Bonus Action</span>
+        <span class="pill">Movement</span>
+        <span class="pill">Reaction</span>
+      </div>
+
+      <p class="muted small" style="margin-top:10px;">
+        There is also <strong>free object interaction</strong> — e.g., opening a door while moving is a free object interaction.
+        <br/>
+        Note: opening a door, closing it, <em>and</em> locking it behind you would require an <strong>Action</strong>.
+      </p>
+    </section>
+
+    <section class="card" aria-labelledby="actions-heading">
+      <h2 id="actions-heading">Actions (examples)</h2>
+
+      <div class="grid" role="list">
+        <div>
+          <h3>Common Actions</h3>
+          <ul>
+            <li><strong>Attack</strong></li>
+            <li><strong>Cast a Spell</strong></li>
+            <li><strong>Dash</strong> — double your movement.</li>
+            <li><strong>Disengage</strong></li>
+            <li><strong>Dodge</strong> — focus on not getting hit (attacks against you have disadvantage).</li>
+            <li><strong>Help</strong> — assist someone else with a task.</li>
+            <li><strong>Hide</strong></li>
+            <li><strong>Search</strong></li>
+            <li><strong>Use an object</strong> — whenever using an object requires an action (example: lighting a torch).</li>
+          </ul>
+          <p class="small muted">Picking up a torch is typically <em>not</em> an action; lighting it is.</p>
+        </div>
+
+        <div>
+          <h3>Bonus Actions</h3>
+          <ul>
+            <li>Certain spells or magical items specify they use a bonus action.</li>
+            <li><strong>Unarmed Strike</strong> — after making an attack, immediately make one unarmed strike.</li>
+            <li><strong>Patient Defense</strong> — spend 1 Ki to take the Dodge action as a bonus action.</li>
+            <li><strong>Flurry of Blows</strong> — spend 1 Ki to make 2 unarmed strikes (must be immediately after an attack).</li>
+            <li><strong>Step of the Wind</strong> — spend 1 Ki to take Disengage or Dash as a bonus action.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Reactions</h3>
+          <ul>
+            <li><strong>Opportunity Attack</strong> — someone leaves or passes within 5 ft. of you; you can make one attack.</li>
+            <li><strong>Deflect Missiles</strong> — deflect or catch a non-magical missile; reduce damage by <code>1d10 + Dex + monk level</code>.
+              <br/>If damage is reduced to 0 you catch the missile and may spend 1 Ki to throw it back.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" aria-labelledby="comms-heading">
+      <h2 id="comms-heading">Callouts & Teamwork</h2>
+      <p class="small">On your turn in combat, call out short instructions to your party: <em>cover me</em>, <em>follow my lead</em>, <em>focus the big one</em>, etc. Short tactical calls help coordinate support and prevent you from being isolated.</p>
+    </section>
+
+    <section class="card" aria-labelledby="monk-heading">
+      <h2 id="monk-heading">Monk Details</h2>
+      <ul>
+        <li><strong>Ki points</strong> = your monk level.</li>
+        <li><strong>Recovery:</strong> 30min rest you get Ki back. <!-- (kept original phrasing) --></li>
+      </ul>
+    </section>
+
+    <section class="card" aria-labelledby="example-heading">
+      <h2 id="example-heading">Example opener (in combat)</h2>
+      <div class="example">
+        Use your extra movement to close the distance on the enemy. Strike them with a javelin, then use a Ki point for <strong>Patient Defense</strong>. This means you have the enemy locked down — attacks against you have disadvantage. If the enemy tries to flee you would get another strike (opportunity attack). Hopefully your team then comes in and supports you.
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
