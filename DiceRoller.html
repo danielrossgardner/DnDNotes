@@ -15,6 +15,7 @@
             justify-content: center;
             gap: 32px;
             margin-bottom: 16px;
+            flex-wrap: wrap;
         }
         .dice-col {
             display: flex;
@@ -94,6 +95,10 @@
             <div class="dice-header">d20</div>
             <input class="dice-input" type="number" min="0" max="99" value="0" id="d20-count">
         </div>
+        <div class="dice-col">
+            <div class="dice-header">d100</div>
+            <input class="dice-input" type="number" min="0" max="99" value="0" id="d100-count">
+        </div>
     </div>
     <div style="display:flex; align-items:center; justify-content:center; margin-bottom:8px; width:100%;">
     <button id="roll-btn" class="btn btn-roll">Roll</button>
@@ -111,7 +116,8 @@
             {name: 'd8', sides: 8},
             {name: 'd10', sides: 10},
             {name: 'd12', sides: 12},
-            {name: 'd20', sides: 20}
+            {name: 'd20', sides: 20},
+            {name: 'd100', sides: 100}
         ];
 
         function doRoll() {
