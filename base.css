@@ -61,6 +61,9 @@ a:hover {
 .mb-small {
     margin-bottom: 5px;
 }
+.mb-large {
+    margin-bottom: 20px;
+}
 .container {
     max-width: 700px;
     margin: 40px auto;
