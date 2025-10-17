@@ -2,64 +2,654 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>People</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="base.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>People</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="magic_items.css">
 </head>
 
 <body>
-    <div class="container">
-        <a href="index.html"
-            style="position:absolute;top: 5px;right: 5px;z-index:1000;background:#fff;padding:6px 12px;border-radius: 8px;text-decoration:none;border: 1px solid #dddcdc;color:#333;font-size: small;">&#8592;
-            Home</a>
-        <h1><strong>Things</strong></h1>
-        <div class="panel">
-            <ul class="ml-medium">
-                <li>
-                    <h2 class="mb-none"><strong id="hollowdust">Hollowdust</strong></h2>
-                    <p class="abstract mt-none ml-medium">A pale-gray, powdery substance ground from corrupted mushrooms cultivated in hidden caves beyond the Silverstream Mines.</p>
-                    <ul>
-                        <li><em>Appearance & Use:</em>
-                            <p class="text--smaller ml-medium mt-none">
-                                A pale-gray, powdery substance ground from corrupted mushrooms in the caverns beyond the Silverstream
-                                Mines.
-                                It has a faint, earthy glow in moonlight. Usually inhaled through a reed tube or mixed into wine.
-                                Carried in tiny clay vials or wrapped in waxed paper.
-                            </p>
-                        </li>
-                        <li><em>Effects (Game Mechanics):</em>
-                            <ul>
-                                <li><em>Immediate Effect:</em> Gain advantage on Wisdom (Perception) checks and initiative rolls for 1
-                                    hour.</li>
-                                <li><em>Lingering Side Effect:</em> At the end of the duration, the user must succeed on a DC 12
-                                    Constitution saving throw or gain 1 level of exhaustion.</li>
-                                <li><em>Addiction Risk:</em>
-                                    <p class="text--smaller ml-medium mt-none">
-                                        If a creature uses Hollowdust more than once within a 7-day period, they must succeed on a DC 14
-                                        Wisdom saving throw or develop dependency.
-                                        Dependency means the user suffers disadvantage on all Wisdom saving throws and ability checks
-                                        until they take another dose.
-                                    </p>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><em>Corruption Taint:</em>
-                            <p class="text--smaller ml-medium mt-none">
-                                Long-term users may develop hallucinations tied to the Mushroom Spirit (Death Domain), hearing whispers
-                                or seeing fungal growths where none exist.
-                                Some believe frequent users eventually attract the spirit’s attention, becoming thralls or spore-ridden
-                                husks.
-                            </p>
-                        </li>
-                    </ul>
+  <div class="container">
+    <a href="index.html"
+      style="position:absolute;top: 5px;right: 5px;z-index:1000;background:#fff;padding:6px 12px;border-radius: 8px;text-decoration:none;border: 1px solid #dddcdc;color:#333;font-size: small;">&#8592;
+      Home</a>
+    <h1><strong>Things</strong></h1>
+    <div class="panel">
+      <ul class="ml-medium">
+        <li>
+          <h2 class="mb-none"><strong id="hollowdust">Hollowdust</strong></h2>
+          <p class="abstract mt-none ml-medium">A pale-gray, powdery substance ground from corrupted mushrooms
+            cultivated in hidden caves beyond the Silverstream Mines.</p>
+          <ul>
+            <li><em>Appearance & Use:</em>
+              <p class="text--smaller ml-medium mt-none">
+                A pale-gray, powdery substance ground from corrupted mushrooms in the caverns beyond the Silverstream
+                Mines.
+                It has a faint, earthy glow in moonlight. Usually inhaled through a reed tube or mixed into wine.
+                Carried in tiny clay vials or wrapped in waxed paper.
+              </p>
+            </li>
+            <li><em>Effects (Game Mechanics):</em>
+              <ul>
+                <li><em>Immediate Effect:</em> Gain advantage on Wisdom (Perception) checks and initiative rolls for 1
+                  hour.</li>
+                <li><em>Lingering Side Effect:</em> At the end of the duration, the user must succeed on a DC 12
+                  Constitution saving throw or gain 1 level of exhaustion.</li>
+                <li><em>Addiction Risk:</em>
+                  <p class="text--smaller ml-medium mt-none">
+                    If a creature uses Hollowdust more than once within a 7-day period, they must succeed on a DC 14
+                    Wisdom saving throw or develop dependency.
+                    Dependency means the user suffers disadvantage on all Wisdom saving throws and ability checks
+                    until they take another dose.
+                  </p>
                 </li>
-            </ul>
-        </div>
+              </ul>
+            </li>
+            <li><em>Corruption Taint:</em>
+              <p class="text--smaller ml-medium mt-none">
+                Long-term users may develop hallucinations tied to the Mushroom Spirit (Death Domain), hearing whispers
+                or seeing fungal growths where none exist.
+                Some believe frequent users eventually attract the spirit’s attention, becoming thralls or spore-ridden
+                husks.
+              </p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+
+      <table class="magic-items">
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Item Name</th>
+            <th>Rarity</th>
+            <th>Requires Attunement</th>
+            <th>Description & Effects</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- ======================= -->
+          <!-- WEAPONS -->
+          <!-- ======================= -->
+          <tr>
+            <td>Weapon</td>
+            <td><strong>Pole of the Tide’s Call</strong></td>
+            <td class="rarity-uncommon">Uncommon</td>
+            <td>Paladin</td>
+            <td>
+              A silver-blue glaive etched with wave motifs.
+              <ul>
+                <li>+1 glaive or halberd.</li>
+                <li>Once per long rest, you can call forth spectral mist: your reach increases by +5 ft. until the end
+                  of your turn.</li>
+                <li>Deals +1d4 cold damage to creatures that damaged an ally since your last turn.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Weapon</td>
+            <td><strong>Stormwake Pike</strong></td>
+            <td class="rarity-uncommon">Uncommon</td>
+            <td>Paladin</td>
+            <td>
+              Crackling with faint static; balanced and sleek.
+              <ul>
+                <li>+1 spear or pike.</li>
+                <li>Once per short rest, when you smite, the target must succeed on a DC 13 STR save or be knocked prone
+                  by a burst of thunder.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Weapon</td>
+            <td><strong>Lancer of Steadfast Resolve</strong></td>
+            <td class="rarity-uncommon">Uncommon</td>
+            <td>Paladin</td>
+            <td>
+              Forged for defenders of ship and shore.
+              <ul>
+                <li>+1 weapon.</li>
+                <li>When you use Divine Smite, you gain +2 AC until the start of your next turn.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Weapon</td>
+            <td><strong>Glaive of the Moon’s Reflection</strong></td>
+            <td class="rarity-uncommon">Uncommon</td>
+            <td>Paladin</td>
+            <td>
+              The steel mirrors faint moonlight.
+              <ul>
+                <li>+1 glaive.</li>
+                <li>While fighting under moonlight, attacks score a critical on a 19–20.</li>
+                <li>Once per long rest, cast <em>Protection from Evil and Good</em> on yourself.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Weapon</td>
+            <td><strong>Gravekeeper’s Mace</strong></td>
+            <td class="rarity-uncommon">Uncommon</td>
+            <td>Cleric</td>
+            <td>
+              +1 mace shaped like a tombstone.
+              <ul>
+                <li>Deals an extra <strong>1d4 radiant damage</strong> when striking a wounded creature.</li>
+                <li>Once per short rest, a killing blow causes undead within 10 ft. to make a DC 13 WIS save or be
+                  <em>Turned</em>.
+                </li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Weapon</td>
+            <td><strong>Staff of the Veiled Soul</strong></td>
+            <td class="rarity-rare">Rare</td>
+            <td>Cleric</td>
+            <td>
+              Blackwood staff bound in silver, topped with pale flame.
+              <ul>
+                <li>+1 quarterstaff.</li>
+                <li>Resistance to necrotic damage while held.</li>
+                <li>Healing 0-HP creatures grants temp HP equal to WIS modifier.</li>
+                <li>1/long rest: automatically succeed on a failed death save.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Weapon</td>
+            <td><strong>Icetomb Rod</strong></td>
+            <td class="rarity-uncommon">Uncommon</td>
+            <td>Warlock</td>
+            <td>
+              A short scepter of obsidian and silver frost.
+              <ul>
+                <li>+1 to spell attack rolls.</li>
+                <li>Once per short rest, add +1d4 cold damage to an Eldritch Blast or cantrip.</li>
+                <li>When you reduce a creature to 0 HP with cold damage, gain 3 temporary HP.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Weapon</td>
+            <td><strong>Shadowbranch Bo Staff</strong></td>
+            <td class="rarity-uncommon">Uncommon</td>
+            <td>Monk</td>
+            <td>
+              Staff carved from black willow.
+              <ul>
+                <li>Counts as a monk weapon.</li>
+                <li>1/short rest: cast <em>Pass Without Trace</em> centered on yourself (no slot).</li>
+                <li>Attacks deal +1d4 necrotic damage when in dim light or darkness.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- ======================= -->
+          <!-- ARMOR -->
+          <!-- ======================= -->
+          <tr>
+            <td>Armor</td>
+            <td><strong>Armor of Restful Vigil</strong></td>
+            <td class="rarity-uncommon">Uncommon</td>
+            <td>Cleric</td>
+            <td>
+              Blackened steel armor trimmed in silver.
+              <ul>
+                <li><strong>+1 AC</strong>.</li>
+                <li>You can’t be surprised by undead.</li>
+                <li>1/long rest: use your reaction to let an ally within 30 ft. drop to <strong>1 HP</strong> instead of
+                  0.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Armor</td>
+            <td><strong>Mail of the Frostbound Veil</strong></td>
+            <td class="rarity-rare">Rare</td>
+            <td>Warlock</td>
+            <td>
+              Dark elven mail with glimmering frost trim.
+              <ul>
+                <li><strong>+1 AC</strong>.</li>
+                <li>Resistance to cold damage.</li>
+                <li>Once per long rest: as a reaction to being hit, cast <em>Armor of Agathys</em> at 1st level without
+                  a slot.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Armor</td>
+            <td><strong>Wraps of the Whispering Step</strong></td>
+            <td class="rarity-uncommon">Uncommon</td>
+            <td>Monk</td>
+            <td>
+              Light bandages marked with old monastery sigils.
+              <ul>
+                <li>You make no sound while moving (as per <em>Mask of the Wild</em>).</li>
+                <li>Gain +5 ft. movement speed.</li>
+                <li>Once per short rest: when you spend 1 ki to use Step of the Wind, you become invisible until you
+                  move or attack.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <!-- ======================= -->
+          <!-- WONDROUS ITEMS -->
+          <!-- ======================= -->
+          <tr>
+            <td>Wondrous Item</td>
+            <td><strong>Vial of Sanctified Ash</strong></td>
+            <td class="rarity-common">Common</td>
+            <td>No</td>
+            <td>
+              Small vial of glowing ash.
+              <ul>
+                <li>Sprinkle on a corpse to prevent undeath for 24 hours.</li>
+                <li>Throw to deal <strong>1d4 radiant damage</strong> to undead in 5 ft. burst (3 uses total).</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Wondrous Item</td>
+            <td><strong>Reliquary of Quiet Passing</strong></td>
+            <td class="rarity-uncommon">Uncommon</td>
+            <td>Cleric</td>
+            <td>
+              Silver reliquary containing saintly ashes.
+              <ul>
+                <li>Healing spells grant +<strong>1d4 HP</strong> to a creature at 0 HP.</li>
+                <li>1/long rest: prevent a nearby corpse from rising as undead.</li>
+                <li>Senses undead within 30 ft.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Wondrous Item</td>
+            <td><strong>Shroud of the Departed</strong></td>
+            <td class="rarity-uncommon">Uncommon</td>
+            <td>Yes</td>
+            <td>
+              Thin gray veil of ghostly silk.
+              <ul>
+                <li>Bonus action: gain <strong>resistance to necrotic damage</strong> and attacks vs. you have
+                  disadvantage (1/short rest).</li>
+                <li>Bonus action: stabilize a dying creature by touch.</li>
+                <li>Whispers faintly near undead.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Wondrous Item</td>
+            <td><strong>Memento of the Hollow Faith</strong></td>
+            <td class="rarity-uncommon">Uncommon</td>
+            <td>Yes</td>
+            <td>
+              Bone prayer beads from a fallen cult.
+              <ul>
+                <li>1/long rest: succeed on a failed Wisdom save.</li>
+                <li>Advantage on saves vs. charm or fright by undead.</li>
+                <li>Trembles when a nearby being has killed in anger.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Wondrous Item</td>
+            <td><strong>Prayer Beads of Still Rest</strong></td>
+            <td class="rarity-uncommon">Uncommon</td>
+            <td>Cleric</td>
+            <td>
+              Obsidian prayer beads etched with runes.
+              <ul>
+                <li>Cast <em>Gentle Repose</em> 1/day without slot.</li>
+                <li><em>Spare the Dying</em> also removes one disease or poison.</li>
+                <li>Advantage on Medicine checks to identify causes of death.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Wondrous Item</td>
+            <td><strong>Ring of the Fading Pulse</strong></td>
+            <td class="rarity-uncommon">Uncommon</td>
+            <td>Yes</td>
+            <td>
+              Silver band carved like a still heartbeat.
+              <ul>
+                <li>Targets at 0 HP gain +2 to death saves from your healing.</li>
+                <li>1/short rest: reaction to gain temp HP equal to half necrotic damage taken.</li>
+                <li>Your skin grows faintly pale while attuned.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Wondrous Item</td>
+            <td><strong>Censer of Peaceful Passing</strong></td>
+            <td class="rarity-uncommon">Uncommon</td>
+            <td>Yes</td>
+            <td>
+              Brass censer emitting silver smoke.
+              <ul>
+                <li>While lit, creates a 10-ft. aura: undead must pass DC 13 WIS save or can’t attack.</li>
+                <li>Dying creatures in aura automatically stabilize.</li>
+                <li>Burns for up to 10 minutes per long rest.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Wondrous Item</td>
+            <td><strong>Amulet of Quiet Repose</strong></td>
+            <td class="rarity-uncommon">Uncommon</td>
+            <td>Yes</td>
+            <td>
+              Moonstone charm shaped like a closed eye.
+              <ul>
+                <li>Resistance to necrotic damage.</li>
+                <li>Immune to possession or control by undead.</li>
+                <li>1/long rest: when damaged by undead, reaction to Turn it (DC 13).</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Wondrous Item</td>
+            <td><strong>Charm of the Frostbound Tome</strong></td>
+            <td class="rarity-uncommon">Uncommon</td>
+            <td>Warlock</td>
+            <td>
+              Small charm carved like a closed book.
+              <ul>
+                <li>+1 bonus to spell save DC for cold spells.</li>
+                <li>When you cast a cold spell, gain temp HP equal to your CHA modifier.</li>
+                <li>1/long rest: reaction to halve cold damage you take.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Wondrous Item</td>
+            <td><strong>Band of Silent Steps</strong></td>
+            <td class="rarity-uncommon">Uncommon</td>
+            <td>Monk</td>
+            <td>
+              Blackened iron ring with faint mist inside.
+              <ul>
+                <li>Gain proficiency in Stealth; if already proficient, double proficiency.</li>
+                <li>When in dim light or darkness, gain +2 AC until you move or speak.</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Wondrous Item</td>
+            <td><strong>Ember Lantern of the Wayward Soul</strong></td>
+            <td class="rarity-rare">Rare</td>
+            <td>Monk</td>
+            <td>
+              Cold blue flame in a tiny lantern.
+              <ul>
+                <li>1/long rest: cast <em>Shadow Step</em> up to 60 ft. even without dim light (recharge at dawn).</li>
+                <li>Creatures of CR 1 or lower that see you teleport must succeed on DC 13 WIS save or be frightened
+                  until end of your next turn.</li>
+              </ul>
+            </td>
+          </tr>
+
+
+          <!-- 1 -->
+          <tr>
+            <td>Item</td>
+            <td><strong>Shepherd’s Crook of Concord</strong></td>
+            <td class="rarity-common">Common</td>
+            <td>—</td>
+            <td>
+              A carved wooden crook decorated with gentle animal motifs. You can calm or direct any beast of
+              Intelligence 3 or lower within 30 feet, causing it to follow simple commands (stay, come, graze, move) for
+              1 minute. Once per short rest, you can cast <em>Animal Friendship</em> (save DC 10) through the crook.
+            </td>
+          </tr>
+
+          <!-- 2 -->
+          <tr>
+            <td>Item</td>
+            <td><strong>Tether Coil</strong></td>
+            <td class="rarity-common">Common</td>
+            <td>—</td>
+            <td>
+              A 20-foot length of braided silver cord with hooks at both ends. When each end is attached to a solid
+              surface and the command word is spoken, the coil becomes completely rigid, like an iron rod. Supports up
+              to 500 pounds. Used as a makeshift bridge, anchor, or brace. Another command word releases the effect.
+            </td>
+          </tr>
+
+          <!-- 3 -->
+          <tr>
+            <td>Item</td>
+            <td><strong>Riverstone of Kindling</strong></td>
+            <td class="rarity-common">Common</td>
+            <td>—</td>
+            <td>
+              A smooth gray stone etched with a faint rune. When the command word is spoken, the stone grows pleasantly
+              warm. If left in contact with tinder for 1 minute, it ignites the material, lighting a campfire or torch.
+              The warmth fades after 10 minutes, and the stone can be used again after a short rest.
+            </td>
+          </tr>
+
+          <!-- 4 -->
+          <tr>
+            <td>Item</td>
+            <td><strong>Pitcher of Endless Dew</strong></td>
+            <td class="rarity-common">Common</td>
+            <td>—</td>
+            <td>
+              This clay jug produces one pint of fresh water per minute until full (up to 1 gallon). Water from it
+              evaporates naturally after an hour. If left in moonlight overnight, the first cup poured the next morning
+              is faintly sweet and grants +1 temporary hit point.
+            </td>
+          </tr>
+
+          <!-- 5 -->
+          <tr>
+            <td>Item</td>
+            <td><strong>Cloak of Steady Fall</strong></td>
+            <td class="rarity-common">Common</td>
+            <td>—</td>
+            <td>
+              A weathered travel cloak embroidered with feather patterns. When you fall more than 10 feet, the cloak
+              automatically casts <em>Feather Fall</em> on you (self only). It can activate once per long rest, and
+              gentle breezes allow limited gliding—10 feet horizontal per 30 feet descended.
+            </td>
+          </tr>
+
+          <!-- 6 -->
+          <tr>
+            <td>Item</td>
+            <td><strong>Dandelion Pin</strong></td>
+            <td class="rarity-common">Common</td>
+            <td>—</td>
+            <td>
+              A brooch shaped like a dandelion puff. Once per day, you can blow on the pin to release glowing motes that
+              drift 10 feet and cling to invisible creatures or objects for 1 round before fading. Subtle winds may
+              disperse the motes more quickly.
+            </td>
+          </tr>
+
+          <!-- 7 -->
+          <tr>
+            <td>Item</td>
+            <td><strong>Tumbler’s Bracers</strong></td>
+            <td class="rarity-common">Common</td>
+            <td>—</td>
+            <td>
+              Leather wristbands etched with spirals. You always land on your feet when falling 10 feet or less. Gain
+              advantage on Dexterity (Acrobatics) checks to tumble or dive. Once per short rest, you can reduce fall
+              damage by 1d6 as a reaction.
+            </td>
+          </tr>
+
+          <!-- 8 -->
+          <tr>
+            <td>Item</td>
+            <td><strong>Seed of the Silent Grove</strong></td>
+            <td class="rarity-common">Common</td>
+            <td>—</td>
+            <td>
+              A glowing acorn that, when planted and watered, sprouts into a 3-foot dome of vines that muffles all
+              mundane sound within a 10-foot radius. The vines last for 10 minutes before withering away.
+            </td>
+          </tr>
+
+          <!-- 9 -->
+          <tr>
+            <td>Item</td>
+            <td><strong>Traveler’s Compass</strong></td>
+            <td class="rarity-common">Common</td>
+            <td>—</td>
+            <td>
+              A brass compass whose needle always points to the nearest settlement or safe shelter instead of north. If
+              there is none within 5 miles, it spins lazily in circles.
+            </td>
+          </tr>
+
+          <!-- 10 -->
+          <tr>
+            <td>Item</td>
+            <td><strong>Mothlight Lantern</strong></td>
+            <td class="rarity-common">Common</td>
+            <td>—</td>
+            <td>
+              A small glass lantern filled with magically preserved moths that glow softly when exposed to air. The
+              light attracts harmless insects but repels biting ones within 10 feet. Shaking the lantern causes the
+              light to dim for 1 minute.
+            </td>
+          </tr>
+
+          <!-- 11 -->
+          <tr>
+            <td>Item</td>
+            <td><strong>Stone of Gentle Repose</strong></td>
+            <td class="rarity-common">Common</td>
+            <td>—</td>
+            <td>
+              A river pebble engraved with a spiral pattern. When placed on a recently deceased creature, the body is
+              preserved from decay and odor for 24 hours. The stone can be reused once per dawn.
+            </td>
+          </tr>
+
+          <!-- 12 -->
+          <tr>
+            <td>Item</td>
+            <td><strong>Bottle of Echoing Song</strong></td>
+            <td class="rarity-common">Common</td>
+            <td>—</td>
+            <td>
+              When you hum into this small glass bottle, it records your tune or voice. Opening it again causes the
+              bottle to replay the sound at the same volume for up to 1 minute. It can store one sound at a time.
+            </td>
+          </tr>
+
+          <!-- 13 -->
+          <tr>
+            <td>Item</td>
+            <td><strong>Wanderer’s Pebble</strong></td>
+            <td class="rarity-common">Common</td>
+            <td>—</td>
+            <td>
+              When dropped on the ground and left alone for 10 seconds, this small stone begins rolling toward the
+              nearest source of fresh water within 100 feet, stopping when submerged or blocked.
+            </td>
+          </tr>
+
+          <!-- 14 -->
+          <tr>
+            <td>Item</td>
+            <td><strong>Echo Twig</strong></td>
+            <td class="rarity-common">Common</td>
+            <td>—</td>
+            <td>
+              A slender wooden twig that mimics sound. Tap it against a surface, and for the next 10 minutes, it faintly
+              repeats that sound every 30 seconds (a drip, a knock, footsteps). The effect can be ended early by
+              snapping the twig.
+            </td>
+          </tr>
+
+          <!-- 15 -->
+          <tr>
+            <td>Item</td>
+            <td><strong>Chameleon Cloak</strong></td>
+            <td class="rarity-common">Common</td>
+            <td>—</td>
+            <td>
+              A rough cloak that subtly shifts color to match its surroundings. Grants advantage on Dexterity (Stealth)
+              checks to hide in natural terrain (forests, rocks, grass, etc.).
+            </td>
+          </tr>
+
+          <!-- 16 -->
+          <tr>
+            <td>Item</td>
+            <td><strong>Mender’s Thread</strong></td>
+            <td class="rarity-common">Common</td>
+            <td>—</td>
+            <td>
+              A spool of shimmering thread that repairs fabric or leather when left overnight. One yard can mend a torn
+              cloak, ripped sail, or leather strap. When all 30 feet of thread are used, the spool vanishes.
+            </td>
+          </tr>
+
+          <!-- 17 -->
+          <tr>
+            <td>Item</td>
+            <td><strong>Charm of the Gentle Rain</strong></td>
+            <td class="rarity-common">Common</td>
+            <td>—</td>
+            <td>
+              A raindrop-shaped pendant that, when pressed, causes a light drizzle in a 10-foot radius lasting 1 minute.
+              The water is cool, clean, and nonmagical. Useful for calming animals, soothing burns, or putting out small
+              flames.
+            </td>
+          </tr>
+
+          <!-- 18 -->
+          <tr>
+            <td>Item</td>
+            <td><strong>Whistle of Clear Skies</strong></td>
+            <td class="rarity-common">Common</td>
+            <td>—</td>
+            <td>
+              A small wooden whistle that emits no audible sound when blown. Once per day, it clears fog, mist, or smoke
+              in a 30-foot radius for 1 minute, unless caused by magic.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+
     </div>
+  </div>
 </body>
 
 </html>

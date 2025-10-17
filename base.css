@@ -37,6 +37,10 @@ a:hover {
     text-decoration: underline;
 }
 
+table {
+  font-size: 10px;
+}
+
 .block {
     display: block;
 }
