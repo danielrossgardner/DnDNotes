@@ -1,6 +1,4 @@
-# DnD Notes (Condensed)
-
-## Veythar
+# Veythar
 **The Land of Echoes** — a vast island where animist spirits shape land, sea, and culture. Every place hums with spiritual presence, guiding daily life through ritual and reverence.  
 
 ### Geography
