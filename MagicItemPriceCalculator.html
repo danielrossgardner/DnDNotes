@@ -79,7 +79,17 @@
     #reputation {
       width: 200px;
     }
-
+    .calc-details {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: auto;
+      width: max-content;
+      font-style: italic;
+    }
+     .calc-details span {
+      font-weight: 300;
+     }
     .txt-sml {
       font-size: 14px;
     }
@@ -87,9 +97,9 @@
 </head>
 
 <body>
-      <a href="index.html"
-      style="position:absolute;top: 5px;right: 5px;z-index:1000;background:#fff;padding:6px 12px;border-radius: 8px;text-decoration:none;border: 1px solid #dddcdc;color:#333;font-size: small;">&#8592;
-      Home</a>
+  <a href="index.html"
+    style="position:absolute;top: 5px;right: 5px;z-index:1000;background:#fff;padding:6px 12px;border-radius: 8px;text-decoration:none;border: 1px solid #dddcdc;color:#333;font-size: small;">&#8592;
+    Home</a>
   <h1 style="text-align:center;">Magic Item Price Calculator</h1>
   <div class="control-row">
     <div class="control-col">
@@ -258,11 +268,9 @@
       const formula = formulas[rarity].formulaTxt;
       const rollCalculation = formulas[rarity].formulaReplace.replace('_', `(${rolls.join(' + ')})`)
       let output = `<div><strong>Calculated Price:</strong> ${price} gp</div>`;
-      output += `<div class="txt-sml">Calculation: ${rollCalculation}</div>`;
-      output += `<div class="txt-sml">Modifier: ${mod * 100}%</div>`;
-      output += `<div class="txt-sml"><em>Formula: ${formula}</em></div>`;
-
-
+      output += `<div class="calc-details"><div class="txt-sml"><span>Calculation:</span> ${rollCalculation}</div>`;
+      output += `<div class="txt-sml"><span>Modifier:</span> ${mod * 100}%</div>`;
+      output += `<div class="txt-sml"><span>Formula:</span> ${formula}</div></div>`;
       document.getElementById('results').innerHTML = output;
     }
 
