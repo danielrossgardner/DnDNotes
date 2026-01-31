@@ -66,6 +66,14 @@
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.07);
         }
+        #results.result-one {
+          background-color: #f7b538;
+          color: #000000;
+        }
+        #results.result-two {
+          background-color: #3e5641;
+          color: #ffffff;
+        }
     </style>
 </head>
 <body>
@@ -120,6 +128,8 @@
             {name: 'd100', sides: 100}
         ];
 
+        let useResultOne = true;
+
         function doRoll() {
             let output = '';
             diceTypes.forEach(type => {
@@ -136,7 +146,11 @@
             if (!output) {
                 output = '<em>No dice selected.</em>';
             }
-            document.getElementById('results').innerHTML = output;
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = output;
+            resultsDiv.classList.remove('result-one', 'result-two');
+            resultsDiv.classList.add(useResultOne ? 'result-one' : 'result-two');
+            useResultOne = !useResultOne;
         }
 
         document.getElementById('roll-btn').addEventListener('click', doRoll);
@@ -145,7 +159,10 @@
             diceTypes.forEach(type => {
                 document.getElementById(type.name + '-count').value = 0;
             });
-            document.getElementById('results').innerHTML = '';
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '';
+            resultsDiv.classList.remove('result-one', 'result-two');
+            useResultOne = true;
         });
 
         document.getElementById('quick-btn').addEventListener('click', function() {
