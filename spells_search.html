@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Spell Search</title>
+  <link rel="stylesheet" href="base.css">
+  <style>
+    /* Minimal page-specific overrides to complement base.css */
+    .search-bar{display:flex;gap:8px}
+    .search-bar input{flex:1;padding:10px 12px;font-size:16px;border:1px solid #ccc;border-radius:6px}
+    .search-bar button{padding:10px 12px;border-radius:6px;background:#2563eb;color:#fff;border:none}
+    .results{display:flex;flex-direction:column;gap:12px}
+    .small{font-size:13px;color:#374151}
+    .divider{height:1px;background:#e6e6e9;margin:10px 0}
+    .no-results{color:#6b7280}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="search-bar">
+      <input id="q" placeholder="Search spells by name" aria-label="Search spells by name" />
+      <button id="clear">Clear</button>
+    </div>
+
+    <div id="results" class="results"></div>
+    <div id="noResults" class="no-results" style="display:none">No spells found.</div>
+  </div>
+
+  <script src="spells_search.js"></script>
+</body>
+</html>

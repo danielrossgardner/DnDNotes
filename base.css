@@ -56,6 +56,10 @@ table {
 .mt-small {
     margin-top: 5px;
 }
+.m-none {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .mt-none {
     margin-top: 0px;
 }
