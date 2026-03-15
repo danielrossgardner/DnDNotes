@@ -6358,7 +6358,7 @@
                 "type": "entries",
                 "name": "At Higher Levels",
                 "entries": [
-                    "When you cast this spell using a spell slot of 7th level or higher, the damage increases by {@scaledamage 10d6 + 40|6-9|3d6} for each slot level above 6th."
+                    "When you cast this spell using a spell slot of 7th level or higher, the damage increases by 3d6 for each slot level above 6th."
                 ]
             }
         ],

@@ -29,8 +29,8 @@ const D20_REGEX = /{@(d20)(\s[0-9])}/g;
 const DAMAGE_REGEX = /({@damage\s([0-9]+d[0-9]+)(\s\+\s)?(([0-9]+d[0-9]+)|([0-9]+))?})/g;
 const DC_REGEX = /{@dc\s([0-9]+)}/g;
 const DICE_REGEX = /{@dice\s([0-9]*d[0-9]+)(\s[×,\+]\s)?([0-9]+)?}/g;
-const OTHER_THINGS_REGEX = /{@(action|spell|sense|condition|creature|skill|status)\s([A-z]+\s?[A-z]*\s?[A-z]*)}/g;
-const SCALE_DAMAGE_REGEX = /{@scaledamage\s([0-9]+d[0-9]+).*}/g;
+const OTHER_THINGS_REGEX = /{@(action|spell|sense|condition|creature|skill)\s([A-z]+\s?[A-z]*\s?[A-z]*)}/g;
+const SCALE_DAMAGE_REGEX = /{@scaledamage\s([0-9]+d[0-9]+)\|[0-9]+-[0-9]+\|([0-9]+d[0-9]+)}/g;
 const SPECIAL_STATUS = /{@status\s[A-z]+\s?[A-z]*\|\|([A-z]+)}/g;
 
 let allSpells = [];
@@ -95,8 +95,8 @@ function formatDescription(inputTxt) {
   txt = txt.replace(DAMAGE_REGEX, '$2$3$4');
   txt = txt.replace(DC_REGEX, 'DC $1');
   txt = txt.replace(DICE_REGEX, '$1$2$3');
-  txt = txt.replace(OTHER_THINGS_REGEX, '$1');
-  txt = txt.replace(SCALE_DAMAGE_REGEX, '$1');
+  txt = txt.replace(OTHER_THINGS_REGEX, '$2');
+  txt = txt.replace(SCALE_DAMAGE_REGEX, '$2');
   txt = txt.replace(SPECIAL_STATUS, '$1');
 
   return txt;
