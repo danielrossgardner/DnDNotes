@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Karkur - D&D Character Sheet</title>
+  <style>
+    :root {
+      --parchment: #f4ecd8;
+      --parchment-dark: #e8dcc0;
+      --ink: #2b2421;
+      --ink-soft: #5a4f47;
+      --rule: #b8a98e;
+      --accent: #7a2e2e;
+      --gold: #a8842c;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: #d8cdb8;
+      color: var(--ink);
+      margin: 0;
+      padding: 20px;
+    }
+
+    .sheet {
+      max-width: 1100px;
+      margin: 0 auto;
+      background: var(--parchment);
+      border: 3px double var(--accent);
+      padding: 20px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+    }
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      border-bottom: 3px solid var(--accent);
+      padding-bottom: 12px;
+      margin-bottom: 14px;
+    }
+
+    .header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .field {
+      margin-top: 6px;
+      flex: 1 1 auto;
+    }
+
+    .field label {
+      display: block;
+      font-size: 9px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--ink-soft);
+    }
+
+    .field .val {
+      font-size: 15px;
+      font-weight: bold;
+      border-bottom: 1px solid var(--rule);
+      min-height: 18px;
+    }
+
+    .columns {
+      display: grid;
+      grid-template-columns: 230px 1fr 1fr 1fr;
+      gap: 12px;
+    }
+
+    .box {
+      border: 1px solid var(--rule);
+      background: var(--parchment-dark);
+      border-radius: 4px;
+      padding: 8px;
+      margin-bottom: 12px;
+    }
+
+    .box-title {
+      font-size: 9px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: center;
+      color: var(--ink-soft);
+      margin-top: 4px;
+    }
+
+    /* Ability scores */
+    .ability {
+      border: 2px solid var(--accent);
+      border-radius: 8px;
+      text-align: center;
+      padding: 8px 4px;
+      margin-bottom: 10px;
+      background: var(--parchment-dark);
+    }
+
+    .ability .name {
+      font-size: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-weight: bold;
+    }
+
+    .ability .mod {
+      font-size: 22px;
+      font-weight: bold;
+      margin: 2px 0;
+    }
+
+    .ability .score {
+      display: inline-block;
+      border: 1px solid var(--rule);
+      border-radius: 50%;
+      width: 34px;
+      height: 34px;
+      line-height: 34px;
+      background: #fff;
+      font-size: 14px;
+    }
+
+    /* top stats row */
+    .stat-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .stat-circle {
+      border: 2px solid var(--accent);
+      border-radius: 8px;
+      text-align: center;
+      padding: 8px 2px;
+      background: var(--parchment-dark);
+    }
+
+    .stat-circle .big {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .stat-circle .label {
+      font-size: 9px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--ink-soft);
+    }
+
+    /* saves & skills */
+    ul.savelist,
+    ul.skilllist {
+      list-style: none;
+      padding: 0;
+      margin: 4px 0;
+      font-size: 12px;
+    }
+
+    ul.savelist li,
+    ul.skilllist li {
+      display: grid;
+      grid-template-columns: 22px 30px 1fr;
+      gap: 4px;
+      padding: 1px 0;
+      border-bottom: 1px dotted var(--rule);
+      align-items: center;
+    }
+
+    .dot {
+      width: 11px;
+      height: 11px;
+      border: 1px solid var(--ink-soft);
+      border-radius: 50%;
+      display: inline-block;
+      margin: 0 auto;
+    }
+
+    .dot.filled {
+      background: var(--accent);
+    }
+
+    .mod-val {
+      font-weight: bold;
+      text-align: right;
+      padding-right: 4px;
+    }
+
+    .small-label {
+      font-size: 9px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--ink-soft);
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    table.atk {
+      width: 100%;
+      font-size: 12px;
+      border-collapse: collapse;
+    }
+
+    table.atk th {
+      font-size: 9px;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      text-align: left;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    table.atk td {
+      padding: 2px 4px;
+      border-bottom: 1px dotted var(--rule);
+    }
+
+    .feature-text,
+    .traits-text,
+    .equip-text {
+      font-size: 12px;
+      line-height: 1.5;
+      white-space: pre-line;
+    }
+
+    .equip-text {
+      font-size: 11px;
+    }
+
+    h3.section-title {
+      font-family: 'Cinzel', Georgia, serif;
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--accent);
+      border-top: 3px solid var(--accent);
+      margin: 0 0 6px 0;
+      padding-bottom: 3px;
+      padding-top: 3px;
+    }
+
+    .pp-box {
+      border: 2px solid var(--accent);
+      border-radius: 50%;
+      width: 85px;
+      height: 85px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 10px auto;
+      background: var(--parchment-dark);
+    }
+
+    .pp-box .num {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .pp-box .lbl {
+      font-size: 8px;
+      text-align: center;
+      line-height: 1.1;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+    }
+
+    .death-saves {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      font-size: 11px;
+    }
+
+    .death-saves .grp {
+      text-align: center;
+    }
+
+    .death-saves .dot {
+      margin: 2px;
+    }
+
+    /* spell section */
+    .spell-page {
+      padding-top: 14px;
+    }
+
+    .spell-header {
+      display: flex;
+      margin-bottom: 14px;
+    }
+
+    .spell-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .spell-level-box {
+      border: 1px solid var(--rule);
+      background: var(--parchment-dark);
+      border-radius: 4px;
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+
+    .spell-level-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--accent);
+      margin-bottom: 4px;
+      padding-bottom: 2px;
+    }
+
+    .spell-level-header .lvl-num {
+      border: 1px solid var(--accent);
+      border-radius: 50%;
+      width: 22px;
+      height: 22px;
+      line-height: 22px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 12px;
+    }
+
+    .spell-level-header .slots {
+      font-size: 11px;
+      font-weight: bold;
+    }
+
+    ul.spelllist {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      font-size: 12px;
+    }
+
+    ul.spelllist li {
+      padding: 2px 0;
+      border-bottom: 1px dotted var(--rule);
+    }
+
+    ul.spelllist li.empty {
+      color: var(--rule);
+      border-bottom: 1px dotted var(--rule);
+      height: 16px;
+    }
+
+    .src-tag {
+      font-size: 9px;
+      color: var(--gold);
+      font-style: italic;
+      margin-left: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="sheet">
+
+    <!-- HEADER -->
+    <div class="header">
+      <div class="header-row">
+        <div class="field">
+          <label>Character Name</label>
+          <div class="val">Okgrith</div>
+        </div>
+        <div class="field">
+          <label>Class &amp; Level</label>
+          <div class="val">Sorcerer (Draconic Bloodline) 5</div>
+        </div>
+        <div class="field">
+          <label>Background</label>
+          <div class="val">Noble</div>
+        </div>
+      </div>
+      <div class="header-row">
+        <div class="field">
+          <label>Race</label>
+          <div class="val">Dwarf / Duergar</div>
+        </div>
+        <div class="field">
+          <label>Alignment</label>
+          <div class="val">&nbsp;</div>
+        </div>
+        <div class="field">
+          <label>Experience Points</label>
+          <div class="val">&nbsp;</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MAIN COLUMNS -->
+    <div class="columns">
+
+      <!-- COLUMN 1: Abilities & Skills -->
+      <div>
+        <div class="ability">
+          <div class="name">Strength</div>
+          <div class="mod">+0</div>
+          <div class="score">10</div>
+        </div>
+        <div class="ability">
+          <div class="name">Dexterity</div>
+          <div class="mod">+2</div>
+          <div class="score">15</div>
+        </div>
+        <div class="ability">
+          <div class="name">Constitution</div>
+          <div class="mod">+2</div>
+          <div class="score">14</div>
+        </div>
+        <div class="ability">
+          <div class="name">Intelligence</div>
+          <div class="mod">+2</div>
+          <div class="score">15</div>
+        </div>
+        <div class="ability">
+          <div class="name">Wisdom</div>
+          <div class="mod">-1</div>
+          <div class="score">9</div>
+        </div>
+        <div class="ability">
+          <div class="name">Charisma</div>
+          <div class="mod">+3</div>
+          <div class="score">16</div>
+        </div>
+        <div class="pp-box">
+          <div class="num">9</div>
+          <div class="lbl">Passive Wisdom (Perception)</div>
+        </div>
+      </div>
+
+      <!-- COLUMN 2: Combat stats, saves, skills, prof -->
+      <div>
+        <div class="stat-row">
+          <div class="stat-circle">
+            <div class="big">15</div>
+            <div class="label">Armor Class</div>
+            <div class="small-label" style="margin-top:2px;">Draconic Resilience</div>
+          </div>
+          <div class="stat-circle">
+            <div class="big">+2</div>
+            <div class="label">Initiative</div>
+          </div>
+          <div class="stat-circle">
+            <div class="big">30</div>
+            <div class="label">Speed</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-title">Proficiency Bonus</div>
+          <div class="center" style="font-size:18px; font-weight:bold;">+3</div>
+        </div>
+
+        <div class="box">
+          <div class="box-title">Saving Throws</div>
+          <ul class="savelist">
+            <li><span class="dot"></span><span class="mod-val">+0</span><span>Strength</span></li>
+            <li><span class="dot"></span><span class="mod-val">+2</span><span>Dexterity</span></li>
+            <li><span class="dot filled"></span><span class="mod-val">+5</span><span>Constitution</span></li>
+            <li><span class="dot"></span><span class="mod-val">+2</span><span>Intelligence</span></li>
+            <li><span class="dot"></span><span class="mod-val">-1</span><span>Wisdom</span></li>
+            <li><span class="dot filled"></span><span class="mod-val">+6</span><span>Charisma</span></li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <div class="box-title">Skills</div>
+          <ul class="skilllist">
+            <li><span class="dot"></span><span class="mod-val">+2</span><span>Acrobatics (Dex)</span></li>
+            <li><span class="dot"></span><span class="mod-val">-1</span><span>Animal Handling (Wis)</span></li>
+            <li><span class="dot filled"></span><span class="mod-val">+5</span><span>Arcana (Int)</span></li>
+            <li><span class="dot"></span><span class="mod-val">+0</span><span>Athletics (Str)</span></li>
+            <li><span class="dot"></span><span class="mod-val">+3</span><span>Deception (Cha)</span></li>
+            <li><span class="dot"></span><span class="mod-val">+5</span><span>History (Int)</span></li>
+            <li><span class="dot"></span><span class="mod-val">-1</span><span>Insight (Wis)</span></li>
+            <li><span class="dot filled"></span><span class="mod-val">+5</span><span>Investigation (Int)</span></li>
+            <li><span class="dot"></span><span class="mod-val">-1</span><span>Medicine (Wis)</span></li>
+            <li><span class="dot"></span><span class="mod-val">+2</span><span>Nature (Int)</span></li>
+            <li><span class="dot"></span><span class="mod-val">-1</span><span>Perception (Wis)</span></li>
+            <li><span class="dot"></span><span class="mod-val">+3</span><span>Performance (Cha)</span></li>
+            <li><span class="dot filled"></span><span class="mod-val">+6</span><span>Persuasion (Cha)</span></li>
+            <li><span class="dot"></span><span class="mod-val">+2</span><span>Religion (Int)</span></li>
+            <li><span class="dot"></span><span class="mod-val">+2</span><span>Sleight of Hand (Dex)</span></li>
+            <li><span class="dot"></span><span class="mod-val">+2</span><span>Stealth (Dex)</span></li>
+            <li><span class="dot"></span><span class="mod-val">-1</span><span>Survival (Wis)</span></li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <div class="box-title">Other Proficiencies &amp; Languages</div>
+          <div class="feature-text">Proficiencies: Dagger, dart, sling, quarterstaff, light crossbow, hand/battle axe,
+            light/war hammer
+
+            Mason's tools
+            Gaming set (dice)
+
+            Languages: Common, Dwarvish, Draconic, Celestial</div>
+        </div>
+      </div>
+
+      <!-- COLUMN 3: HP, Hit Dice, Death Saves, Attacks, Equipment -->
+      <div>
+        <div class="box">
+          <div class="box-title">Hit Point Maximum</div>
+          <div class="center" style="font-size:18px; font-weight:bold;">38</div>
+          <div class="center" style="font-size:10px; font-style:italic;">(Draconic Resilience)</div>
+        </div>
+        <div class="box">
+          <div class="box-title">Current Hit Points</div>
+          <div style="min-height:24px;"></div>
+        </div>
+        <div class="box">
+          <div class="box-title">Temporary Hit Points</div>
+          <div style="min-height:24px;"></div>
+        </div>
+        <div class="box">
+          <div class="box-title">Hit Dice</div>
+          <div class="center" style="min-height:24px;">Total: 5d6</div>
+        </div>
+        <div class="box">
+          <div class="box-title">Death Saves</div>
+          <div class="death-saves">
+            <div class="grp">Successes<br><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            </div>
+            <div class="grp">Failures<br><span class="dot"></span><span class="dot"></span><span class="dot"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-title">Attacks &amp; Spellcasting</div>
+          <table class="atk">
+            <tr>
+              <th>Name</th>
+              <th>Atk Bonus</th>
+              <th>Damage/Type</th>
+            </tr>
+            <tr>
+              <td>Sling</td>
+              <td>+5</td>
+              <td>1d4 bludgeoning</td>
+            </tr>
+            <tr>
+              <td>Dagger</td>
+              <td>+5</td>
+              <td>1d4 piercing</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
+          <div style="font-size:12px; margin-top:6px; font-weight:bold;">Sorcery Points: 5</div>
+        </div>
+
+        <div class="box">
+          <div class="box-title">Equipment</div>
+          <div class="equip-text">Sling + 100 ball bearings
+            2x Dagger
+            Arcane focus
+            Explorer's pack
+            Fine clothes
+            Signet ring
+            Scroll of pedigree
+            Wand of war mage +1
+            25 gp</div>
+        </div>
+      </div>
+
+      <!-- COLUMN 4: Personality, Features & Traits -->
+      <div>
+        <div class="box">
+          <div class="box-title">Personality Traits</div>
+          <div class="traits-text">No one can doubt just looking at me, I'm a cut above the masses.</div>
+        </div>
+        <div class="box">
+          <div class="box-title">Ideals</div>
+          <div class="traits-text">Respect is due to me because of my position, but regardless of station, people should
+            be treated with dignity.</div>
+        </div>
+        <div class="box">
+          <div class="box-title">Bonds</div>
+          <div class="traits-text">My loyalty to my sovereign is unwavering.</div>
+        </div>
+        <div class="box">
+          <div class="box-title">Flaws</div>
+          <div class="traits-text">I am a glutton.</div>
+        </div>
+        <div class="box">
+          <div class="box-title">Features &amp; Traits</div>
+          <div class="feature-text">Dwarven Resilience (poison)
+
+            Draconic Resilience (blood) - +1 HP each level; unarmored AC = 13 + Dex; Fire Resistance
+
+            Enlarge/Reduce - 1/long rest
+            Invisibility - 1/long rest
+            Elemental Affinity - advantage on resist/save vs charmed and stunned
+
+            Flexible Casting
+            Metamagic: Empowered Spell, Subtle Spell
+            Stone Cunning</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SPELLCASTING PAGE -->
+    <h3 class="section-title">Spellcasting</h3>
+    <div class="spell-page">
+      
+      <div class="spell-header">
+        <div class="field">
+          <label>Spellcasting Class</label>
+          <div class="val">Sorcerer</div>
+        </div>
+        <div class="field">
+          <label>Spellcasting Ability</label>
+          <div class="val center">Charisma</div>
+        </div>
+        <div class="field">
+          <label>Spell Save DC</label>
+          <div class="val center">14</div>
+        </div>
+        <div class="field">
+          <label>Spell Attack Bonus</label>
+          <div class="val center">+6</div>
+        </div>
+      </div>
+
+      <div class="spell-grid">
+        <!-- Cantrips -->
+        <div class="spell-level-box">
+          <div class="spell-level-header">
+            <span class="lvl-num">0</span>
+            <span style="font-weight:bold; font-size:11px; text-transform:uppercase;">Cantrips</span>
+            <span></span>
+          </div>
+          <ul class="spelllist">
+            <li>Prestidigitation</li>
+            <li>Message</li>
+            <li>Fire Bolt</li>
+            <li>Infestation <span class="src-tag">XGtE</span></li>
+            <li>Frostbite <span class="src-tag">XGtE</span></li>
+          </ul>
+        </div>
+
+        <!-- Level 1 -->
+        <div class="spell-level-box">
+          <div class="spell-level-header">
+            <span class="lvl-num">1</span>
+            <span class="slots">Slots Total: 4</span>
+          </div>
+          <ul class="spelllist">
+            <li><span class="dot"></span> Chromatic Orb</li>
+            <li><span class="dot"></span> Shield</li>
+            <li><span class="dot"></span> Sleep</li>
+          </ul>
+        </div>
+
+        <!-- Level 2 -->
+        <div class="spell-level-box">
+          <div class="spell-level-header">
+            <span class="lvl-num">2</span>
+            <span class="slots">Slots Total: 3</span>
+          </div>
+          <ul class="spelllist">
+            <li><span class="dot"></span> Enlarge/Reduce</li>
+            <li><span class="dot"></span> Invisibility</li>
+            <li><span class="dot"></span> Dragon's Breath <span class="src-tag">XGtE</span></li>
+            <li><span class="dot"></span> Maximilian's Earthen Grasp <span class="src-tag">XGtE</span></li>
+          </ul>
+        </div>
+
+        <!-- Level 3 -->
+        <div class="spell-level-box">
+          <div class="spell-level-header">
+            <span class="lvl-num">3</span>
+            <span class="slots">Slots Total: 2</span>
+          </div>
+          <ul class="spelllist">
+            <li><span class="dot"></span> Fireball</li>
+          </ul>
+        </div>
+
+        <!-- Level 4-9 empty -->
+        <div class="spell-level-box">
+          <div class="spell-level-header">
+            <span class="lvl-num">4</span>
+            <span class="slots">Slots Total: 0</span>
+          </div>
+          <ul class="spelllist">
+            <li class="empty"></li>
+          </ul>
+        </div>
+        <div class="spell-level-box">
+          <div class="spell-level-header">
+            <span class="lvl-num">5</span>
+            <span class="slots">Slots Total: 0</span>
+          </div>
+          <ul class="spelllist">
+            <li class="empty"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
