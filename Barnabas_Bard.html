@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Barnabas - D&D Character Sheet</title>
+<style>
+  :root {
+    --parchment: #f4ecd8;
+    --parchment-dark: #e8dcc0;
+    --ink: #2b2421;
+    --ink-soft: #5a4f47;
+    --rule: #b8a98e;
+    --accent: #7a2e2e;
+    --gold: #a8842c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: #d8cdb8;
+    color: var(--ink);
+    margin: 0;
+    padding: 20px;
+  }
+  .sheet {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: var(--parchment);
+    border: 3px double var(--accent);
+    padding: 20px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.25);
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 12px;
+    margin-bottom: 14px;
+  }
+  .header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .field { margin-top: 6px; flex: 1 1 auto; }
+  .field label {
+    display: block;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--ink-soft);
+  }
+  .field .val {
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid var(--rule);
+    min-height: 18px;
+  }
+  .columns {
+    display: grid;
+    grid-template-columns: 230px 1fr 1fr 1fr;
+    gap: 12px;
+  }
+  .box {
+    border: 1px solid var(--rule);
+    background: var(--parchment-dark);
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+  .box-title {
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--ink-soft);
+    margin-top: 4px;
+  }
+  .ability {
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px 4px;
+    margin-bottom: 10px;
+    background: var(--parchment-dark);
+  }
+  .ability .name {
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: bold;
+  }
+  .ability .mod { font-size: 22px; font-weight: bold; margin: 2px 0; }
+  .ability .score {
+    display: inline-block;
+    border: 1px solid var(--rule);
+    border-radius: 50%;
+    width: 34px; height: 34px; line-height: 34px;
+    background: #fff;
+    font-size: 14px;
+  }
+  .stat-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .stat-circle {
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px 2px;
+    background: var(--parchment-dark);
+  }
+  .stat-circle .big { font-size: 22px; font-weight: bold; }
+  .stat-circle .label { font-size: 9px; text-transform: uppercase; letter-spacing: 1px; color: var(--ink-soft); }
+  ul.savelist, ul.skilllist { list-style: none; padding: 0; margin: 4px 0; font-size: 12px; }
+  ul.savelist li, ul.skilllist li {
+    display: grid;
+    grid-template-columns: 22px 30px 1fr;
+    gap: 4px;
+    padding: 1px 0;
+    border-bottom: 1px dotted var(--rule);
+    align-items: center;
+  }
+  .dot {
+    width: 11px; height: 11px;
+    border: 1px solid var(--ink-soft);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .dot.filled { background: var(--accent); }
+  .dot.expertise {
+    background: var(--gold);
+    border-color: var(--gold);
+    box-shadow: 0 0 0 2px var(--gold);
+  }
+  .mod-val { font-weight: bold; text-align: right; padding-right: 4px; }
+  .small-label { font-size: 9px; text-transform: uppercase; letter-spacing: 1px; color: var(--ink-soft); }
+  .center { text-align: center; }
+  table.atk { width: 100%; font-size: 12px; border-collapse: collapse; }
+  table.atk th { font-size: 9px; text-transform: uppercase; color: var(--ink-soft); text-align: left; border-bottom: 1px solid var(--rule); }
+  table.atk td { padding: 2px 4px; border-bottom: 1px dotted var(--rule); }
+  .feature-text, .traits-text, .equip-text { font-size: 12px; line-height: 1.5; white-space: pre-line; }
+  .equip-text { font-size: 11px; }
+  h3.section-title {
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent);
+    border-top: 3px solid var(--accent);
+    margin: 0 0 6px 0;
+    padding-bottom: 3px;
+    padding-top: 3px;
+  }
+  .pp-box {
+    border: 2px solid var(--accent);
+    border-radius: 50%;
+    width: 85px; height: 85px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    margin: 0 auto 10px auto;
+    background: var(--parchment-dark);
+  }
+  .pp-box .num { font-size: 22px; font-weight: bold; }
+  .pp-box .lbl { font-size: 8px; text-align: center; line-height: 1.1; text-transform: uppercase; color: var(--ink-soft); }
+  .death-saves { display: flex; gap: 10px; justify-content: center; font-size: 11px; }
+  .death-saves .grp { text-align: center; }
+  .death-saves .dot { margin: 2px; }
+  .spell-page { padding-top: 14px; }
+  .spell-header { display: flex; margin-bottom: 14px; }
+  .spell-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .spell-level-box {
+    border: 1px solid var(--rule);
+    background: var(--parchment-dark);
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  .spell-level-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--accent);
+    margin-bottom: 4px;
+    padding-bottom: 2px;
+  }
+  .spell-level-header .lvl-num {
+    border: 1px solid var(--accent);
+    border-radius: 50%;
+    width: 22px; height: 22px; line-height: 22px; text-align: center;
+    font-weight: bold; font-size: 12px;
+  }
+  .spell-level-header .slots { font-size: 11px; font-weight: bold; }
+  ul.spelllist { list-style: none; margin: 0; padding: 0; font-size: 12px; }
+  ul.spelllist li { padding: 2px 0; border-bottom: 1px dotted var(--rule); }
+  ul.spelllist li.empty { color: var(--rule); height: 16px; }
+  .expertise-note { font-size: 9px; color: var(--gold); font-style: italic; margin-left: 3px; }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-row">
+      <div class="field">
+        <label>Character Name</label>
+        <div class="val">Barnabas</div>
+      </div>
+      <div class="field">
+        <label>Class &amp; Level</label>
+        <div class="val">Bard (College of Lore) 5</div>
+      </div>
+      <div class="field">
+        <label>Background</label>
+        <div class="val">Urchin</div>
+      </div>
+    </div>
+    <div class="header-row">
+      <div class="field">
+        <label>Race</label>
+        <div class="val">Tabaxi</div>
+      </div>
+      <div class="field">
+        <label>Alignment</label>
+        <div class="val">&nbsp;</div>
+      </div>
+      <div class="field">
+        <label>Experience Points</label>
+        <div class="val">&nbsp;</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN COLUMNS -->
+  <div class="columns">
+
+    <!-- COLUMN 1: Abilities -->
+    <div>
+      <div class="ability">
+        <div class="name">Strength</div>
+        <div class="mod">-1</div>
+        <div class="score">8</div>
+      </div>
+      <div class="ability">
+        <div class="name">Dexterity</div>
+        <div class="mod">+3</div>
+        <div class="score">16</div>
+      </div>
+      <div class="ability">
+        <div class="name">Constitution</div>
+        <div class="mod">+1</div>
+        <div class="score">12</div>
+      </div>
+      <div class="ability">
+        <div class="name">Intelligence</div>
+        <div class="mod">+2</div>
+        <div class="score">14</div>
+      </div>
+      <div class="ability">
+        <div class="name">Wisdom</div>
+        <div class="mod">+1</div>
+        <div class="score">12</div>
+      </div>
+      <div class="ability">
+        <div class="name">Charisma</div>
+        <div class="mod">+4</div>
+        <div class="score">18</div>
+      </div>
+      <div class="pp-box">
+        <div class="num">14</div>
+        <div class="lbl">Passive Wisdom (Perception)</div>
+      </div>
+    </div>
+
+    <!-- COLUMN 2: Combat, Saves, Skills, Proficiencies -->
+    <div>
+      <div class="stat-row">
+        <div class="stat-circle">
+          <div class="big">14</div>
+          <div class="label">Armor Class</div>
+          <div class="small-label" style="margin-top:2px;">Leather + Dex</div>
+        </div>
+        <div class="stat-circle">
+          <div class="big">+3</div>
+          <div class="label">Initiative</div>
+        </div>
+        <div class="stat-circle">
+          <div class="big">30</div>
+          <div class="label">Speed</div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="box-title">Proficiency Bonus</div>
+        <div class="center" style="font-size:18px; font-weight:bold;">+3</div>
+      </div>
+
+      <div class="box">
+        <div class="box-title">Saving Throws</div>
+        <ul class="savelist">
+          <li><span class="dot"></span><span class="mod-val">-1</span><span>Strength</span></li>
+          <li><span class="dot filled"></span><span class="mod-val">+6</span><span>Dexterity</span></li>
+          <li><span class="dot"></span><span class="mod-val">+1</span><span>Constitution</span></li>
+          <li><span class="dot"></span><span class="mod-val">+2</span><span>Intelligence</span></li>
+          <li><span class="dot"></span><span class="mod-val">+1</span><span>Wisdom</span></li>
+          <li><span class="dot filled"></span><span class="mod-val">+7</span><span>Charisma</span></li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <div class="box-title">Skills <span style="font-size:9px; color:var(--gold); font-style:italic;">★ = Expertise</span></div>
+        <ul class="skilllist">
+          <li><span class="dot"></span><span class="mod-val">+3</span><span>Acrobatics (Dex)</span></li>
+          <li><span class="dot"></span><span class="mod-val">+1</span><span>Animal Handling (Wis)</span></li>
+          <li><span class="dot filled"></span><span class="mod-val">+5</span><span>Arcana (Int)</span></li>
+          <li><span class="dot"></span><span class="mod-val">-1</span><span>Athletics (Str)</span></li>
+          <li><span class="dot filled"></span><span class="mod-val">+7</span><span>Deception (Cha)</span></li>
+          <li><span class="dot filled"></span><span class="mod-val">+5</span><span>History (Int)</span></li>
+          <li><span class="dot"></span><span class="mod-val">+1</span><span>Insight (Wis)</span></li>
+          <li><span class="dot"></span><span class="mod-val">+4</span><span>Intimidation (Cha)</span></li>
+          <li><span class="dot"></span><span class="mod-val">+2</span><span>Investigation (Int)</span></li>
+          <li><span class="dot"></span><span class="mod-val">+1</span><span>Medicine (Wis)</span></li>
+          <li><span class="dot"></span><span class="mod-val">+2</span><span>Nature (Int)</span></li>
+          <li><span class="dot filled"></span><span class="mod-val">+4</span><span>Perception (Wis)</span></li>
+          <li><span class="dot expertise"></span><span class="mod-val">+10</span><span>Performance (Cha) ★</span></li>
+          <li><span class="dot expertise"></span><span class="mod-val">+10</span><span>Persuasion (Cha) ★</span></li>
+          <li><span class="dot"></span><span class="mod-val">+2</span><span>Religion (Int)</span></li>
+          <li><span class="dot filled"></span><span class="mod-val">+6</span><span>Sleight of Hand (Dex)</span></li>
+          <li><span class="dot filled"></span><span class="mod-val">+6</span><span>Stealth (Dex)</span></li>
+          <li><span class="dot"></span><span class="mod-val">+1</span><span>Survival (Wis)</span></li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <div class="box-title">Other Proficiencies &amp; Languages</div>
+        <div class="feature-text">Armor: Light armor
+Weapons: Simple weapons, hand crossbows, longswords, rapiers, shortswords
+Tools: Disguise kit, thieves' tools, lute, two other musical instruments
+
+Languages: Common, Elvish, Dwarvish</div>
+      </div>
+    </div>
+
+    <!-- COLUMN 3: HP, Combat, Equipment -->
+    <div>
+      <div class="box">
+        <div class="box-title">Hit Point Maximum</div>
+        <div class="center" style="font-size:18px; font-weight:bold;">33</div>
+        <div class="center" style="font-size:10px; font-style:italic;">(5d8 + 5)</div>
+      </div>
+      <div class="box">
+        <div class="box-title">Current Hit Points</div>
+        <div style="min-height:24px;"></div>
+      </div>
+      <div class="box">
+        <div class="box-title">Temporary Hit Points</div>
+        <div style="min-height:24px;"></div>
+      </div>
+      <div class="box">
+        <div class="box-title">Hit Dice</div>
+        <div class="center" style="min-height:24px;">Total: 5d8</div>
+      </div>
+      <div class="box">
+        <div class="box-title">Death Saves</div>
+        <div class="death-saves">
+          <div class="grp">Successes<br><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+          <div class="grp">Failures<br><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="box-title">Attacks &amp; Spellcasting</div>
+        <table class="atk">
+          <tr><th>Name</th><th>Atk Bonus</th><th>Damage/Type</th></tr>
+          <tr><td>Rapier</td><td>+6</td><td>1d8+3 piercing</td></tr>
+          <tr><td>Dagger</td><td>+6</td><td>1d4+3 piercing</td></tr>
+          <tr><td>Hand Crossbow</td><td>+6</td><td>1d6+3 piercing</td></tr>
+          <tr><td>Claws</td><td>+6</td><td>1d4+3 slashing</td></tr>
+        </table>
+        <div style="font-size:11px; margin-top:6px;">Bardic Inspiration: <strong>d8</strong> (×4 per long rest)</div>
+      </div>
+
+      <div class="box">
+        <div class="box-title">Equipment</div>
+        <div class="equip-text">Rapier
+Dagger
+Hand crossbow + bolts
+Leather armor
+Lute
+Disguise kit
+Thieves' tools
+Wide-brimmed feathered hat
+Fine blue coat
+Explorer's pack</div>
+      </div>
+    </div>
+
+    <!-- COLUMN 4: Personality, Features & Traits -->
+    <div>
+      <div class="box">
+        <div class="box-title">Personality Traits</div>
+        <div class="traits-text">Flowery and expressive in speech, layering conversations with compliments, metaphors, and dramatic flourishes. Treats nearly everyone as a potential hero of a grand tale.</div>
+      </div>
+      <div class="box">
+        <div class="box-title">Ideals</div>
+        <div class="traits-text">Stories preserve lives. Every person has a tale worth telling and worth remembering.</div>
+      </div>
+      <div class="box">
+        <div class="box-title">Bonds</div>
+        <div class="traits-text">Collects stories, songs, and personal histories from travelers and adventurers, preserving them carefully as proof that lives can be rewritten.</div>
+      </div>
+      <div class="box">
+        <div class="box-title">Flaws</div>
+        <div class="traits-text">Cannot resist embellishing a tale, even at the cost of strict accuracy.</div>
+      </div>
+      <div class="box">
+        <div class="box-title">Features &amp; Traits</div>
+        <div class="feature-text"><strong>Tabaxi Traits</strong>
+Feline Agility — Double speed until end of turn; must move 0 ft on next turn before reusing.
+Cat's Claws — Climb speed 20 ft; claws deal 1d4+Dex slashing.
+Darkvision 60 ft.
+
+<strong>Bard Features</strong>
+Spellcasting — Spell save DC 15; Spell attack +7.
+Bardic Inspiration (d8) — Bonus action; grant die to creature within 60 ft. 4× per long rest.
+Jack of All Trades — +1 to all ability checks without proficiency.
+Song of Rest — Allies regain extra 1d6 HP when spending Hit Dice on short rest.
+Expertise — Performance &amp; Persuasion doubled.
+Font of Inspiration — Regain Bardic Inspiration on short or long rest.
+
+<strong>College of Lore</strong>
+Bonus Proficiencies — Arcana, History, Perception.
+Cutting Words — Reaction: expend Bardic Inspiration die to subtract from a creature's attack, ability check, or damage roll (within 60 ft).
+
+<strong>Urchin Background</strong>
+City Secrets — Move twice as fast through cities when not in combat.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- SPELLCASTING PAGE -->
+  <h3 class="section-title">Spellcasting</h3>
+  <div class="spell-page">
+    <div class="spell-header">
+      <div class="field">
+        <label>Spellcasting Class</label>
+        <div class="val">Bard</div>
+      </div>
+      <div class="field">
+        <label>Spellcasting Ability</label>
+        <div class="val center">Charisma</div>
+      </div>
+      <div class="field">
+        <label>Spell Save DC</label>
+        <div class="val center">15</div>
+      </div>
+      <div class="field">
+        <label>Spell Attack Bonus</label>
+        <div class="val center">+7</div>
+      </div>
+    </div>
+
+    <div class="spell-grid">
+      <!-- Cantrips -->
+      <div class="spell-level-box">
+        <div class="spell-level-header">
+          <span class="lvl-num">0</span>
+          <span style="font-weight:bold; font-size:11px; text-transform:uppercase;">Cantrips</span>
+          <span></span>
+        </div>
+        <ul class="spelllist">
+          <li>Vicious Mockery</li>
+          <li>Minor Illusion</li>
+          <li>Prestidigitation</li>
+        </ul>
+      </div>
+
+      <!-- Level 1 -->
+      <div class="spell-level-box">
+        <div class="spell-level-header">
+          <span class="lvl-num">1</span>
+          <span class="slots">Slots Total: 4</span>
+        </div>
+        <ul class="spelllist">
+          <li><span class="dot"></span> Healing Word</li>
+          <li><span class="dot"></span> Thunderwave</li>
+          <li><span class="dot"></span> Disguise Self</li>
+          <li><span class="dot"></span> Faerie Fire</li>
+        </ul>
+      </div>
+
+      <!-- Level 2 -->
+      <div class="spell-level-box">
+        <div class="spell-level-header">
+          <span class="lvl-num">2</span>
+          <span class="slots">Slots Total: 3</span>
+        </div>
+        <ul class="spelllist">
+          <li><span class="dot"></span> Suggestion</li>
+          <li><span class="dot"></span> Invisibility</li>
+          <li><span class="dot"></span> Shatter</li>
+        </ul>
+      </div>
+
+      <!-- Level 3 -->
+      <div class="spell-level-box">
+        <div class="spell-level-header">
+          <span class="lvl-num">3</span>
+          <span class="slots">Slots Total: 2</span>
+        </div>
+        <ul class="spelllist">
+          <li><span class="dot"></span> Hypnotic Pattern</li>
+          <li><span class="dot"></span> Speak with Dead</li>
+        </ul>
+      </div>
+
+      <!-- 4 & 5 empty -->
+      <div class="spell-level-box">
+        <div class="spell-level-header">
+          <span class="lvl-num">4</span>
+          <span class="slots">Slots Total: 0</span>
+        </div>
+        <ul class="spelllist"><li class="empty"></li></ul>
+      </div>
+      <div class="spell-level-box">
+        <div class="spell-level-header">
+          <span class="lvl-num">5</span>
+          <span class="slots">Slots Total: 0</span>
+        </div>
+        <ul class="spelllist"><li class="empty"></li></ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

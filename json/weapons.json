@@ -1,0 +1,1568 @@
+[
+  {
+    "name": "Argument Solver",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Greatclub",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Few things solve a disagreement faster than displaying a greatclub. And this one reeks, too. This weapon has the following properties: Poison Mist. When you hit a creature with this weapon, you can deal additional poison damage equal to your proficiency bonus and create a noxious cloud in a 5-foot square surrounding the target for 1 minute. A creature who enters the cloud for the first time, or ends its turn there, must make a DC 13 Constitution saving throw or become poisoned for 1 minute. A creature can repeat this saving throw at the end of each of its turns. Once you use this property this, you can't do so again until you finish a short or long rest, Tenacity. When you miss an attack with this weapon, you can use your reaction to deal bludgeoning damage equal to your Strength modifier (minimum of 1) to the target."
+  },
+  {
+    "name": "Assassin's Shortsword",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Shortsword",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Quiet is the air around this shortsword, and quiet are the steps of the one who wields it. You gain advantage on Dexterity (Stealth) checks while attuned to this weapon."
+  },
+  {
+    "name": "Assassin's Touch",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Dagger",
+    "bonus": 1,
+    "attunement": true,
+    "description": "This long, slender blade fits perfectly between the ribs of any unsuspecting victim. While attuned to this weapon, you deal an additional 1d4 necrotic damage to creatures who are incapacitated."
+  },
+  {
+    "name": "Bow of Awareness",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Shortbow",
+    "bonus": 1,
+    "attunement": true,
+    "description": "This halfling bow requires a full draw for smaller folk, but serves as a quick off-hand for those of greater height. While attuned to this weapon, you can add your proficiency bonus to your initiative rolls."
+  },
+  {
+    "name": "Club of Hill Giant Strength",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Club",
+    "bonus": null,
+    "attunement": true,
+    "description": "Though this rotting chair leg doesn't look like much, every splinter vibrates with barely-contained power. While attuned to this weapon, your strength score changes to 19. The item has no effect on you if your Strength without the weapon is equal to or greater than the weapon's score."
+  },
+  {
+    "name": "Comeback Handaxe",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Handaxe",
+    "bonus": 1,
+    "attunement": true,
+    "description": "This loyal axe always returns to its owner after being thrown. However, it has no eyes and therefore dreadful aim, inevitably returning to its thrower blade-end-first. This weapon returns to your hand immediately after it is used to make a ranged attack. Curse. When this weapon returns to your hand, you must make a DC 13 Dexterity saving throw or take 1d4 slashing damage."
+  },
+  {
+    "name": "Corellon's Grace",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": null,
+    "attunement": true,
+    "description": "This light, flexible staff is of Elven make, marked with mithral sigils that channel magic in the blink of an eye. While attuned to this weapon, you gain a +1 bonus to your attack and damage rolls you make with unarmed strikes. In adidition, while you're not wearing armor, you receive a +2 bonus to all saving throws."
+  },
+  {
+    "name": "Crossbow of Arcane Force",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Crossbow",
+    "bonus": 1,
+    "attunement": true,
+    "description": "The soft hum of power emanates from the alien metal. As a bonus action, you can command the arcane energy within this weapon to infuse your bolts making your ranged attacks with this weapon deal an additional 1d4 force damage for 1 minute. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Deep Delver",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "War pick",
+    "bonus": null,
+    "attunement": true,
+    "description": "Countless hands have smoothened the haft and sharpened the blade. This is an ancestral weapon - perhaps dating back to the ancient digs that sundered the Duergar from their Dwarf-kin. This weapon deal an additional 1d4 piercing damage to creatures who have already taken damage from this weapon."
+  },
+  {
+    "name": "Doom Hammer",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Maul",
+    "bonus": null,
+    "attunement": true,
+    "description": "Bringer of that which it is. When you hit a creature with this weapon it can't regain hit points until the start of your next turn. If you hit an undead target, it also has disadvantage on attack rolls made against you until the end of your next turn. Tenacity. When you miss an attack with this weapon, you can use your reaction to deal bludgeoning damage equal to your Strength modifier (minimum of 1) to the target."
+  },
+  {
+    "name": "Dragon's Grasp",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Handaxe",
+    "bonus": null,
+    "attunement": true,
+    "description": "Somehow, this ax perpetually feels warm to the touch. This weapon deals an additional 1d4 slashing damage to creatures who have taken fire damage since their last turn."
+  },
+  {
+    "name": "Everburn Blade",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Greatsword",
+    "bonus": null,
+    "attunement": true,
+    "description": "Silent flames surge the length of the blade as as soon as it clears the scabbard. When you hit a creature with this weapon, you deal an additional 1d4 fire damage."
+  },
+  {
+    "name": "Exterminator's Greataxe",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Greataxe",
+    "bonus": null,
+    "attunement": true,
+    "description": "The intricate engravings on this ax's blade and handle make plain the skill of its smith. This weapon deals an additional 1d6 fire damage to plants, insects, and Small creatures."
+  },
+  {
+    "name": "Faithbreaker",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Warhammer",
+    "bonus": 1,
+    "attunement": true,
+    "description": "A hand-like brand stamped into the leather handle obscures the notches that would normally signify a Hobgoblin's rank. This weapon has the following property: Absolute Power. When you hit a creature with this weapon, you can jaunt through it a surge of divine energy to accompany your swing dealing an additional 1d6 force damage and the target must make a DC 13 Strength saving throw or be pushed up to 15 feet away from you. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Firestoker",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Hand crossbow",
+    "bonus": null,
+    "attunement": true,
+    "description": "Though the crossbow's bolts look burning hot, they are pleasantly warm to the touch. This weapon deals an additional 1d4 piercing damage to creatures who have taken fire damage since their last turn."
+  },
+  {
+    "name": "Gandrel's Aspiration",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Heavy crossbow",
+    "bonus": 1,
+    "attunement": true,
+    "description": "When Gandrel was seven, he was frightened badly by a vampire spawn during a public burning. Seized by the flames, the creature didn't shrivel up. It swelled and burst. While holding this weapon, your weapon attacks have advantage against monstrosities. Additionally, this weapon has the following property. Sacred Munitions. As a bonus action you can infuse your bolts with holy energy for the rest of your turn. An undead creature hit by one of your infused attacks must make a DC 13 Wisdom saving throw or become turned for 1 minute or until it takes damage. A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Githyanki Greatsword",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Greatsword",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Though heavily decorated and inlaid with rubies, the blade's sharp edge suggests its use isn't merely ornamental. When you hit a creature with this weapon, you deal an additional 1d4 psychic damage."
+  },
+  {
+    "name": "Hamarhraft",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Maul",
+    "bonus": null,
+    "attunement": true,
+    "description": "The Dwarven grammar is garbled, but the weapon's name suggests something about the importance of first impressions. Once per turn, when you jump 10 or more feet, you can deal 1d4 thunder damage to each creature within a 10 foot radius where you land. Tenacity. When you miss an attack with this weapon, you can use your reaction to deal bludgeoning damage equal to your Strength modifier (minimum of 1) to the target."
+  },
+  {
+    "name": "Hellrider Longbow",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Longbow",
+    "bonus": 1,
+    "attunement": true,
+    "description": "This longbow was forged from the remnants of Stanislav the Silver's Shield, found near the wreckage of Castle Ravenloft some years ago. While attuned to this weapon, you can add your proficiency bonus to your initiative rolls and you gain advantage of Wisdom (Perception) checks. Additionally, this weapon has the following property: Fiendish Fire. Once per turn, when you hit a creature with this weapon the target must make a DC 13 Dexterity saving throw. On a failed save, any attack roll against an affected creature has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible for 1 minute. A creature can repeat this saving throw at the end of each of its turns."
+  },
+  {
+    "name": "Hoppy",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Warpick",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Not the most elegant of weapons, the warpick's cumbersome weight certainly allows it to be deadly in combat, when wielded by a strong arm. Inexplicably, this one has a small rabbit carved into the handle. This weapon has the following property: Revitalizing Strike. As an action, you can make a melee weapon attack with this weapon. On a hit, you deal additional necrotic damage equal to your proficiency bonus and gain 1d6 temporary hit points."
+  },
+  {
+    "name": "Hunter's Dagger",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Dagger",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Prey often thinks it has escaped the worst of the predator's bloodthirst and fury - but there are always further torments to be meted out. When you hit a creature with this weapon it must make a DC 13 Constitution saving throw. On a failed save, the creature takes 1d4 necrotic damage for each 10 feet it moves before the start of your next turn."
+  },
+  {
+    "name": "Hunter's Shortbow",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Shortbow",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Supple and strong, this shortbow has been imbued with a ranger's solemn magic - running your fingers along the smooth ash, you can fell that solemnity like a ghost in the shaped wood. You have advantage against monstrosities. Additionally, you can use this weapon to cast hunter's mark at 1st-level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Intransigent Warhammer",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Warhammer",
+    "bonus": null,
+    "attunement": true,
+    "description": "The elegant design of this hammer belies its brutal, crushing power. This weapon does not give ground. When you reduce a creature to 0 hit points or land a critical hit with this weapon, each creature with 10 feet of you must make a DC 13 Strength saving throw or be knocked prone."
+  },
+  {
+    "name": "Ironwood Club",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Club",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Fashioned from the hard, unforgiving trunk of an oak, this club still retains the perfume of the forest. When you cast shillelagh on this weapon, you deal an additional 1d4 bludgeoning damage with it."
+  },
+  {
+    "name": "Jagged Spear",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Spear",
+    "bonus": null,
+    "attunement": true,
+    "description": "The blade of this spear is blackened and melted, leaving a cruel, rugged edge. Creatures you hit with this weapon have disadvantage on Constitution saving throws until the start of your next turn."
+  },
+  {
+    "name": "Kurwin's Cauteriser",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Scimitar",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Mortician Kurwin was known to use his trusty Cauteriser on all sorts of interesting subjects. At first there were cadavers, then people who wouldn't be missed, and it was only after he targeted a well-liked tavern owner that he was ratted out to the law. When you hit a creature with this weapon, you deal an additional 1d4 fire damage. As a bonus action you can ignite this weapon to attempt to burn the target with the next weapon attack you make this turn. When you hit a creature while this weapon is ignited, the creature must make a DC 13 Constitution saving throw or take 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."
+  },
+  {
+    "name": "Light of Creation",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Halberd",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Small lodestones have been inserted along the halberd's shaft, a strange blue current running through them. When you hit a creature with this weapon, you deal an additional 1d6 lightning damage. Curse. If you hit a creature with this weapon and you're not a Warforged, you must make a DC 10 Constitution saving throw or be stunned until the end of your next turn."
+  },
+  {
+    "name": "Lightning Jabber",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Spear",
+    "bonus": 1,
+    "attunement": true,
+    "description": "A makeshift spear fashioned from a giant crab's claw and the charged imagination of Kuo-toa fishfolk. When you make a ranged attack with this weapon, you deal an additional 1d4 lightning damage and the creature must make a DC 13 Constitution saving throw. On a failed save the target can't take reactions and has disadvantage on ability checks and saving throws using Dexterity until the end of their next turn."
+  },
+  {
+    "name": "Loviatar's Scourge",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Mace",
+    "bonus": null,
+    "attunement": true,
+    "description": "More club than scourge, this weapon has a serrated edge made for drawing long, shallow cuts. While attuned to this weapon, you gain resistance to necrotic damage. Additionally, when you hit a creature with this weapon, you deal an additional 1d6 necrotic damage to all creatures within 5 feet of you, including yourself."
+  },
+  {
+    "name": "Melf's First Staff",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": 1,
+    "attunement": true,
+    "description": "This light, flexible staff is of Elven make, marked with mithral sigils that channel magic in the blink of an eye. While attuned to this weapon, you gain a +1 bonus to your spell save DC and spell attack rolls. Additionally, you can use this weapon to cast melf's acid arrow at 2nd-level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Murderous Cut",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Dagger",
+    "bonus": 1,
+    "attunement": false,
+    "description": "Odd to think that dark gods like Bhaal were once mortal. One wonders if they ever thumbed a wagon ride, thought about the weather, or ate flavored yogurt. When you hit a creature that has half its hit points or less, you deal an additional 1d4 piercing damage."
+  },
+  {
+    "name": "Myrkulite Scourge",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Flail",
+    "bonus": 1,
+    "attunement": true,
+    "description": "A browning piece of brain sticks stubbornly to one of the spikes. When you hit a creature with this weapon, you deal an additional 1d6 necrotic damage. Tenacity. When you miss an attack with this weapon, you can use your reaction to deal bludgeoning damage equal to your Strength modifier (minimum of 1) to the target."
+  },
+  {
+    "name": "Nature's Snare",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": null,
+    "attunement": true,
+    "description": "Thread-like vines wriggle along this wooden staff. This weapon has a number of charges equal to half your proficiency bonus rounded down. Once per turn, when you hit a creature with this weapon, you can expend 1 charge to attempt to ensnare a creature if it's not a plant or beast. The target must make a DC 12 Strength saving throw. On a failed save, the creature becomes restrained and takes 1d6 piercing damage at the start of each of its turns for 1 minute or until you lose concentration (as if concentrating on a spell). You regain all expended charges when you finish a long rest."
+  },
+  {
+    "name": "Rain Dancer",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": null,
+    "attunement": true,
+    "description": "A pale staff inlaid with a droplet-shaped topaz. It's cool to the touch. As an action, you can create 30 gallons of water on the ground or in containers within range, enough to sustain up to fifteen humanoids or five steeds for 24 hours. The water is clean and doesn't go bad. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Render of Mind and Body",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Shortsword",
+    "bonus": 1,
+    "attunement": true,
+    "description": "The best offense is a struck cognizance. When you make a weapon attack with this weapon and have advantage on that attack, you deal an additional 1d8 psychic damage."
+  },
+  {
+    "name": "Returning Pike",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Pike",
+    "bonus": 1,
+    "attunement": true,
+    "description": "A 'Crazy Wilbur' is a technique invented by the Dwarvish Ticklebeard Clan. It involves getting your larger enemies to swallow your weapon, then calling it back to you - as messily as possible. This weapon has the thrown property and has a normal range of 20 feet and long range of 60 feet. When you make a ranged attack with this weapon, it automatically returns to your hand whether you hit or miss your target."
+  },
+  {
+    "name": "Ritual Axe",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Handaxe",
+    "bonus": null,
+    "attunement": true,
+    "description": "Though shiny and recently polished, dried blood still fills the deepest crevices of this ax. When you hit a creature with this weapon, the target must make a DC 11 Charisma saving throw or roll a d4 and subtract the number rolled from their attack rolls or saving throws until then end of their next turn. Curse. When you hit a creature with this weapon and you have 15 hit points or more, you take 1d6 piercing damage."
+  },
+  {
+    "name": "Ritual Dagger",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Dagger",
+    "bonus": null,
+    "attunement": true,
+    "description": "The lead handle is smooth with use, and slick with fresh blood. After you hit a hostile creature with this weapon, you can roll a d4 and add the number rolled to attack rolls or saving throws you make until the start of your next turn. Additionally, this weapon has the following property: Blood Sacrifice. As a bonus action, you can deal 1d4 piercing damage to yourself to roll a d4 and add the number rolled to attack rolls or saving throws you make for 1 minute. This damage can't be reduced in any way. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Ritual Dagger of Shar",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Dagger",
+    "bonus": 1,
+    "attunement": true,
+    "description": "The blade is sharp, and the handle firm. Yet death exudes from this dagger as it might from a fresh corpse. When you hit a creature with this weapon, you deal an additional 1d4 necrotic damage."
+  },
+  {
+    "name": "Rupturing Blade",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Rapier",
+    "bonus": 1,
+    "attunement": true,
+    "description": "The point of the rapier is capable of splitting into heated barbs should the wielder device to prick themselves to activate them - sacrifice for reward. When you hit a creature with this weapon, you can deal an additional 1d6 + your proficiency bonus fire damage and the target must make a DC 13 Constitution saving throw or take 1d4 fire damage at the start of each of its turns and have its speed reduced by 10 for 1 minute. A creature can end this effect by using its action to make a DC 10 Dexterity check to extinguish the flames. If you use this property, you take 1d6 slashing damage and can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Shining Staver-of-Skulls",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Light hammer",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Look no further than Scyllua Darkhope - fallen paladin and champion of Bane - to seee how the tools of good can be turned to evil purpose. When you hit a creature with this weapon, you deal an additional 1d4 radiant damage."
+  },
+  {
+    "name": "Shortsword of First Blood",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Shortsword",
+    "bonus": null,
+    "attunement": true,
+    "description": "A golden blade, exquisitely made and astonishingly sharp. When you hit a creature with this weapon, you deal an additional 1d8 piercing damage if the target is at its hit point maximum."
+  },
+  {
+    "name": "Skybreaker",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Light hammer",
+    "bonus": 1,
+    "attunement": true,
+    "description": "And they shall have Celestia's light, even if we must crack wide the heavens to bring it. As a bonus action on your turn, you can use this weapon to cast searing smite at 1st level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Speedy Reply",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Scimitar",
+    "bonus": null,
+    "attunement": true,
+    "description": "A heavy haft and wide blade belie the speed of this weapon. It parts the air as swiftly as any dueling saber. Once per turn, when you hit a creature with this weapon, your speed increases by 10 feet until the start of your next turn."
+  },
+  {
+    "name": "Spellthief",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Longbow",
+    "bonus": null,
+    "attunement": true,
+    "description": "A shiver of magic flows from this bow into your hand - like a promise. When you hit a creature and score a critical hit with this weapon, you can regain a 1st-level spell slot."
+  },
+  {
+    "name": "Staff of a Mumbling Wizard",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": null,
+    "attunement": true,
+    "description": "Because it was designed by a compulsive mumbler, this staff can't distinquish between its spells, and so can only cast - fireball or fire bolt at random. While attuned to this weapon, you learn the fire bolt cantrip which uses your highest spellcasting ability. When you cast fire bolt and make the spell attack roll while holding this weapon, you cast fireball at 3rd-level instead on a roll of 19 or 20."
+  },
+  {
+    "name": "Staff of Arcane Blessing",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": null,
+    "attunement": true,
+    "description": "Though the dust has settled into every nook and cranny of this staff, it still emanates a soothing aura. It's previous owner cast it aside - forgotten because there was nobody to bless. You can use this weapon to cast bless at 1st level. When you cast bless this way it grants an additional 1d4 to weapon attack rolls and saving throws, and an additional 2d4 to spell attack rolls. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Staff of Crones",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": null,
+    "attunement": true,
+    "description": "Live worms wriggle beneath the crumbling surface of this half-rotten staff. Merely touching it fills you with a wave of unbearable nausea and a strange longing, as if it's calling out for its like. You can use this weapon to cast ray of sickness at 1st-level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Svartlebee's Woundseeker",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Greatsword",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Wielded by Svartlebee the Custodian, so named because he had the following reputation: Have you got someone in your life causing a mess? Send Svartlbee a missive. He shall clean them up, and then clean up the crime scene. When you make an attack against a creature that's below its hit point maximum, you can roll a d4 and add the number rolled to the attack roll."
+  },
+  {
+    "name": "Sword of Justice",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Greatsword",
+    "bonus": 1,
+    "attunement": true,
+    "description": "The words 'Deliverance. Justice. Vengeance.' are engraved on the base of this sword. They echo in your mind. While attuned to this weapon, you can use it to cast shield of faith on yourself at 1st-level. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Sword of Screams",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Rapier",
+    "bonus": null,
+    "attunement": true,
+    "description": "A blade of flawless craft. As it parts the air, you fancy you can hear a faint, whispering shriek. When you hit a creature with this weapon, you deal an additional 1d4 psychic damage."
+  },
+  {
+    "name": "Sylvan Scimitar",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Scimitar",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Everything moves strangely in the Feywild, from rivers to behaviors. It's a mercurial place, where the magical and physical can pass permeably through one another. When you attack with this weapon, you can use your spellcasting ability modifier, instead of Strength or Dexterity, for the attack and damage rolls."
+  },
+  {
+    "name": "The Skinburster",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Halberd",
+    "bonus": 1,
+    "attunement": true,
+    "description": "In mellow light, the halberd's curved steel head eerily resembles a grin. Once per turn, when you hit a creature with this weapon, you become shrouded in force conduit granting you the following benefit: Force Conduit. You can choose to gain resistance to nonmagical bludgeoning, piercing, or slashing damage until the start of your next turn. When a creature hits you with an attack that deals damage from your chosen damage type that you have resistance to, you can use your reaction to deal 1d8 force damage to the creature and ending your resistance to that damage type."
+  },
+  {
+    "name": "The Undead Bane",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Greataxe",
+    "bonus": 1,
+    "attunement": false,
+    "description": "Wielded by the indomitable Ser Lexia. Although her eagerness to destroy evil in all its forms was constant, she often took time to make little gifts for her friends. When you hit a fiend or an undead creature with this weapon, you deal an additional 1d6 slashing damage."
+  },
+  {
+    "name": "The Watcher's Guide",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Spear",
+    "bonus": null,
+    "attunement": true,
+    "description": "Time has dampened this spear's sheen, but the center glows a faint blue. The magic it exudes feels old, terrible... and divine. The spear was given to its previous owner of his unerring loyalty - even after death. When you miss with an attack roll with this weapon, the next attack you make with it has advantage."
+  },
+  {
+    "name": "Very Heavy Greataxe",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Greataxe",
+    "bonus": 1,
+    "attunement": false,
+    "description": "It's really very heavy. This weapon has the following property. Gargantuan Cleave. As an action, you can make an attack roll against any number of creatures within 5 feet of you dealing an additional 1d6 slashing damage on a hit. Once you use this property, you must make a DC 10 Strength saving throw or fall prone. The DC increases by 2 for each creature you attacked this way. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Vision of the Absolute",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Spear",
+    "bonus": null,
+    "attunement": true,
+    "description": "The tip of this spear strikes unerringly toward its targets eyes. When you hit a creature with this weapon, it must make a DC 10 Dexterity saving throw or become blinded until the end of its next turn. Additionally, when you hit a creature that has more than two eyes, you deal and additional 2d6 piercing damage."
+  },
+  {
+    "name": "Witchbreaker",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Battleaxe",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Thou shalt not suffer a witch to... well, keep doing whatever she's doing. It's probably malefic, involving toads... and things. While holding this weapon you have advantage on attack rolls against creatures who are concentrating. Additionally, this weapon has the following property: Hush You! As an action, you can point this weapon at a creature within 30 feet of you. The target must make a DC 13 Dexterity saving throw. On a failed save, the creature can't cast spells that require verbal components until the end of your next turn. If the target is concentrating on a spell, it must also make a DC 10 Constitution saving throw to maintain concentration. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Worgfang",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Dagger",
+    "bonus": null,
+    "attunement": true,
+    "description": "'No goblin will strike you down' is etched into this dagger's handle. When goblin assailants realised they couldn't kill the dagger's original owner, they gave him to the worgs, who made short work of him. While attuned to this weapon, goblins have disadvantage on attack rolls made against you."
+  },
+  {
+    "name": "Xyanyde",
+    "rarity": "uncommon",
+    "category": "weapon",
+    "type": "Mace",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Cast deep in the Underdark by Duergar slaves, the head of this mace is engraved with spiderwebs. It is ice-cold to the touch. When you attack with this weapon and miss, you can use your reaction to cast faerie fire at 1st-level using your highest spellcasting ability and only affecting that creature until the end of your next turn. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Ambusher",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Shortsword",
+    "bonus": 1,
+    "attunement": true,
+    "description": "This blade is one of a few rare swords wielded by the Eucalyptus League, a group of fabulously wealthy courtesans who owned a great deal of Luskan's bazaars. While attuned to this weapon, you can add your proficiency bonus to your initiative rolls. In addition, in combat, you deal an additional 1d6 necrotic damage against creatures who haven't taken a turn yet."
+  },
+  {
+    "name": "Bigboy's Chew Toy",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Often mistaken for a relic of a wizard Biby's creation, this staff was, ironically, made as a bite stick for Bigby's dog, Bigboy. While attuned to this weapon, you can use it to cast enlarge on yourself at 2nd-level. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Blackguard's Sword",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Longsword",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Formerly wielded by one who forsook all ties of friendship and kindness, this sword is rife with deranged energies. It seems to transmit feelings of contentment when carving through bones. When you hit a creature with this weapon, you deal an additional 1d4 necrotic damage. Additionally, when you hit a creature with a divine smite it must make a DC 13 Constitution saving throw. On a failed save, the creature can't take reactions and loses any bonuses to AC from it's Dexterity until the end of your next turn."
+  },
+  {
+    "name": "Blade of Oppressed Souls",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Longsword",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Fragments of dead souls are imprisoned in the steel. Angry, powerful, hopeful, or scared - all of them rose up against their Illithid masters, and all of them fell to this blade. Now they are trapped forever, forced to aid their oppressors. When you hit a creature with this weapon, you deal an additional 1d4 psychic damage. Additionally, you can use this weapon to cast crown of madness at 2nd level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Blooded Greataxe",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Greataxe",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Stained brown and reeking of iron, this greataxe once belonged to a killer so deranged, his name was magically scrubbed from all histories. If you have no more than half your hit points, you deal an additional 1d4 slashing damage with this weapon. Additionally, this weapon has the following property: Prepare. At the beginning of your turn you can choose to have your speed reduced to 0 until the start of your next turn. If you do, until the end of your turn, you can add your Strength modifier twice to damage rolls made with this weapon. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Bow of the Banshee",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Shortbow",
+    "bonus": 1,
+    "attunement": true,
+    "description": "The impression of an elven face screams silently from the finely curved bow - the image becomes even more disturbing when the bowstring snaps forward on release, emitting a blood-curdling wail. Once per turn, when you hit a creature with this weapon you can have them make a DC 12 Wisdom saving throw or become frightened of you until the end of your next turn. Additionally, you can roll a d4 and add the number rolled to attack rolls you make against frightened creatures."
+  },
+  {
+    "name": "Breaching Pikestaff",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Pike",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Concussive energy thumps like a might heartbeat from this pike. When you hit a creature with this weapon, you deal an additional 1d4 force damage."
+  },
+  {
+    "name": "Cacophony",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Carved in circles across the knob of the staff are different words for thunder. Gnomish, Sylvan, Elvish, Celestial, even the Primordial tongue - all of these and more fuse together to form the thunderword. When you hit a creature with this weapon, you deal an additional 1d4 thunder damage. Additionally, you can use this weapon to cast thunderous smite at 1st level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Caitiff Staff",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": 2,
+    "attunement": true,
+    "description": "The texture of magic granted by a warlock's patron is largely dependent upon the patron themselves - for example, your standard eldritch patron's probably going to work some eyeball-mottled tentacles in there somewhere. While attuned to this weapon, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your warlock spells. Additionally, you can use an action to replenish one expended warlock spell slot. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Charge-Bound Warhammer",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Warhammer",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Energy crackles in weird and wonderful patterns across your hand as you wield this bound weapon, as if your very veins were marbles like a cloud of blue-white lightning. When you hit a creature with this weapon, you deal an additional 1d6 lightning damage."
+  },
+  {
+    "name": "Clown Hammer",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Warhammer",
+    "bonus": 2,
+    "attunement": true,
+    "description": "This hammer has colorful history - it doesn't honk when you squeeze it, alas. When you hit a creature and score a critical hit with this weapon, both you and the creature must make a DC 17 Wisdom saving throw or fall prone and become incapacitated with fits of laughter until the end of each of your turns."
+  },
+  {
+    "name": "Cold Snap",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Dagger",
+    "bonus": null,
+    "attunement": true,
+    "description": "In the steel, you can see small ice formations like bubbles in a bath, and even hear them pop with crickling crackles of forest delight. When you hit a creature with this weapon, you deal an additional 1d4 cold damage. In addition, while holding this weapon, you gain a +1 bonus to your AC. Moreover, when a creature misses you with a melee attack, you can use your reaction to attempt to flash freeze the creature. The creature must make a DC 13 Constitution saving throw or become vulnerable to cold damage and resistant to fire damage until the end of your next turn."
+  },
+  {
+    "name": "Corpsegrinder",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Maul",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Reliable and trustworthy, you could not hope for a more respectable company than this maul whilst traversing the forlorn places of the world. When you hit a creature with this weapon, you deal an additional 1d4 thunder damage. In addition, this weapon has the following properties: Grand Slam You can use your action to slam this weapon into the ground to deal thunder damage equal to your proficiency bonus to each creature within 10 feet of you. If you do, each target must make a DC 14 Strength saving throw or be pushed up to 10 feet away from you. Once you use this property, you can't do so again until you finish a short or long rest. Tenacity. When you miss an attack with this weapon, you can use your reaction to deal bludgeoning damage equal to your Strength modifier (minimum of 1) to the target."
+  },
+  {
+    "name": "Corrosive Flail",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Flail",
+    "bonus": 1,
+    "attunement": false,
+    "description": "Acid was long ago abandoned by assassins, who found poison much more reliable in spiking their target's drinks. The acid kept melting the chalices. This weapon has the following properties: Corrosive Strike. When you hit a creature with this weapon, you can deal additional acid damage equal to your proficiency bonus and create a 5-foot-square area of acid underneath the target for 1 minute. Creatures standing in the area have their AC reduced by 2. Tenacity. When you miss an attack with this weapon, you can use your reaction to deal bludgeoning damage equal to your Strength modifier (minimum of 1) to the target."
+  },
+  {
+    "name": "Creation's Echo",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": null,
+    "attunement": true,
+    "description": "This staff pulses with energy, swiftly attuning itself to the beat of your heart. Once per turn, if you deal acid, fire, lightning, radiant, or necrotic damage, you become resistant to that damage type until the end of your next turn."
+  },
+  {
+    "name": "Cruel Sting",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Longsword",
+    "bonus": 1,
+    "attunement": true,
+    "description": "The trauma of becoming a drider is quickly set aside with a cold arachnid dispassion. This sword follows that disturbing trend, a replenishing poison gland is built within, deployed only against trapped opponents. When you hit a restrained creature with this weapon, you deal an additional 1d4 poison damage. In addition, you can use this weapon to cast ensnaring strike at 1st level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Darkfire Shortbow",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Shortbow",
+    "bonus": 2,
+    "attunement": true,
+    "description": "This length of yew was polished in a lacquer made from the mingled, cooled, and refined breath of a gold and silver dragon. While holding this weapon, you gain resistance to fire and cold damage. Additionally, you can use this weapon to cast haste on yourself at 3rd level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Defender's Flail",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Flail",
+    "bonus": 1,
+    "attunement": true,
+    "description": "This flail was created to commemorate victory over the devil Belhifet. It has since made its way so far from Easthaven that the locals have long forgotten that chapter of their town's past. While holding this weapon, bludgeoning, piercing, and slashing damage that you take from nonmagical attacks is reduced by 1 and you gain a +1 bonus to your AC."
+  },
+  {
+    "name": "Defender Greataxe",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Greataxe",
+    "bonus": 2,
+    "attunement": true,
+    "description": "The power of this axe lies in a fluctuating arcane enchantment that flows between the beard and the edge of the ax, and the wielder themselves. The first time you attack with this weapon on each of your turns, you can reduce its enchantment by 1 to gain a +1 bonus to your AC and saving throws until the start of your next turn."
+  },
+  {
+    "name": "Despair of Athkatla",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Touching the adornments, it's clear that Lorroakan's short temper has flowed into his staff. It flows into your brain in shades of burgundy and carmine, bright as the storm-lanterns of Lorroakan's homeland. While attuned to this weapon, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your spells."
+  },
+  {
+    "name": "Dolor Amarus",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Dagger",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Once wielded by a murderer, the weapon's handle retains an eerie, clammy warmth, as if Dolor's pre-slaughter sweat somehow crept into the leather - and lingers there still. When you land a critical hit with this weapon, the target takes an extra 7 damage of the weapon's type."
+  },
+  {
+    "name": "Drakethroat Glaive",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Glaive",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Kereska, the draconic goddess of arcane knowledge, gifted this glaive to a dragonborn when facing off against a group of carbuncular spiders. How their arachnid legs curled and blackened before that night's dark business was done! Creatures have disadvantage on their saving throws made against your dargonborn breath weapon. Additionally, you can use this weapon to cast elemental weapon on yourself at 3rd level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Dread Iron Dagger",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Dagger",
+    "bonus": 1,
+    "attunement": true,
+    "description": "A web of veins runs the length of the blade - it has become a slender iron mortuary for all the innocents it has tasted. When you hit a creature with this weapon while hidden, you deal an additional 1d6 necrotic damage."
+  },
+  {
+    "name": "Duke Ravengard's Longsword",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Longsword",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Cradling his newborn son awkwardly, the Duke's face pulled into a rictus of misery. His love Francesca smiled at him, briefly, and died. He stared at her until the boy cried, and he told the boy it would be all right, though he himself did not believe it. While attuned to this weapon, your Charisma score increases by 2 to a maximum of 20. In addition, when you reduce a creature to 0 hit points, friendly creatures within 30 feet of you gain temporary hit points equal to your Charisma modifier (minimum of 1). Moroever, this weapon has the following property: Commander's Strike You can use your bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you. That creature can immediately use its reaction to make one weapon attack. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Flail of Ages",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Flail",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Created by a warmongering rakshasa and kept for a time under the careful watch of an astute noble named Lord de'Arnise, this flail is a tool of absolute destruction, and a versatile one at that. Once per turn, when you hit a creature with this weapon it grants you one of the following benefits when it deals acid, cold, fire, or thunder damage: Acid Acuity. The target must make a DC 13 Dexterity saving throw or have its AC reduced by 2 until the end of its next turn. Cold Acuity. The target must make a DC 13 Constitution saving throw or become vulnerable to cold damage and resistant to fire damage until the end of its next turn. Fire Acuity. The target must make a DC 13 Constitution saving throw or take 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames. Thunder Acuity. The target must make a DC 13 Strength saving throw or be pushed up to 15 feet away from you or knocked prone, your choice. Additionally, you can use this weapon to cast elemental weapon on yourself at 3rd level. Once you use this property, you can't do so again until you finish a long rest. Tenacity. When you miss an attack with this weapon, you can use your reaction to deal bludgeoning damage equal to your Strength modifier (minimum of 1) to the target."
+  },
+  {
+    "name": "Fleshrender",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Shortsword",
+    "bonus": 2,
+    "attunement": true,
+    "description": "The previous owner was going to call this sword Barney, but he got such a bollocking from his friends that he named it Fleshrender instead, and sulked for a whole tenday afterward. When you hit a creature with this weapon it can't regain hit points until the start of your next turn."
+  },
+  {
+    "name": "Giantbreaker",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Heavy Crossbow",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Legends say the Giantbreaker earned its name when an elven ranger singlehandedly defeated a score of hill giants. While the ranger's name is long forgotten, Giantbreaker's lives on. Creatures you hit with this weapon have a -1 to attack rolls (maximum of -4) they make until the start of your next turn."
+  },
+  {
+    "name": "Gleamdance Dagger",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Dagger",
+    "bonus": 2,
+    "attunement": true,
+    "description": "A pair of pixie wings were used to create this pretty blade their delicate tracings can be seen all day and night, though they shine brightest by the light of a gibbous moon. This weapon glows a bright light in a 10-foot radius and dim light for an additional 10 feet. In addition, while holding this dagger, you gain a +1 bonus to your AC."
+  },
+  {
+    "name": "Gold Wyrmling Staff",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": 1,
+    "attunement": true,
+    "description": "The fire engulfing this staff seems to feed off thin air, never once burning the dark wood. When you hit a creature with this weapon, you deal an additional 1d4 fire damage. Additionally, while attuned to this weapon, you learn the fire bolt cantrip which uses your highest spellcasting ability."
+  },
+  {
+    "name": "Hammer of the Just",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Warhammer",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Tyr is often known as the Maimed God — a descriptor he shares with most victims of this heavy warhammer. When you hit a creature with this weapon, you deal an additional 1d4 radiant damage. When you hit an undead or a fiend with this weapon, you deal an additional 1d6 bludgeoning damage. Additionally, you can use this weapon to cast detect thoughts at 1st level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Harmonic Dueller",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Rapier",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Unsheathed, the steel of this rapier shivers and thrums mellifluously in response to nearby surfaces - the motion brings to mind an actor struck with pre-show nerves. As a bonus action, you can expend one use of your bardic inspiration to have your melee weapon attacks deal extra damage equal to your Charisma modifier until the end of your turn."
+  },
+  {
+    "name": "Harmonium Halberd",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Halberd",
+    "bonus": 1,
+    "attunement": true,
+    "description": "The platinum inlays of this halberd hum an otherworldly harmony in the key of C, heightening the wielder's vigor but diminishing their mental faculties. The sound it makes is pining, as if far from its rightful home. While attuned to this weapon, your Strength score increases by 2 to a maximum of 23. In addition, your Intelligence and Wisdom scores decrease by 1 to a minimum of 1."
+  },
+  {
+    "name": "Harold",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Heavy crossbow",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Named after Harold Butterbisk, who owned the Butterbisk Inn in Waterdeep before it was renamed by new owners. The stock of the crossbow reads: Quaffing is a shootable offense. When you hit a creature with this weapon, it must make a DC 13 Charisma saving throw. On a failed save, the creature must roll a d4 and subtract the number rolled from attack rolls and saving throws until the end of its next turn. If a creature's saving throw is successful the creature is immune to this effect until the start of your next turn."
+  },
+  {
+    "name": "Harper Sacredstriker",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": 1,
+    "attunement": true,
+    "description": "This quarterstaff is as solid as the bond between each member of the Harpers - even working in anonymity, they do so with a common and righteous cause. You can use this weapon to cast spiritual weapon at 6th level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Hellbeard Halberd",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Halberd",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Salvaged from the beard of a dead infernal leviathan, whose facial hair was formed from the weapons of an army it had once vanquished. When you hit a creature with this weapon, you deal an additional 6 poison damage."
+  },
+  {
+    "name": "Hollow's Staff",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": 1,
+    "attunement": true,
+    "description": "This staff was wielded by Thibault Hollow, a supremely talented necromancer notable for his overwhelming fear of zombies. Many was the time when his dread lair would echo with a high-pitched shriek when one of them surprised him in a corridor, or when he was taking a bath. When you hit a creature with this weapon, you deal an additional 1d4 necrotic damage. In addition, creatures have disadvantage on their saving throws against your necromancy spells. Moreover, you can use this weapon to cast arms of hadar at 3rd level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Infernal Mace",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Mace",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Precise infernal runes are woven into this weapon's filigree, implying a creator well-versed in hellish arcana. When you hit a creature with this weapon, you deal an additional 3 poison damage and the creature must make a DC 10 Constitution saving throw or become poisoned until the end of its next turn."
+  },
+  {
+    "name": "Infernal Spear",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Spear",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Precise infernal runes are woven into this weapon's filigree, implying a creator well-versed in hellish arcana. When you hit a creature with this weapon, you deal an additional 3 poison damage and the creature must make a DC 10 Constitution saving throw or become poisoned until the end of its next turn."
+  },
+  {
+    "name": "Jorgal's Greatsword",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Greatsword",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Strong castle—forged steel surmounts a grip of sturdy leather - this immense sword is capable of disembowelling giants in a single swipe. You can upheaval the very earth beneath you striking all creatures in a line in front of you. This weapon has the following property: Colossal Onslaught. As an action, you can make a melee weapon attack against all creatures in a 20-foot line that is 5 feet wide. Each creature you hit must make a DC 13 Strength saving throw or take additional slashing damage equal to your proficiency bonus and be knocked prone. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Ketheric's Warhammer",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Warhammer",
+    "bonus": 1,
+    "attunement": true,
+    "description": "This hammer's weight is centered on enchanted obsidian at the base of the head. Some nights before bed, Ketheric would sneak a whey-faced glance at the hammer, and think about the stone, and wonder what unknown facet of his heart wore his weight. When you hit a creature with this weapon, you deal an additional 1d4 psychic damage."
+  },
+  {
+    "name": "Larethian's Wrath",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Longsword",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Deceptively light, the blade rasps through castle-forged plate as easily as Corellon Larethian's own anarchic holy sword through the hearts of evil ores. This weapon has the finesse property. In addition, this weapon has the following property: Razor Gale. As an action, you can make melee weapon attack against all creatures in a 5-foot radius. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Least Expected",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Shortbow",
+    "bonus": 2,
+    "attunement": true,
+    "description": "One of the relics of Deep Duerra's rebellious children. It was to the tremendous surprise of all that Ludmilla, the quiet, the weepy, the daughter most under her mother's thumb, took up this bow and fired. The arrow flushed, and while Duerra and her blinded court wailed impotently, the children escaped into an uncertain, yet sweetly free, future. While lightly or heavily obscured, you can roll a d4 and add the number rolled to attack rolls you make with this weapon. Additionally, when you hit a creature with this weapon, you can use your reaction to attempt to blind them. The creature must make a DC 13 Constitution saving throw or be blinded until the end of its next turn. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Monster Slayer Glaive",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Glaive",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Monster-slaying is a rare calling, not for the faint of heart. It requires temperance, discipline, and usually a very big stick with something pointy at the end. The best thing about spears is that the ugly parts of combat are happening at the other end. When you hit a Monstrosity type creature with this weapon, you deal an additional 1d4 slashing damage. In addition, while holding this weapon, your jump distance is doubled."
+  },
+  {
+    "name": "Moonlight Glaive",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Glaive",
+    "bonus": 2,
+    "attunement": true,
+    "description": "A gift from Dame Aylin and her radiant goddess, this weapon's contours hold a silver—white beauty akin to the nightly lantern that climbs the firmament each evening. When you hit a creature with this weapon, you deal an additional 1d4 radiant damage. In addition, this weapon glows a bright light in a 10-foot radius and dim light for an additional 10 feet. Moreover, this weapon has the following property: Moonlight Butterflies. As an action, you can make a melee attack against a creature with this weapon. On a hit, you deal additional psychic damage equal to your proficiency bonus and summon a 5-foot radius pillar of an illusory swarm of moon-pale butterflies in the creature's space. Weapon attacks made against creatures within the swarm have advantage. If a creature moves out of the illusion it takes 1d6 psychic damage. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Ne'er Misser",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Hand Crossbow",
+    "bonus": 1,
+    "attunement": true,
+    "description": "On the stock, the crafter of this crossbow etched in tiny print: 'Ifn yer gonna miss, why dontchyae stop being a wally, and hit instead!' This weapon deals 1d6 + 1 + your Dexterity modifier force damage on a hit instead of the damage of a normal hand crossbow. Additionally, you can use this weapon to cast magic missle at 3rd level. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Pale Oak",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": null,
+    "attunement": true,
+    "description": "Infused with Silvanus' strength, these staves are gifted to Faithwardens who act in defense of nature. While attuned to this weapon, you can't be restrained by the entangle spell and the area created by entangle doesn't count as difficult terrain for you. Additionally, you can use this weapon to cast entangle at 1st level using your spell save DC. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Phalar Aluve",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Longsword",
+    "bonus": 1,
+    "attunement": true,
+    "description": "The drow inscription on this blade appears to have been recently carved. It translates to: \"Though I have to leave you, I will dance forever in Eilistraee's light.\" While attuned to this weapon, you gain a +1 bonus to Charisma (Performance) checks you make. Additionally, as an action, you can knock this sword like a tuning fork granting you one of the following benefits: Sing. You create an aura of melody with a 20-foot radius for 1 minute. Until this benefit ends, the aura moves with you, centered on you. Allies within your aura can roll a d4 and add the number rolled to their attack rolls and Intelligence, Wisdom, and Charisma saving throws. Shriek. You create an aura of shrieking with a 20-foot radius for 1 minute. Until this benefit ends, the aura moves with you, centered on you. Hostile creatures within your aura must roll a d4 and subtract the number rolled from their saving throws. Affected creatures also take an additional 1d4 thunder damage when hit by a weapon attack. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Punch-Drunk Bastard",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Greatclub",
+    "bonus": 1,
+    "attunement": true,
+    "description": "You see... *hic\" the thing... the really, really important thing Whit\"... about this item is *belches copiously‘... oh sod it, it's a club. Enjoy. When you would make a melee weapon attack with this weapon with disadvantage, use the higher of the two rolls, and when you would make an attack with advantage, use the lower of the two rolls. In addition, when you make a melee weapon attack with this weapon and have disadvantage, you deal an additional 1d4 thunder damage to each creature of your choice within 10 feet of you."
+  },
+  {
+    "name": "Rat Bat",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Greatclub",
+    "bonus": 1,
+    "attunement": true,
+    "description": "A club with nails hammered through it. Classic. Attacks you make with this weapon have advantage against beasts."
+  },
+  {
+    "name": "Ravenguard's Scourger",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Morningstar",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Duke Ravengard's father was the sort of man who works with his hands, and communicates in grunts. In his heart his son vowed to do better. But when Wyll was born, Ravengard felt a strange gravity that drew him away from his son. This weapon has the following property: Commanding Strike. You can use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you. That creature can immediately use its reaction to make one weapon attack. Once you use this property, you can't do so again until you finish a short or long rest. Tenacity. When you miss an attack with this weapon, you can use your reaction to deal bludgeoning damage equal to your Strength modifier (minimum of 1) to the target."
+  },
+  {
+    "name": "Shadow Lantern",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Club",
+    "bonus": null,
+    "attunement": true,
+    "description": "Encased in a cocoon of shadow within the lantern, the mangled pixie lies like some deformed pupa, its mouth slack, and those same shadows crawling over its graying tongue. This weapon exudes darkness in a 10-foot radius and dim light for an additional 10 feet. Additionally, you can use this weapon to cast summon shadowspawn at 6th level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Shattered Flail",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Flail",
+    "bonus": 2,
+    "attunement": true,
+    "description": "A bundle of bones and blood - and a soul-piercing demonic presence - is all that remains of the Flind's flail. It would make a decent mace with a particularly nasty bite. When you hit a creature with this weapon, you heal 1d6 hit points. Curse. When you miss a creature with this weapon, you must make a DC 13 Wisdom saving throw. On a failed save you are considered under the affects of the enemies abound spell for 1 minute. Each time you take damage while under the effects of this spell, you can make a DC 13 Wisdom saving throw to end the effect."
+  },
+  {
+    "name": "Slicing Shortsword",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Shortsword",
+    "bonus": 1,
+    "attunement": true,
+    "description": "So sharp you can cut yourself just talking about it. When you hit a creature with this weapon and had advantage on the attack, the target takes an additional 1d4 necrotic damage at the beginning of its next turn and its speed is reduced by 10 until the end of its next turn."
+  },
+  {
+    "name": "Sorrow",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Glaive",
+    "bonus": 1,
+    "attunement": true,
+    "description": "For every drop of blood spilled, a piece of the soul perishes - until nothing remains but regret. While holding this weapon, you know the thorn whip cantrip which uses your highest spellcasting ability. For you, you can cast it as a bonus action."
+  },
+  {
+    "name": "Soulbreaker Greatsword",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Greatsword",
+    "bonus": 1,
+    "attunement": true,
+    "description": "The sharp metal whispers to you. Pleading. Cursing... Echoes of slain foes. When you hit a creature with this weapon, you deal an additional 1d4 psychic damage. In addition, you can add half your proficiency bonus rounded down to your initiative rolls. Moreover, this weapon has the following property: Soulbreaker. When you hit a creature with this weapon, you can use your reaction to deal additional psychic damage equal to your proficiency bonus, and the target must make a DC 14 Constitution saving or become stunned until the end of their next turn as you temporarily rend their soul from their body. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Staff of Interruption",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": 2,
+    "attunement": true,
+    "description": "This staff hums with a disruptive arcane energy that drives nearby spellcasters to distraction. You can use this weapon to cast counterspell at 5th level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Staff of the Emperor",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Ceremorphosis eradicates great swathes of the consciousness that came before... but not everything. Touching the staff, a fragment of the Emperor's memory slithers into your brain - you see sea waves foaming into spume, and feel the explorer's exultant joy. Then the image is gone, like so much silken night under a cut-shade sun. While attuned to this weapon, you gain a +1 bonus to your spell save DC and spell attack rolls. Addtionally, when you succeed on a saving throw against a hostile creature's spell, the creature who cast the spell against you must make a DC 13 Intelligence saving throw or be stunned until the end of their next turn."
+  },
+  {
+    "name": "Sussur Weaponry",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Dagger +1, greatsword +1, or sickle",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Sussur roots extend form this weapon's hilt into the blade itself. It yearns to drink magic, silencing every creature it strikes. When you hit a creature with this weapon, the target can't cast spells that require verbal components until the start of your next turn."
+  },
+  {
+    "name": "Sword of Clutching Umbra",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Shortsword",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Fingers of shadow seem to beckon from the dark edge of the blade. This weapon has the following property: Shadowsoaked Blow. When you hit a creature with this weapon while hidden, you can choose to deal additional psychic damage equal to your proficiency bonus and not reveal yourself if you're hidden. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Sword of the Emperor",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Longsword",
+    "bonus": 2,
+    "attunement": true,
+    "description": "There's a graceful swarthiness to this sword. The inscription in the steel reads - 'My eye wanders far from home/To shores of distant Anchorome.' When you hit a shapeshifter or polymorphed creature with this weapon, you deal an additional 1d4 slashing damage. In addition, while holding this weapon, you gain a +2 bonus to saving throws you make against spells."
+  },
+  {
+    "name": "The Baneful",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Shortsword",
+    "bonus": 2,
+    "attunement": true,
+    "description": "The wizard Otiluke wrote about bound weapons and their propensity to coalesce with their wielder as the pair come together. He also wrote about their dangers, which are manifold, and their benefits, which make the danger worth it. When you hit a creature with this weapon, the creature must make a DC 13 Charisma saving throw or roll a d4 and subtract the number rolled from their attack rolls or saving throws until then end of their next turn."
+  },
+  {
+    "name": "The Joltshooter",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Longbow",
+    "bonus": null,
+    "attunement": true,
+    "description": "Sleek and lightweight, it is said that the Joltshooter was Yrre the Sparkstruck's favourite weapon. They were indifferent towards bows, but the spikes jutting out of it? When you hit a creature with this weapon, you gain 2 lightning charges which grants you the following benefit: Lightning Charges. While you have lightning charges, you gain a +1 to your weapon attack rolls and deal an additional 1 lightning damage on your attacks. When you make a weapon attack against a creature and have 5 or more lightning charges, you deal an additional 1d8 lightning damage and all of your lightning charges are consumed. One lightning charge is consumed at the end of each of your turns, and all lightning charges are consumed after combat."
+  },
+  {
+    "name": "The Long Arm of the Gur",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Heavy Crossbow",
+    "bonus": 2,
+    "attunement": true,
+    "description": "When the boy was seven, he was frightened badly by a vampire spawn during a public burning. Seized by the flames, the creature didn't shrivel up. It swelled and burst like a squeezed leech. Brains splattered the boy's shoes, grey-pink and pulpy. He would never forget it. When attacking undead creatures, you can roll a d4 and add it to your attack and damage rolls made with this weapon."
+  },
+  {
+    "name": "The Sparky Points",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Trident",
+    "bonus": null,
+    "attunement": true,
+    "description": "When Yrre the Sparkstruck was asked why they'd created a trident twice their size, they simply replied, \"The question is why not create another weapon with spikes like lightning bolts?\" When you hit a creature with this weapon, you gain 2 lightning charges which grants you the following benefit: Lightning Charges. While you have lightning charges, you gain a +1 to your weapon attack rolls and deal an additional 1 lightning damage on your attacks. When you make a weapon attack against a creature and have 5 or more lightning charges, you deal an additional 1d8 lightning damage and all of your lightning charges are consumed. One lightning charge is consumed at the end of each of your turns, and all lightning charges are consumed after combat."
+  },
+  {
+    "name": "The Spellsparker",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": null,
+    "attunement": true,
+    "description": "Yrre the Sparkstruck intended to give the spellsparkler to Lenore, a cleric of Mystra and old lover. But when the gnome returned to the cleric's tower, they found it empty - inhabited only by dust and abandoned experiments. When you deal damage with a spell or cantrip, you gain 2 lightning charges which grants you the following benefit: Lightning Charges. While you have lightning charges, you gain a +1 to your weapon attack rolls and deal an additional 1 lightning damage on your attacks. When you make a weapon attack against a creature and have 5 or more lightning charges, you deal an additional 1d8 lightning damage and all of your lightning charges are consumed. One lightning charge is consumed at the end of each of your turns, and all lightning charges are consumed after combat."
+  },
+  {
+    "name": "Thermodynamo Axe",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Battleaxe",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Designed by gnomish innovation, this weapon has a dynamic core that swivels and tinkles into life whenever the axe is swung at a foe. Whenever you hit a creature with this weapon, you gain 2 heat charges which grants you the following benefit: Heat Charges. While you have heat charges, you take 1d4 fire damage at the start of each of your turns as flames wreathe your body. When you hit a creature with an attack, you can deal additional fire damage equal to the number of heat charges you have and all your heat charges are consumed (up to a maximum of 7). One heat charge is consumed at the end of each of your turns, and all charges are consumed after combat."
+  },
+  {
+    "name": "Thorn Blade",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Scimitar",
+    "bonus": 1,
+    "attunement": true,
+    "description": "The blade is sharp and slender as a serpent's fang - and just as likely to inflict a hideous sting. While you're concentrating on a spell melee weapon attacks you make with this weapon deal an additional 1d4 poison damage. Additionally, you can use this weapon to cast ensnaring strike at 1st level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Titanstring Bow",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Longbow",
+    "bonus": 1,
+    "attunement": true,
+    "description": "The commonly held belief that archers are rangey, thinwristed people is completely false. It takes years of training to pull a bowstring all the way back to your cheekbone, and wrists like iron. You can add your Strength modifier to damage rolls you make with this weapon."
+  },
+  {
+    "name": "Twist of Fortune",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Morningstar",
+    "bonus": 1,
+    "attunement": true,
+    "description": "They say rich folk are never truly happy: especially true when they're targeted with this morningstar. When you roll a 1 or 2 on a damage die for an attack you make with this weapon, you can reroll the die and you must use the new roll. In addition, this weapon has the following properties: Blood Money. As an action, you can make a weapon attack against a creature within your reach. On a hit, you deal an additional 4 piercing damage for every 50 gold they have on their persons. Tenacity. When you miss an attack with this weapon, you can use your reaction to deal bludgeoning damage equal to your Strength modifier (minimum of 1) to the target."
+  },
+  {
+    "name": "Unseen Menace",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Pike",
+    "bonus": 1,
+    "attunement": false,
+    "description": "Yes, but what exactly is hitting you? This weapon is invisible, giving you advantage on attack rolls you make with it. When you miss a creature with this weapon it becomes visible until the end of your end of your next turn."
+  },
+  {
+    "name": "Wavemother's Sickle",
+    "rarity": "rare",
+    "category": "weapon",
+    "type": "Sickle",
+    "bonus": 2,
+    "attunement": false,
+    "description": "The curve of this sickle evokes a pitiless crescent moon over turbulent seas. You have advantage on attack rolls made with this weapon while underwater."
+  },
+  {
+    "name": "Belm",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Scimitar",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Faded but still legible, the mark of a Kara-Turan forgemaster adorns the pommel of this exquisite sword. Light as a robin's wing, quick as a gnomish wit, this weapon has unseamed many foes - and will continue to, in the correct hands. This weapon has 2 charges, and you regain 1 expended charge when you finish a short rest, or all expended charges when you finish a long rest. While holding it, you can expend a charge to execute one of the following abilities: Whirlwind Attack. As an action, you strike out at each creature of your choice within 5 feet, making separate attack rolls against each target. Perfectly Balanced Strike. When you take the attack action, you can use your bonus action to make melee attack with this weapon. On a hit, you deal additional slashing damage equal to your proficiency bonus."
+  },
+  {
+    "name": "Blightbringer",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Shortbow",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Conducting a series of increasingly sick rituals - involving the ashes of a gnome and silkworms fed fat on the corpse of a dwarven cleric - the goblin shaman Kirruk Redrats created this deadly bow. When you make a weapon attack against a Gnome or Dwarf with this weapon, you can roll a d4 and add it to your attack damage rolls. Additionally, when you land a critical hit with this weapon, the target must make a DC 16 Wisdom saving throw. On a failed save the target's speed is halved, it takes a −2 penalty to AC and Dexterity saving throws, and it can't use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn. If the creature attempts to cast a spell with a casting time of 1 action, roll a d20. On an 11 or higher, the spell doesn't take effect until the creature's next turn, and the creature must use its action on that turn to complete the spell. If it can't, the spell is wasted. The creature can make another Wisdom saving throw at the end of each of its turns. On a successful save, the effect ends for it."
+  },
+  {
+    "name": "Dwarven Thrower",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Warhammer",
+    "bonus": 2,
+    "attunement": true,
+    "description": "The first Dwarven Thrower was created unintentionally. The moment was transcribed in the annals of dwarfdom thusly: 'Ach, it doesn't work. Another design down the bloody drain. Now to... Does er... Does anyone else hear a sort of humming whistle? Growing louder?' This weapon has the thrown property and has a normal range of 20 feet and long range of 60 feet. When you make a ranged weapon attack with this weapon, it automatically returns to your hand whether you hit or miss your target. In addition, a Dwarf attuned to this weapon deals an additional 1d8 bludgeoning damage when making a ranged weapon attack with it. Moreover, if you make a ranged attack with this weapon and you hit a creature that is Large or bigger, you deal an additional 2d8 bludgeoning damage."
+  },
+  {
+    "name": "Fabricated Arbalest",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Heavy Crossbow",
+    "bonus": 2,
+    "attunement": true,
+    "description": "A perfect system must be ruled by a keen eye - and any error foolish enough to rear its head afore the eye must be quickly, precisely, and totally eliminated. This crossbow can help with that. As a bonus action, you can make a special weapon attack with this weapon. On a hit, the target takes 1d6 radiant damage and gains 1 charge of radiant orb. Additionally, you can use this weapon to cast sunbeam at 6th level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a long rest. Radiant Orb Charges. A creature can have a number of radiant orb charges equal to your proficiency bonus. While a creature has one or more radiant orb charges an pale-moon orb appears above them shedding bright light in a 10-foot radius and dim light for an additional 10 feet. Additionally, they have a -1 to attack rolls they make for each radiant orb charge they have. One radiant orb charge is consumed at the end of each affected creature's turn, and all radiant orb charges are consumed after combat."
+  },
+  {
+    "name": "Foebreaker",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Maul",
+    "bonus": 2,
+    "attunement": true,
+    "description": "As heavy and opposed to nonsense as the wearied hammer of a sentencing magistrate. This weapon ignores resistance to bludgeoning damage. Tenacity. When you miss an attack with this weapon, you can use your reaction to deal bludgeoning damage equal to your Strength modifier (minimum of 1) to the target."
+  },
+  {
+    "name": "Halberd of Vigilance",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Halberd",
+    "bonus": 2,
+    "attunement": true,
+    "description": "A variant of this halberd's design was thrown out in the early stages of development by its forgemaster. This was because the halberd kept expressing itself. 'ALARM!' it would shriek in peril. 'POTENCY FILLS ME LIKE A SONG OF HOPE!' it roared in triumph. This magic weapon warns you of danger. When you hit a creature with this weapon, you deal an additional 1d4 force damage. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when incapacitated by something other than nonmagical sleep. The weapon magically awakens you and your companions within range if any of you are sleeping naturally when combat begins. Moreover, opportunity attack rolls made with this weapon have advantage."
+  },
+  {
+    "name": "Handmaiden's Mace",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Mace",
+    "bonus": 2,
+    "attunement": true,
+    "description": "This mace was designed by Lolth's assassins to fell heretics who dared turn their back on the Spider Queen. However, even the best-laid designs fall to nothingness when brought to bear against Shar's faithful. When you hit a creature with this weapon, you deal an additional 1d6 poison damage. In addition, while attuned to this weapon, your strength score changes to 18. The item has no effect on you if your Strength without the weapon is equal to or greater than the weapon's score."
+  },
+  {
+    "name": "Hellfire Engine Crossbow",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Heavy Crossbow",
+    "bonus": 2,
+    "attunement": true,
+    "description": "'Trundling, mashing, mincing, crushing, grinding, blasting, biting! Hear their peeling thunder, their roaring flames, their clicking, whirring, metallic melody, and know that the hellfire engines of Avernus are on the move!' - Edict in Elturel. This weapon has 3 charges, and you regain all expended charges when you finish a long rest. While holding it, you can expend charges to execute one of the following abilities: Lightning Arrow. As an action, you can expend 2 charges to cast lightning arrow at 4th level. Reposition Malefactor. When you hit a creature with this weapon, you can expend 1 charge to have the creature make a DC 15 Dexterity saving throw or be pulled up to 30 feet closer to you."
+  },
+  {
+    "name": "Hellfire Greataxe",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Greataxe",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Anything hit by this has the life expectancy of a glass hammer. Whenever you hit a creature with this weapon, you deal an additional 1d6 fire damage and you gain 2 heat charges which grants you the following benefits: Heat Charges. While you have heat charges, you take 1d4 fire damage at the start of each of your turns as flames wreathe your body. When you hit a creature with an attack, you can deal additional fire damage equal to the number of heat charges you have and all your heat charges are consumed (up to a maximum of 7). One heat charge is consumed at the end of each of your turns, and all charges are consumed after combat. Hellflame Cleave. While you have heat charges, as an action, you can attempt to strike each creature of your choice within 5 feet. Each creature must make a DC 15 Dexterity saving throw or take 6d6 fire damage, or half as much on a successful save ignoring resistance and immunity to fire damage. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Hellfire Hand Crossbow",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Hand crossbow",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Rigged to draw on the skin-peeling hellfire of Avernus by a resourceful devil, this crossbow's size is no indication of its deadly potential. When you hit a creature while hiding or Heavily obscured, the target must make a DC 14 Constitution saving throw or take 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames. Additionally, you can use this weapon to cast scorching ray at 3rd level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Incandescent Staff",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": null,
+    "attunement": true,
+    "description": "Etchings course red-hot through the length of this staff, the script of primordial fire writ in flame. While you hold this staff, you gain a +1 bonus to your spell attack rolls and you have resistance to fire damage. This weapon has 6 charges. It regains 1d4 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 1, the staff vanishes forever. While holding it, you can use an action to expend 3 charges to cast fireball at 3rd level using your spell save DC. You can also use an action to cast fire bolt using your spell attack without using any charges."
+  },
+  {
+    "name": "Infernal Rapier",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Rapier",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Imagine the soul as a blade. A good one, carefully looked after. A bad one suited for rusting in the rain. Flame-chewed and narrow, this blade is Wyll's soul summarised in steel. While holding this weapon, you can use it as a spellcasting focus for your warlock spells, and you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your warlock spells. In addition, when you attack with this weapon, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls. Moreover, you can cast planar ally: fiend at 6th level without expending a spell slot. Once you cast this spell this way, you can't do so again until the next dawn."
+  },
+  {
+    "name": "Justiciar's Scimitar",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Scimitar",
+    "bonus": 2,
+    "attunement": true,
+    "description": "This light, curved blade is as unusual and unforgiving as the Darkness it strikes from. When you hit a creature with this weapon and have advantage on the attack, the target must make a DC 14 Constitution saving throw or become blinded until the end of their next turn. Shadowsoaked Blow. As an action, you can make a weapon attack against a creature within range. On a hit, you deal an additional 1d6 + your proficiency bonus psychic damage. This attack doesn't reveal you if you are hidden from the target."
+  },
+  {
+    "name": "Knife of the Undermountain King",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Shortsword",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Snatched from the realm of the mad wizard Halaster Blackoak, this knife became a prized keepsake of a duergar king. Attacks made with this weapon score a critical hit on a roll of 19 or 20. When you make a weapon attack against a creature that is lightly or heavily obscured with this weapon, you have advantage on the attack roll."
+  },
+  {
+    "name": "Mourning Frost",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": 1,
+    "attunement": true,
+    "description": "The air around this staff crackles with a cold, frosty wind a power that has been divided for too long, and is waiting to be released. When you hit a creature with this weapon, you deal an additional 1d4 cold damage. When you deal cold damage while holding this weapon, you deal an additional 1 cold damage and the target must make a DC 14 Constitution saving throw or become vulnerable to cold damage and resistant to fire damage until the end of your next turn. While attuned to this weapon, you know the Ray of Frost cantrip and can cast it using your highest spellcasting ability."
+  },
+  {
+    "name": "Pelorsun Blade",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Rapier",
+    "bonus": 1,
+    "attunement": true,
+    "description": "After the blade had sliced Kas the Bloody-Handed's throat, it was chosen by Pelor, God of the Sun, to do righteous work against the undead. When you hit a creature with this weapon, you deal an additional 1d4 radiant damage. Your weapon attack rolls made against undead creatures have advantage when using this weapon."
+  },
+  {
+    "name": "Rhapsody",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Dagger",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Cazador's love of poetry arose after he read on the naked stomach of a dead child in his homeland. The child was hung from the lowest branch of a tree. Cazador read the poem, and looked at the child, and he knew that here was the artform for him. While holding this weapon, you can use it as a spellcasting focus for your spells, and you gain a +1 bonus to attack rolls, damage rolls, and to the saving throw DCs of your spells for every hostile creature you reduce to 0 hit points up to a maximum of 3. You lose this bonus at the beginning of the next dawn. In addition, when you hit a creature with this weapon it must make a DC 14 Constitution saving throw. On a failed save, the target takes an additional 1d4 necrotic damage at the beginning of its next turn and its speed is reduced by 10 until the end of its next turn."
+  },
+  {
+    "name": "Sethan",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Greataxe",
+    "bonus": 2,
+    "attunement": true,
+    "description": "When this axe careens through the air towards an unfortunate head - the whistle of its spiritual counterpart is never far behind. This weapon has 2 charges. It regains all expended charges daily at dawn. While holding it, you can expend some of the charges to cast the one of the following spells from it, using your highest spell save DC and spellcasting ability. spiritual weapon (6th-level version, 2 charges), or enlarge/reduce (1 charge)."
+  },
+  {
+    "name": "Staff of Cherished necromancy",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Unlike their father, Thibault, Cherish Hollow was not afraid of zombies. Cherish was afraid of sharks, liquorice, wallpaper, Netherese artifacts, hats (large), the outdoors, the indoors, hats (small), and milk pails. Zombies were a bloody picnic. When you hit a creature with this weapon, you deal an additional 1d4 necrotic damage. Heightened Necromancy. Creatures have disadvantage on saving throws they make against your necromancy spells. Life Essence Harvest. When you reduce a hostile creature to 0 hit points while holding this staff, you absorb their life essence. You can use this life essence in place of material components, a corpse, or a pile of bones for your necromancy spells, consuming the life essence. All life essence is lost at the beginning of the next dawn."
+  },
+  {
+    "name": "Staff of Spellpower",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": 2,
+    "attunement": true,
+    "description": "A near-perfect relic that is only blemished by the collected palm-sweat of various archmagi from across the Realms. While you hold this weapon, you gain a +1 bonus to spell attack rolls and to the saving throw DC's of your spells. In addition, when you cast a spell, you can choose to draw from the raw power of this weapon instead of expending a spell slot. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Staff of the Ram",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Fashioned by some unknown archmage - no identifying insignia is forthcoming. The staff thrums with a slow, ferocious pulse that draws its concussive power from the spiral-horned creatures that gave the weapon its name. Once per turn, when you hit a creature with this weapon, you can attempt to knock back a Large or smaller creature with concussive force. The creature must make a DC 14 Constitution saving throw or be knocked back up to 5 feet away and is stunned until the end of its next turn."
+  },
+  {
+    "name": "Stillmaker",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Dagger",
+    "bonus": 2,
+    "attunement": true,
+    "description": "The dagger's twisting blade is designed to nick the flesh as many times as possible, allowing its paralytic poison to flow effortlessly into any unfortunate target. While holding this weapon, you can use your action to attempt to paralyze creatures with fear. Choose up to two creatures within 60 feet that can see or hear you, the targets must make a DC 14 Wisdom saving throw, or become paralyzed for 1 minute or until you lose your concentration (as if you were concentrating on a spell). Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Sword of Chaos",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Greatsword",
+    "bonus": 2,
+    "attunement": true,
+    "description": "The sword of Sarevok, brother of Gorion's Ward and child of the evil god Bhaal. Though much of its power died with him, the sword is still formidable, and glows with a malevolent light. When you hit a creature with this weapon, you deal an additional 1d4 necrotic damage and if the creature is hostile towards you, you regain 1d6 hit points."
+  },
+  {
+    "name": "The Dancing Breeze",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Glaive",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Tiny specks of blood are fused into the blade, as if the glaive is feeding on them. This weapon has 2 charges, and you regain 1 expended charge when you finish a short rest, or all expended charges when you finish a long rest. While holding it, you can expend a charge to execute one of the following abilities: Whirlwind Attack. As an action, you strike out at each creature of your choice within 5 feet, making separate attack rolls against each target. Rush Attack. As an action, you can use your movement to charge forward up to 20 feet in a straight line striking each creature you pass through, making a separate attack roll against each creature."
+  },
+  {
+    "name": "The Dead Shot",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Longbow",
+    "bonus": 2,
+    "attunement": true,
+    "description": "When the archer Frederik Durlusk died, his only request was to be buried with his favorite bow. This is that bow. Attacks made with this weapon score a critical hit on a roll of 19 or 20. Additionally, when you make an attack with this weapon and don't have disadvantage on the attack, you can add your proficiency bonus twice to the weapon's attack roll."
+  },
+  {
+    "name": "The Sacred Star",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Morningstar",
+    "bonus": 2,
+    "attunement": true,
+    "description": "The power of this item lies in belief, though not in any god. This item believes that it's very good at hitting things, so it is. Belief is quite powerful when it comes to violence. When you hit a creature with this weapon, you deal an additional 1d4 radiant damage and and gains 1 charge of radiant orb. Additionally, this weapon has the following properties: Sanctified Weapon. Once per turn, when you hit an undead creature with this weapon, it must make a DC 13 Wisdom saving throw or become turned for 1 minute or until it takes damage. A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action. Sunburst Strike. When you hit a creature with this weapon, you can choose to deal additional radiant damage equal to your proficiency bonus. If you do, bright light erupts from the mace. Each creature of your choice within a 10-foot radius must make a DC 13 Constitution saving throw or become blinded until the end of their next turn. Once you use this property, you can't do so again until you finish a short or long rest. Radiant Orb Charges. A creature can have a number of radiant orb charges equal to your proficiency bonus. While a creature has one or more radiant orb charges an pale-moon orb appears above them shedding bright light in a 10-foot radius and dim light for an additional 10 feet. Additionally, they have a -1 to attack rolls they make for each radiant orb charge they have. One radiant orb charge is consumed at the end of each affected creature's turn, and all radiant orb charges are consumed after combat. Tenacity. When you miss an attack with this weapon, you can use your reaction to deal bludgeoning damage equal to your Strength modifier (minimum of 1) to the target."
+  },
+  {
+    "name": "Torch of Revocation",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Club",
+    "bonus": 1,
+    "attunement": true,
+    "description": "This staple of any worthwhile exorcist burns with a pale flame that destroys the anchors of troublesome ghosts in need of banishment. When you hit a creature with this weapon, you deal an additional 1d4 necrotic and 1d4 fire damage."
+  },
+  {
+    "name": "Trident of the Waves",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Trident",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Umberlee, the goddess of the sea, is deeply capricious, intelligent, and not nearly as wet around the edges as her domain might suggest. She often demands sacrificial tribute from sailors, such as their ships, their cargo, and, while she's at it, them. Once per turn, when you hit a creature with this weapon, they become vulnerable to lightning damage and resistant to fire damage until the end of their next turn. Additionally, when you hit a creature with this weapon, you can attempt to disarm them forcing them to drop one item of your choice that it's holding. The target must make a DC 13 Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Voss' Silver Sword",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Greatsword",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Heavy and grouted in the gore of countless centuries, this prototype for the contemporary githyanki silver sword was wielded during their rebellion against the mind flayers who enslaved them. When you hit a creature with this weapon, you deal an additional 1d4 psychic damage. Additionally, when you make a weapon attack against a githyanki, abberration, fiend or elemental, you can roll a d4 and add the number rolled to the attack and damage rolls with this weapon."
+  },
+  {
+    "name": "Woe",
+    "rarity": "very_rare",
+    "category": "weapon",
+    "type": "Mace",
+    "bonus": 2,
+    "attunement": true,
+    "description": "The gentle tap-tap-tap of a staff on stone sparked terror for all in Cazador's palace. It signaled an approaching storm, and all they could do was shrink into the background and pray its wrath would not fall on them. You can't be disarmed of this weapon unless you are incapacitated. If it is on the same plane of existence, you can summon this weapon as a bonus action on your turn, causing it to teleport instantly to your hand. While you hold this weapon, you gain a +1 bonus to spell attack rolls and to the saving throw DC's of your spells. In addition, when a creature fails a saving throw against one of your spells, you regain 1d4 hit points. Moreover, you can use this weapon to cast blight at 4th level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Balduran's Giantslayer",
+    "rarity": "legendary",
+    "category": "weapon",
+    "type": "Greatsword",
+    "bonus": 3,
+    "attunement": true,
+    "description": "Wielded by Balduran, the founder of Baldur's Gate and friend to his guardian dragon, a great glittering wyrm called Ansur. Fellowship can be undone, though, as easily as you or I might unlace the strings of our shoes, and it was in a time of skullduggery and hardship that Balduran killed Ansur, carrying out the deed with this sword. When you hit a creature with this weapon, you can add your Strength modifier twice to the weapon's damage roll. In addition, weapon attacks against creatures that are Large or bigger have advantage when made with this weapon. Moreover, this weapon has the following properties: Giant Form. As an action, you can triple your size in all dimensions, and your weight is multiplied by 12 for 1 minute. This growth increases your size by two categories - from Medium to Huge, for example. If there isn't enough room for you to triple your size, you attain the maximum possible size in the space available. Until the effect ends, you also have advantage on Strength checks and Strength saving throws and you gain 27 temporary hit points. This weapon, and your equipment also grow to match your new size. While this weapon is enlarged your attacks with it deal 2d4 extra damage. Once you use this property, you can't do so again until you finish a short or long rest. Topple the Big Folk. When you hit a creature with this weapon, you can choose to deal additional slashing damage equal to your proficiency bonus. If you do, and the creature is Large or bigger, you deal an additional 2d6 slashing damage and the target must succeed a DC 17 Strength saving throw or be knocked prone. Once you use this property, you can't do so again until you finish a short or long rest. Pommel Strike. As a bonus action, you can make a nonlethal attack with this weapon. On a hit, the target must make a DC 17 Constitution saving throw. On a failure, the target has disadvantage on Wisdom saving throws, can't take reactions, and its AC is reduced by 2 until the end of its next turn. Once you use this property, you can't do so again until you finish a short or long rest. Lacerate. When you hit a creature that isn't undead or a construct with this weapon, you can choose to aim for vital points. If you do, the target must make a DC 17 Constitution saving throw. On a failed save, the target takes necrotic damage equal to your proficiency bonus at the start of its next turn and has disadvantage on Constitution saving throws until the end of its next turn. Once you use this property, you can't do so again until you finish a short or long rest. Cleave. When you make a weapon attack with this weapon, you can target up to two other creatures within your reach, making separate attack rolls against each target. Each creature hit this way takes only half the damage rolled for the attack. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Bloodthirst",
+    "rarity": "legendary",
+    "category": "weapon",
+    "type": "Dagger",
+    "bonus": 3,
+    "attunement": true,
+    "description": "The Lord of Murder wasn't always a lord. He was once just a petty killer. When Bhaal first drew blood in a Baldurian back-alley, it dropped to the ground and lingered. When he ascended, this dried blood-drop grew, warped - and became sharp. Attacks made with this weapon score a critical hit on a roll of 17-20. In addition, when you're daul-wielding with this weapon, you gain a +1 bonus to your AC. Moreover, this weapon gains the following properties: Bound Weapon. You can't be disarmed of this weapon unless you are incapacitated. If it is on the same plane of existence, you can summon this weapon as a bonus action on your turn, causing it to teleport instantly to your hand. Death Strike. You learn the true strike cantrip. For you, you can cast it a bonus action. Once you cast true strike this way, you can't do so again until you finish a short or long rest. Death Strike Riposte. When a creature misses you with a melee attack, you can use your reaction to make a melee weapon attack with advantage against the creature. Exploit Weakness. When you hit a creature with this weapon, it gains vulnerability to piercing damage you deal until the end of your next turn. Piercing Strike. When you hit a creature that isn't an undead or a construct, you can choose to inflict a gaping wound. If you do, the target must make a DC 17 Constitution saving throw or weapon attacks made against the creature deal an additional 2 necrotic damage until the end of their next turn. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Crimson Mischief",
+    "rarity": "legendary",
+    "category": "weapon",
+    "type": "Dagger",
+    "bonus": 2,
+    "attunement": true,
+    "description": "When she was a girl, she toyed with nastiness and sadism. Children often grow out of this; they get hobbies. For Orin, that taste for cruelty fermented, and in a way she did find hobbies. Ones that screamed. When you hit a creature with this weapon, you deal an additional 1d4 necrotic damage and if the creature has less than half its maximum hit points, you deal an extra 1d4 piercing damage. Additionally, this weapon has the following properties: Redvein Savagery. When you hit a creature with this weapon and you had advantage on the attack, you deal an additional 7 piercing damage. Crimson Weapon. When you're dual-wielding with this weapon and you make an attack with this weapon, you can add your ability modifier twice to the damage roll. Flourish. You can attempt to throw a creature off balance. As a bonus action, choose a creature within 5 feet, the target must make a DC 17 Dexterity saving throw or have disadvantage on Strength and Dexterity saving throws until the end of their next turn. Additionally, the next weapon attack made against the target has advantage. Once you use this property, you can't do so again until you finish a short or long rest. Piercing Strike. When you hit a creature that isn't an undead or a construct, you can choose to inflict a gaping wound. If you do, the target must make a DC 17 Constitution saving throw or weapon attacks made against the creature deal an additional 2 necrotric damage until the end of their next turn. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Devotee's Mace",
+    "rarity": "legendary",
+    "category": "weapon",
+    "type": "Mace",
+    "bonus": 3,
+    "attunement": true,
+    "description": "This weapon is favored by celestial devas, the vanguards of the divine ranks of paradise. When you hit a creature with this weapon, you deal an additional 1d8 radiant damage. Additionally, this weapon has the following properties: Healing Incense Aura. As a bonus action, you can emanate a soothing aura with a 20-foot radius for 1 minute. Until this benefit ends, the aura moves with you, centered on you. Allies within your aura regain 1d4 hit points at the start of your turn. Once you use this property, you can't do so again until you the next dawn. Concussive Smash. When you hit a creature with this weapon, you can attempt to daze them. If you do, the target must make a DC 17 Constitution saving throw. On a failure, the target has disadvantage on Wisdom saving throws, can't take reactions, and its AC is reduced by 2 until the end of its next turn. Once you use this property, you can't do so again until you finish a short or long rest. Backbreaker. When you hit a creature with this weapon, you can attempt to knock them prone. If you do, the target must make a DC 17 Strength saving throw or become knocked prone."
+  },
+  {
+    "name": "Duellist's Prerogative",
+    "rarity": "legendary",
+    "category": "weapon",
+    "type": "Rapier",
+    "bonus": 3,
+    "attunement": true,
+    "description": "A blade gifted to Lora by her own mother, Lenore the Fleet. When challenged to duels, Lenore's opponents assumed she had received this nickname from some naval exploit. They found out how wrong they were when her blade blurred faster than the eye could follow. When you hit a creature with this weapon, you deal an additional 1d4 necrotic damage. In addition, when you're wielding this weapon in one hand and no other weapons or a shield, attacks made with this weapon score a critical hit on a roll of 19 or 20. Moreover, you gain an additional reaction that you can take once per turn. Additionally, this weapon has the following properties: Withering Cut. When you hit a creature with this weapon, you can use your reaction to deal additional necrotic damage equal to your proficiency bonus. Challenge to Duel. As a bonus action, you can attempt to goad a creature into attacking you. Choose a creature within 30 feet that can see and hear you, the creature must make a DC 17 Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn. Flourish. You can attempt to throw a creature off balance. As a bonus action, choose a creature within 5 feet, the target must make a DC 17 Dexterity saving throw or have disadvantage on Strength and Dexterity saving throws until the end of their next turn. Additionally, the next weapon attack made against the target has advantage. Once you use this property, you can't do so again until you finish a short or long rest. Piercing Strike. When you hit a creature that isn't an undead or a construct, you can choose to inflict a gaping wound. If you do, the target must make a DC 17 Constitution saving throw or weapon attacks made against the creature deal an additional 2 necrotic damage until the end of their next turn. Once you use this property, you can't do so again until you finish a short or long rest. Weakening Strike. When you hit a creature, you can attempt to target their hands or arms. If you do, the target must make a DC 17 Strength saving throw. On a failed save, the target has disadvantage on attack rolls and Strength saving throws until the end of their next turn. Once you use this property, you can't do so again until you finish a short or long rest. Dueller's Enthusiasm. When you're wielding this weapon in one hand and no other weapons or a shield, you can make an additional melee attack with this weapon as a bonus action. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Gontr Mael",
+    "rarity": "legendary",
+    "category": "weapon",
+    "type": "Longbow",
+    "bonus": 3,
+    "attunement": true,
+    "description": "Gontr Mael blasted from the corpse of the Steelwatcher Titan: a bow formed from the boiling slag and weird whispering gyros inherent to the mechanical giant. It must have acted as the Titan's abdomen, exchanging muscle for immaculate steel. When you hit a creature with this weapon, you deal an additional 1d4 radiant damage and it must make a DC 17 Dexterity saving throw. On a failed save, the next weapon attack made against the target has advantage. In addition, you can choose to have this weapon shed bright light in a 10foot radius and dim light for an additional 10 feet. Moreover, this weapon has the following properties: Celestial Haste. You can use this weapon to cast haste at 3rd level on yourself. Casting haste this way doesn't cause you to become lethargic after the spell ends. Once you use this property, you can't do so again until you finish a long rest. Hamstring Shot. When you hit a creature with this weapon you can attempt to hamper its movement. If you do, the target must make a DC 17 Dexterity saving throw. On a failed save, the targets speed is reduced by half until the end of its next turn. Once you use this property, you can't do so again until you finish a short or long rest. Brace. At the beginning of your turn you can choose to have your speed reduced to 0 until the start of your next turn. If you do, until the end of your turn, when you hit a creature with this weapon, you roll an extra weapon damage die and ignore the result of the lowest rolled dice among them. Once you use this property, you can't do so again until you finish a short or long rest. Bold of Celestial Light. When you hit a creature with this weapon, you can attempt to frighten it. If you do, the target must make a DC 17 Wisdom saving throw or become frightened of you until the end of its next turn. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Markoheshkir",
+    "rarity": "legendary",
+    "category": "weapon",
+    "type": "Quarterstaff",
+    "bonus": 2,
+    "attunement": true,
+    "description": "While you hold this weapon, you gain a +1 bonus to spell attack rolls and to the saving throw DC's of your spells. In addition, this weapon has the following properties: Arcance Battery. When you cast a spell, you can choose to draw from the raw power of this weapon instead of expending a spell slot. Once you use this property, you can't do so again until you finish a long rest. Kereska's Favor. You can cast protection from energy at 3rd level. Once you use this property, you can't do so again until you finish a short or long rest. Topple. When you hit a creature with this weapon, you can attempt to knock them prone. If you do, the target must make a DC 17 Strength saving throw or become knocked prone."
+  },
+  {
+    "name": "Nyrulna",
+    "rarity": "legendary",
+    "category": "weapon",
+    "type": "Spear",
+    "bonus": 3,
+    "attunement": true,
+    "description": "The forgemaster Lirrico designed this weapon for the champion of the wind goddess Akadi. A key component in the forging was his home city's wind, and for a year after the weapon was made, no wind blew there at all. When you hit a creature with this weapon, you deal an additional 1d6 thunder damage. In addition, you can choose to have this weapon shed bright light in a 10-foot radius and dim light for an additional 10 feet. Moreover, this weapon has the following properties: Zephyr Connection. You can't be disarmed of this weapon unless you are incapacitated. This weapon returns to your hand immediately after it is used to make a ranged attack. In addition, when you hit a creature with a ranged attack made with this weapon, each creature of your choice in a 20-footradius sphere centered on that point must make a DC 17 Dexterity saving throw. On a failed save a target takes 3d4 thunder damage. Moreover, you can summon this weapon as a bonus action on your turn, causing it to teleport instantly to your hand. Veil of the Wind. While holding this weapon, your speed and jump distance increases by 10 feet. In addition, if you fall, you can choose to have your rate of descent slow to 60 feet per round, take no falling damage, and you land on your feet. Zephyr Flash. As an action, you can use your movement to charge forward up to 20 feet in a straight line. Each creature you pass through must make a DC 17 Dexterity saving throw. A target takes 6d8 thunder damage on a failed save, or half as much damage on a successful one. Once you use this property, you can't do so again until you finish a short or long rest. Zephyr Break. As an action, you can blast a line of strong wind 40 feet long and 10 feet wide from the tip of this weapon in the direction you choose. Each creature must make a DC 17 Strength saving throw. On a failed save a target takes 6d6 thunder damage and is pushed 15 feet away from you in a direction following the line, or half as much damage and isn't pushed on a successful one. Once you use this property, you can't do so again until you finish a short or long rest. Piercing Strike. When you hit a creature that isn't an undead or a construct, you can choose to inflict a gaping wound. If you do, the target must make a DC 17 Constitution saving throw or weapon attacks made against the creature deal an additional 2 necrotic damage until the end of their next turn. Once you use this property, you can't do so again until you finish a short or long rest. Maiming Strike. When you hit a creature that isn't flying with this weapon, you can attempt to maim it. If you do, the target must make a DC 17 Constitution saving throw. On a failed save, the target's speed is reduced to 0, and iit has disadvantage on Dexterity saving throws until the end of its next turn. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Orphic Hammer",
+    "rarity": "legendary",
+    "category": "weapon",
+    "type": "Warhammer",
+    "bonus": 3,
+    "attunement": true,
+    "description": "Every contract a devil makes has some form of insurance this one is cast in infernal iron and was forged in deep, ruinous hellfire. While holding this weapon, you have advantage on saving throws against spells. In addition, this weapon has the following properties: Unshackling Strike. As a bonus action on your turn, you can touch another creature to end one of the following conditions: restrained, paralyzed, petrified, or stunned. Backbreaker. When you hit a creature with this weapon, you can attempt to knock them prone. If you do, the target must make a DC 17 Strength saving throw or become knocked prone. Once you use this property, you can't do so again until you finish a short or long rest. Concussive Smash. When you hit a creature with this weapon, you can attempt to daze them. If you do, the target must make a DC 17 Constitution saving throw. On a failure, the target has disadvantage on Wisdom saving throws, can't take reactions, and its AC is reduced by 2 until the end of its next turn. Once you use this property, you can't do so again until you finish a short or long rest. Weakening Strike. When you hit a creature, you can attempt to target their hands or arms. If you do, the target must make a DC 17 Strength saving throw. On a failed save, the target has disadvantage on attack rolls and Strength saving throws until the end of their next turn. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Selûne's Spear of Night",
+    "rarity": "legendary",
+    "category": "weapon",
+    "type": "Spear",
+    "bonus": 3,
+    "attunement": true,
+    "description": "'One of the goddess Selûne's titles, Moonmaiden, has often been debated among the ecclesiastical. Common symbology certainly rejects the assumption of virginity. More to the point, 'maiden' itself carries some dusty connotations. How about Lunar Lady? Keeps the alliteration, too' - Margaery Henderplum While holding this weapon, you gain darkvision out to a range of 60 feet and you have advantage on Wisdom saving throws and Wisdom (Perception) checks. In addition, this weapon has the following properties: Moonbeam. You can cast moonbeam at 3rd level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a long rest. Moonmote. As an action, you call forth motes of moonlight to protect you. They flit around you to a distance of 60 feet for 1 minute. When you use this property, you can designate any number of creatures you can see to be unaffected by it. An affected creature's speed is halved in the area. In addition, each ally creature in the area deals an extra 1d4 radiant damage when it hits with a weapon attack. Once you use this property, you can't do so again until you finish a long rest. Rush Attack. As an action, you can use your movement to charge forward up to 20 feet in a straight line striking each creature you pass through, making a separate attack roll against each creature. Once you use this property, you can't do so again until you finish a long rest. Maiming Strike. When you hit a creature that isn't flying with this weapon, you can attempt to maim it. If you do, the target must make a DC 17 Constitution saving throw. On a failed save, the target's speed is reduced to 0, and iit has disadvantage on Dexterity saving throws until the end of its next turn. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Shar's Spear of Night",
+    "rarity": "legendary",
+    "category": "weapon",
+    "type": "Spear",
+    "bonus": 3,
+    "attunement": true,
+    "description": "When visiting mortals in dreams, Shar's hair would curl and twist about her head like strands of inky midnight. If it tickled her nose, the goddess was careful not to show it. When you hit a creature with this weapon while Lightly or Heavily obscured, you deal an additional 1d6 piercing damage. In addition, while lightly or heavily obscured, you gain advantage on all saving throws. Moreover, this weapon has the following properties: Vision of Shar. While holding this weapon, you gain immunity to the blinded condition. In addition, you can see normally in darkness, both magical and nonmagical, to a distance of 240 feet. Shar's Darkness. As an action, you can spread magical darkness from a point you choose within 60 feet to fill a 15foot-radius sphere for 1 minute. The darkness spreads around corners. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it. If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or helmet, blocks the darkness. If any of this properties' area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled. If you choose to use this property again, the last instance of darkness is dispelled. Edge of Darkness. When you hit a creature with this weapon, you can choose to use the Shar's Darkness property of this weapon to spread magical darkness in a 5-foot-radius sphere centered on this weapon. You can use this property a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest. Rush Attack. As an action, you can use your movement to charge forward up to 20 feet in a straight line striking each creature you pass through, making a separate attack roll against each creature. Once you use this property, you can't do so again until you finish a long rest. Maiming Strike. When you hit a creature that isn't flying with this weapon, you can attempt to maim it. If you do, the target must make a DC 17 Constitution saving throw. On a failed save, the target's speed is reduced to 0, and iit has disadvantage on Dexterity saving throws until the end of its next turn. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Silver Sword of the Astral Plane",
+    "rarity": "legendary",
+    "category": "weapon",
+    "type": "Greatsword",
+    "bonus": 3,
+    "attunement": true,
+    "description": "The fervor with which the githyanki express devotion to their queen is admirable to some, disquieting to others. When confronted with the fallibility of the divine (since no one is wholly perfect), who knows what reactions such folk might evince. When you hit a creature with this weapon, you deal an additional 1d4 psychic damage. In addition, while holding this weapon, you have advantage on Intelligence, Wisdom, and Charisma saving throws, resistance to psychic damage, and can't be charmed. Moreover, this weapon has the following properties: Soulbreaker. When you hit a creature with this weapon, you can choose to deal additional psychic damage equal to your proficiency bonus. If you do, the creature must make a DC 17 Constitution saving throw or become stunned until the start of their next turn. Once you use this property, you can't do so again until you finish a short or long rest. Pommel Strike. As a bonus action, you can make a nonlethal attack with this weapon. On a hit, the target must make a DC 17 Constitution saving throw. On a failure, the target has disadvantage on Wisdom saving throws, can't take reactions, and its AC is reduced by 2 until the end of its next turn. Once you use this property, you can't do so again until you finish a short or long rest. Lacerate. When you hit a creature that isn't undead or a construct with this weapon, you can choose to aim for vital points. If you do, the target must make a DC 17 Constitution saving throw. On a failed save, the target takes necrotic damage equal to your proficiency bonus at the start of its next turn and has disadvantage on Constitution saving throws until the end of its next turn. Once you use this property, you can't do so again until you finish a short or long rest. Cleave. When you make a weapon attack with this weapon, you can target up to two other creatures within your reach, making separate attack rolls against each target. Each creature hit this way takes only half the damage rolled for the attack. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "The Blood of Lathander",
+    "rarity": "legendary",
+    "category": "weapon",
+    "type": "Mace",
+    "bonus": 3,
+    "attunement": true,
+    "description": "The large chunk of amber set into the handle of this luminous more supposedly hold four drops of godly blood fallen to the earth in a battle between an avatar of Lathander and maddened chosen of Mystra. You can choose to have this weapon shed bright light in a 10-foot radius and dim light for an additional 10 feet. In addition, this weapon has the following properties: Lethander's Blessing. When you are reduced to 0 hit points but not killed outright, you can regain 2d6 hit points instead and allies within 30 feet of you regain 1d6 hit points. Once you use this property, you can't do so again until you finish a long rest. Lathander's Light. You can cast sunbeam at 6th-level using your highest spell save DC and spellcasting ability. Once you use this property, you can't do so again until you finish a long rest. Backbreaker. When you hit a creature with this weapon, you can attempt to knock them prone. If you do, the target must make a DC 15 Strength saving throw or become knocked prone. Once you use this property, you can't do so again until you finish a short or long rest. Concussive Smash. When you hit a creature with this weapon, you can attempt to daze them. If you do, the target must make a DC 15 Constitution saving throw. On a failure, the target has disadvantage on Wisdom saving throws, can't take reactions, and its AC is reduced by 2 until the end of its next turn. Once you use this property, you can't do so again until you finish a short or long rest. Weakening Strike. When you hit a creature, you can attempt to target their hands or arms. If you do, the target must make a DC 15 Strength saving throw. On a failed save, the target has disadvantage on attack rolls and Strength saving throws until the end of their next turn. Once you use this property, you can't do so again until you finish a short or long rest."
+  }
+]

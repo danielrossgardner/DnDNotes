@@ -1,0 +1,479 @@
+[
+  {
+    "name": "Bracing Band",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A common ring, simple and unadorned. Though there is a certain heft to it. When you shove a hostile creature using the Shove action, you gain a +1 bonus to your AC until the end of your next turn."
+  },
+  {
+    "name": "Callous Glow Ring",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A grudging gleam emits from this ring - more an indictment of light than an endorsement. Attacks you make deal an additional 2 radiant damage to creatures who are illuminated by spells such as light, dancing lights, continual flame, and daylight, or by effects such as radiant orb, or by weapon properties."
+  },
+  {
+    "name": "Coruscation Ring",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Provocative light blooms from the engraved contours of this ring. When a creature takes damage from one of your spells while you're illuminated by spells such as light, dancing lights, continual flame, and daylight, or by effects such as radiant orb, or by weapon properties, they gain 2 charges of radiant orb. Radiant Orb Charges. A creature can have a number of radiant orb charges equal to your proficiency bonus. While a creature has one or more radiant orb charges an pale-moon orb appears above them shedding bright light in a 10-foot radius and dim light for an additional 10 feet. Additionally, they have a -1 to attack rolls they make for each radiant orb charge they have. One radiant orb charge is consumed at the end of each affected creature's turn, and all radiant orb charges are consumed after combat."
+  },
+  {
+    "name": "Crusher's Ring",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Though caked with mud and grime, the ring smells faintly of lavender. Remarkable, considering where it's been. While wearing this ring, your walking speed increases by 10."
+  },
+  {
+    "name": "Djinni Ring",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The ring from the djinni who worked in the circus. Its magic certainly explains how the djinni was able to cheat at the wheel. While wearing this ring, you know the mage hand cantrip."
+  },
+  {
+    "name": "Eversight Ring",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "One of the relics of the Deep Duerra's rebellious children. Paranoid by nature, Duerra had erected a vast array of biting, blasting, blinding traps and safeguards to keep her enemies from gaining her sanctum. Of course, this also meant her children were sealed in with her by those same deadly measures. While wearing this ring, you're immune to the blinded condition."
+  },
+  {
+    "name": "Explorer's Ring",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": false,
+    "description": "A radiant and remarkably preserved ring, forged from arandur metal. While wearing this ring, you gain a +1 bonus to Intelligence (Nature) and Wisdom (Survival) checks."
+  },
+  {
+    "name": "Family Ring",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The ring's simplicity is a deceit. Its gold core is woven with iron-hard feathers from the wings of great black corvid birds, envoys of the Raven Queen. While wearing this ring, you gain a +2 bonus to death saving throws."
+  },
+  {
+    "name": "Firzu's Ring of Trading",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": false,
+    "description": "Belonged to a trader Firzu. While wearing this ring, you gain a +1 bonus to Charisma (Deception) checks."
+  },
+  {
+    "name": "Guiding Light",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Used by the previous owner to access both the Underdark's darkest corners and her own basement, this ring seems to reflect light where there should be none. While wearing this ring, you know the light cantrip."
+  },
+  {
+    "name": "Mage's Friend",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": false,
+    "description": "Though carefully stowed in a bedside chat, this ring is covered in dust and cobwebs. While wearing this ring, you gain a +1 bonus to Intelligence (Arcana) and Intelligence (Religion) checks."
+  },
+  {
+    "name": "Poisoner's Ring",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Strange, green fumes seep from the ring's emerald. This ring has the following property: Virulent Venom. You can attempt to make a creature more susceptible to poisons. As an action, choose a creature you can see within 30 feet. The target must make a DC 14 Constitution saving throw or become vulnerable to poison damage for 1 minute. If the creature is immune to poison damage, nothing happens. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Ring of Absolute Force",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Darkness seems to blossom from this ring, heightened by the menacing glare of the Absolute's symbol, though for the Branded this symbol holds the promise of power. When you deal thunder damage while wearing this ring, you deal an additional 1 thunder damage to the target. Additionally, you can use this ring to cast thunderwave at 1st level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Ring of Colour Spray",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "When the light hits it just so, the centre jewel shimmers with every colour of the rainbow. You can use this ring to cast color spray at 1st level. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Ring of Elemental Infusion",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The mysterious gem set in this ring seems to change hues whenever you aren't looking. When you deal acid, cold, fire, lightning, or thunder damage using a spell or cantrip, that element infuses your weapon. Until the end of your next turn, the next weapon attack you make deals an additional 1d4 damage of the corresponding element."
+  },
+  {
+    "name": "Ring of Flinging",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Organisations like the Harpers do not relegate their activities to head-to-head combat - many a moonlit chase with an evildoer has been resolved with a loose roof tile and a decent throwing arm. When you hit a ranged attack using a thrown weapon, you deal an additional 1d4 damage of the weapon's type."
+  },
+  {
+    "name": "Ring of Geniality",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": false,
+    "description": "Glibness is not only in the tongue, but in the body. Gesture is powerful. Think of how many words of comfort can be stored and saved, when a hug will do just as sweetly. While wearing this ring, you gain a +1 bonus to Charisma (Persuasion) and Charisma (Deception) checks."
+  },
+  {
+    "name": "Ring of Jumping",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The ring is scuffed and twisted out of shape, as if worn by big stony fingers. The owner of those fingers has carved 'Karthol' into the warped metal in a fit of affection or possessiveness. You can use this ring to cast jump at 1st level. When you cast this spell this way, you can cast it as a bonus action. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Ring of Mental Inhibition",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The patterns in the ring's swirling metal make your head spin whenever you look at them for too long. When a hostile creature fails a saving throw against one your spells, class features, or item properties, they gain 2 charges of mental fatigue. Mental Fatigue Charges. A creature can have a number of mental fatigue charges equal to your proficiency bonus. While a creature has one or more mental fatigue charges, they have -1 to Wisdom, Intelligence and Charisma saving throws for each mental fatigue charge they have. One mental fatigue is consumed at the end of each affected creature's turn, and all mental fatigue charges are consumed after combat."
+  },
+  {
+    "name": "Ring of Salving",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A hymn to Eilistraee is inscribed along the inside of this ring, which is surprisingly heavy when worn. When you heal another creature while wearing this ring, the target regains an additional 2 hit points."
+  },
+  {
+    "name": "Ring of Self Immolation",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Every one of the three gems in this ring is searing hot enough to burn yourself with the slightest brush of your fingers. While wearing this ring, you can use a bonus action to set yourself on fire taking 1d4 fire damage at the start of each of your turns for 1 minute. If you do, you gain 2 heat charges. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames. If you use this property while already on fire, the duration resets to 1 minute, and you don't take additional damage. Heat Charges. While you have heat charges, you take 1d4 fire damage at the start of each of your turns as flames wreathe your body. When you hit a creature with an attack, you can deal additional fire damage equal to the number of heat charges you have and all your heat charges are consumed (up to a maximum of 7). One heat charge is consumed at the end of each of your turns, and all charges are consumed after combat."
+  },
+  {
+    "name": "Ring of Shadows",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "For some, darkness is wielded like a black opal stud embedded in a signet ring - fashioned to a sharp and unforgiving point. You can use this ring to cast pass without a trace at 2nd level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Ring of Spiteful Thunder",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "When you slip this ring on your hand and flex your fingers, a boom of discontented thunder grumbles in the air around you. When you deal thunder damage to a creature with 1 or more reverberation charges, it must make a DC 13 Constitution saving throw. On a failed save, the creature can't take reactions and loses any bonuses to AC from it's Dexterity until the end of your next turn."
+  },
+  {
+    "name": "Seemingly Gleaming Ring",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The garnet at the centrepiece of this ring is like an unblinking, malevolent eye. While wearing this ring, you gain a +1 bonus to Charisma and Wisdom saving throws."
+  },
+  {
+    "name": "Shadow Blade Ring",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "One of the relics of Deep Duerra's rebellious children. Long ago in a foreboding realm called Hammergrim, Deep Duerra, daughter of the dour god Laduguer, sired a great many heirs to her twisted corundum throne. You can use this ring to cast shadow blade at 2nd level. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Shadow-Cloaked Ring",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Even in the brightest light, this ring never gleams, as if perpetually wrapped in shadow, hungry for the dark. Your weapon attacks and unarmed strikes deal additional 1d4 damage against creatures who are Lightly or Heavily obscured."
+  },
+  {
+    "name": "Shapeshifter's Boon Ring",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "'I'm a talented shapeshifter too. I can shapeshift a thin body into a fat body. All I need is a steady supply of mince pies and mulled wine.' - Overheard in a tavern in Daggerford. While shapeshifted, polymorphed, or under the affects of wild shape, you can roll a d4 and add the number rolled to one ability check of your choice."
+  },
+  {
+    "name": "Smuggler's Ring",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A subtle accessory prized by purveyors of the covert arts. While wearing this ring, you gain a +2 bonus to Dexterity (Stealth) and Dexterity (Sleight of Hand) checks. Curse. While attuned to this ring, your Charisma score decreases by 1 to a minimum of 1."
+  },
+  {
+    "name": "Snowburst Ring",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A series of names have been scratched out, one after the other, on the inside of the ring. The last word, untouched, is not a name. It simply reads: Mine. When you deal cold damage to a hostile creature, you create a 15-foot diameter circle of ice centered on the target. The ice lasts until the end of your next turn, and is considered difficult terrain."
+  },
+  {
+    "name": "Spurred Band",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Tiny barbs prick the wearer when they're injured, as if urging flight from danger. If you have no more than half your hit points, your speed increases by 10 feet."
+  },
+  {
+    "name": "Strange Conduit Ring",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "In his speculative writing on arcane displacement, the wizard Tenser notes the possibility for keenly focused minds to maintain spells, and even unlock hidden potential while doing so. While you're concentrating on a spell, your weapon attacks deal an additional 1d4 psychic."
+  },
+  {
+    "name": "Sunwalker's Gift",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The ring's arcane jewel parts all but the darkest of shadows. While wearing this ring, you have darkvision out to a range of 60 feet."
+  },
+  {
+    "name": "The Sparkswall",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "When the inventor Yrre met the cleric Lenore, sparks flew. Apart, they were in a rut, but together, they inspired each other to push the boundaries of innovation and invention. This ring is just one of their many scientific triumphs. While wearing this ring you have resistance to lightning damage."
+  },
+  {
+    "name": "The Whispering Promise",
+    "rarity": "uncommon",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A soft, soothing voice floats from this ring, reciting a prayer over and over. When you heal a creature, the target can roll a d4 and add the number rolled to attack rolls and saving throws they make until the end of your next turn."
+  },
+  {
+    "name": "After Death Do Us Part",
+    "rarity": "rare",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Love is the last cruel leaf to fall in an autumn wide with sorrow. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead and gain temporary hit points equal to half your maximum hit points rounded down. Curse. When you use this ring's property, your soul is gripped by vengeful shadows. Losing the ability to distinguish friend from foe, regarding all creatures you can see as enemies for 1 minute. Whenever you choose another creature as a target, you must choose the target at random from among the creatures you can see within range of your attack, spell, or other ability you're using. If an enemy would provoke an opportunity attack from you, you must make that attack if you are able to do so. In addition, your attacks deal an additional 1d4 necrotic damage."
+  },
+  {
+    "name": "Band of the Mystic Scoundrel",
+    "rarity": "rare",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "What better way to disguise one's transgressions than a quickly positioned phantasm after the deed is done? When you hit a hostile creature with a weapon attack, you can cast an illusion or enchantment spell as a bonus action."
+  },
+  {
+    "name": "Fetish of Callarduran Smoothhands",
+    "rarity": "rare",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The smooth, six-pointed star on this ring is beset with small Underdark gemstones, as befits a talisman of the god of mining and patron of deep gnomes. You can use this ring to cast invisibility at 2nd level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Keepsake Ring",
+    "rarity": "rare",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Created by a conglomerate of druids one moonlit night when all the stirring violins of insect, elms, and whispering winds consorted, and when wild beasts in need of taming prowled unseen. You can use this ring to cast dominate beast at 5th level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Ring of Blink",
+    "rarity": "rare",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Fashioned by the wizard Bigby in honour of his faithful hound Bigboy, who could use teleportation to fetch, snare errant cats, and generally harass postmen. You can use this ring to cast blink at 3rd level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Ring of Exalted Marrow",
+    "rarity": "rare",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Gazing through this ring, you find that there is no other side, only a small sucking blackness that defies explanation. This ring has the following properties: Exhort the Risen. You can use this ring to cast command at 1st level using your highest spellcasting ability. In addition, undead creatures have disadvantage on their save when you cast this spell using this ring. Once you use this property, you can't do so again until you finish a long rest. Ghoulish Touch. You attempt to afflict a target with necrotic undeath. As an action, your fingernails lengthen dripping with decay, you can make a melee weapon attack. On a hit, the target must make a DC 14 Constitution saving throw or become paralyzed until the end of your next turn. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Ring of Twilight",
+    "rarity": "rare",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Dark smoke swirls in the ring's oxyx, protecting something within. While wearing this ring, you gain a +1 bonus to AC while Lightly or Heavily obscured."
+  },
+  {
+    "name": "Risky Ring",
+    "rarity": "rare",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Life is just a series of risks taken while blindfolded. While wearing this ring, weapon attack rolls you make have advantage. Curse. This ring is cursed, a fact that is revealed only when you attune to it. Attuning to the amulet curses you until you are targeted by the remove curse spell or similar magic; removing the ring fails to end the curse. While cursed, you have disadvantage on all saving throws."
+  },
+  {
+    "name": "Shifting Corpus Ring",
+    "rarity": "rare",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A shiny, deceptively simple band, designed to look like those worn by battlefield scouts and city pickpockets alike. You can use this ring to cast invisibility once at 2nd level and blur at 2nd level. Once you cast a spell using this ring, you can't cast the same spell again until you finish a long rest."
+  },
+  {
+    "name": "Till Death Do Us Part",
+    "rarity": "rare",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Love is the sweetest bird that might migrate to the charming country of your heart. You can use this ring to cast beacon of hope at 2nd level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "True Love's Caress",
+    "rarity": "rare",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The most pragmatic and courageous lover ever known was, of course, Sorcha MacTire, for whom the popular hairstyle is named, and for whom many an extremely soppy poem has been written (most of them comparing her to geography). If another creature is attuned to and wearing the ring of True Love's Embrace, you are considered under the affects of the warding bond spell as if cast by that creature. Warding bond does not end when both creatures are separated by more than 60 feet."
+  },
+  {
+    "name": "True Love's Embrace",
+    "rarity": "rare",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The scholar of love, Joel Firris Baldidims, writes that the next time he reads about a woman compared to a flower (or any feature of geography for that matter) he's going to start knocking on poets' doors with a sledgehammer. If another creature is attuned to and wearing the ring of True Love's Caress, they are considered under the affects of the warding bond spell as if cast by you. Warding bond does not end when both creatures are separated by more than 60 feet."
+  },
+  {
+    "name": "Burnished Ring",
+    "rarity": "very_rare",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A paralysing eyestalk harvested from a beholder was boiled in a broth, and poured down the throat of a dwarven ringsmith. Not one fortnight thence, he crafted this ring. This ring has the following property: Paralyzing Ray. You can attempt to paralyze a creature with eldritch energy. As an action, choose a creature you can see within 60 feet. The target must make a DC 15 Wisdom saving throw. On a failed save, the target is paralyzed until the end of your next turn. Once you use this feature, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Caustic Band",
+    "rarity": "very_rare",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Adjusting this unassuming ring on your finger, you hear a faint sizzle, as of pressure being released. While wearing this ring, your weapon attacks deal an additional 2 acid damage."
+  },
+  {
+    "name": "Crypt Lord Ring",
+    "rarity": "very_rare",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Slipping one's finger through this ring fills the senses with the waft of tombs, the urine-yellow smell of old bandages, images of dead spiders curled into husks, and the sensation of hot, slobbering breath at the nape of one's neck. You can use this ring to cast create undead at 6th level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Killer's Sweetheart",
+    "rarity": "very_rare",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Though the ring is highly polished, darkened slivers of blood still cling to small scrapes and corners. When you reduce a creature to 0 hit points while wearing this ring, you can have your next attack automatically score a critical hit. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Orphic Ring",
+    "rarity": "very_rare",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "When light catches this ring at the right angle, it pulses with a dizzying, intoxicating glow befitting the jewellery of the Prince of the Comet. You can use this ring to cast confusion at 5th level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Ring of Feywild Sparks",
+    "rarity": "very_rare",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "This otherwise unassuming ring ties a spellcaster indelibly to the sporadic arcana of the Faerie realm. You can use your Tides of Chaos feature a number of times equal to your proficiency bonus. In addition, when you use Tides of Chaos, you can roll on the Wild Magic Surge table. You regain all expended uses when you finish a long rest."
+  },
+  {
+    "name": "Ring of Regeneration",
+    "rarity": "very_rare",
+    "category": "ring",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "This ring is, in effect, a tiny field medic that won't charge you 70 gold pieces for a fifteen-minute consultation. During combat, at the beginning of each of your turns, you regain 1d4 hit points."
+  }
+]

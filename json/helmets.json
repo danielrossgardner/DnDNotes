@@ -1,0 +1,443 @@
+[
+  {
+    "name": "Browbeaten Circlet",
+    "rarity": "uncommon",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A cornered animal will, on occasion, feel a rush of exhilarating energy, and an urge to fight. The same is true of many arcane practitioners, who do not take kindly to being menaced. While wearing this item, you gain a +1 bonus to your spell save DC while another hostile creature is within 5 feet of you."
+  },
+  {
+    "name": "Cap of Curing",
+    "rarity": "uncommon",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Putting on this hat is somehow enough to lift your spirits. When you inspire an ally using your Bardic Inspiration feature, the target regains 1d6 hit points."
+  },
+  {
+    "name": "Coldbrim Hat",
+    "rarity": "uncommon",
+    "category": "helmet",
+    "type": "Wondrous itme",
+    "bonus": null,
+    "attunement": true,
+    "description": "Upturning the hat and gazing into it, you get this slightly vertiginous feeling, as if you were looking into a cold, abandoned well with no discernible end. While wearing this item, when you subject a creature to a condition (such as paralyzed, poisoned, or prone), you also apply 2 charges of encrusted frost to the target. You can only use this property once per turn and only on one target. Encrusted Frost. A creature can have up to 7 encrusted frost charges. A creature affected by encrusted frost has disadvantage on Dexterity saving throws. When a creature has 7 encrusted frost charges, it takes 1d4 cold damage and must succeed a DC 13 Constitution saving throw or become petrified until the end of their next turn. One encrusted frost charge is consumed at the end of each affected creature's turn, and all encrusted frost charges are consumed after combat."
+  },
+  {
+    "name": "Covert Cowl",
+    "rarity": "uncommon",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "At the final hurdle, they were confronted by none other than Duerra herself, and her rage was great, and they felt the candles of hope in their hearts snuff out. While wearing this item, you gain a +1 bonus to Dexterity saving throws. In addition, while you are Lightly or Heavily obscured, attack rolls you make score a critical hit on a roll of 19 or 20."
+  },
+  {
+    "name": "Dark Justiciar Helm",
+    "rarity": "uncommon",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Stamped with Shar's own sigil, this helm was worn by the Nightsinger's own crusaders. The darkness within seems deeper than night, somehow. While wearing this item and you're Lightly or Heavily obscured, you gain a +1 bonus to all saving throws."
+  },
+  {
+    "name": "Dark Justiciar Mask",
+    "rarity": "uncommon",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Worn by Shar's most loyal zealots, the mere sight of it strikes fear in the heart of even the bravest of souls. While wearing this item, you gain a +1 bonus to Charisma (Intimidation) checks."
+  },
+  {
+    "name": "Hat of Fire Acuity",
+    "rarity": "uncommon",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "It is said some wizard hats grant the power to keep your head cool - both literally and figuratively. Once per turn, when you deal fire damage to a hostile creature while wearing this item, you gain 2 charges of arcane acuity. Arcane Acuity Charges. You can have a number of arcane acuity charges equal to your proficiency bonus. You gain a +1 bonus to your spell DC and spell attack rolls for each charge of arcane acuity. One arcane acuity charge is consumed at the end of each of your turns, 2 charges are consumed when you take damage, and all charges are consumed after combat."
+  },
+  {
+    "name": "Hat of Storm Scion's Power",
+    "rarity": "uncommon",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Two sigils glow white where the hat brushes your temples something is being tapped into; something distant and fearsome. Once per turn, when you deal thunder damage to a hostile creature while wearing this item, you gain 2 charges of arcane acuity. Arcane Acuity Charges. You can have a number of arcane acuity charges equal to your proficiency bonus. You gain a +1 bonus to your spell DC and spell attack rolls for each charge of arcane acuity. One arcane acuity charge is consumed at the end of each of your turns, 2 charges are consumed when you take damage, and all charges are consumed after combat."
+  },
+  {
+    "name": "Helmet of Arcane Acuity",
+    "rarity": "uncommon",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Subtle magics are woven into the helmet's leather panes for a powerful offence is sometimes still the best defence. While wearing this item, you gain a +1 bonus to Dexterity saving throws. In addition, when hit a hostile creature with a weapon attack, you gain 2 charges of arcane acuity. Arcane Acuity Charges. You can have a number of arcane acuity charges equal to your proficiency bonus. You gain a +1 bonus to your spell DC and spell attack rolls for each charge of arcane acuity. One arcane acuity charge is consumed at the end of each of your turns, 2 charges are consumed when you take damage, and all charges are consumed after combat."
+  },
+  {
+    "name": "Helmet of Autonomy",
+    "rarity": "uncommon",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The metal bolted to the helmet's forehead is engraved with a faded script. Though the words have become unintelligible, their magic remains. While wearing this item, you have proficiency in Wisdom saving throws. If you're already proficient in Wisdom saving throws, you can choose to have proficiency in Intelligence saving throws instead."
+  },
+  {
+    "name": "Helmet of Smiting",
+    "rarity": "uncommon",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A set of runes have been expertly worked into the helmet's filigree. Almost imperceptibly - but powerful nonetheless. While wearing this item, you gain a +1 bonus to Constitution saving throws. In addition, when a creature fails a saving throw against one of your smite spells, you gain temporary hit points equal to you Charisma modifier."
+  },
+  {
+    "name": "Holy Lance Helm",
+    "rarity": "uncommon",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Brief halos of divine light wrap your head when you don and doff this helmet. While wearing this item, you gain a +1 bonus to Constitution saving throws. In addition, when a creature misses you with a melee attack, they must make a DC 11 Dexterity saving throw or take 1d4 radiant damage."
+  },
+  {
+    "name": "Key of the Ancients",
+    "rarity": "uncommon",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": false,
+    "description": "The branches of this circlet are half-fossilised, passed down through generations of druids. Fabricated during the founding of the grove, the wreath is forever linked to its lands, the tiny rubies connected to its stones and structures, bidding them to do their bidding. While wearing this item, you gain a +1 bonus to Intelligence (Nature) checks."
+  },
+  {
+    "name": "Marksmanship Hat",
+    "rarity": "uncommon",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Silvery wings spread over the stiff unyielding leather. While wearing this item, you gain a +1 bonus to ranged weapon attack rolls."
+  },
+  {
+    "name": "The Lifebringer",
+    "rarity": "uncommon",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "'Lightning is like magic,' Yrre the Sparkstruck once said. 'And what is magic but life itself?' When you gain lightning charges while wearing this item, you also gain 3 temporary hit points. These temporary hit points disappear if you have no lightning charges."
+  },
+  {
+    "name": "The Shadespell Circlet",
+    "rarity": "uncommon",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "One of the relics of Deep Duerra's rebellious children. Flanked by her court, Duerra shook her head at her children. Had they really believed they could leave her? While wearing this item and you're Lightly or Heavily obscured, you gaina +1 bonus to your spell save DC."
+  },
+  {
+    "name": "Wapira's Crown",
+    "rarity": "uncommon",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Legends say a Giant Elk and a druid once formed a powerful friendship. When the Elk laid down his life for the druid, she crafted this helmet in honor of her beloved friend, so his beauty and compassion would live on forever. When you heal another creature while wearing this item, you regain 1d6 hit points."
+  },
+  {
+    "name": "Warped Headband of Intellect",
+    "rarity": "uncommon",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "This particular circlet is covered in yellow slime and has pieces of half-digested mutton stuck behind the gems. While wearing this item, your Intelligence score changes to 17. The item has no effect on you if your Intelligence without the item is equal to or greater than the item's score."
+  },
+  {
+    "name": "Cap of Wrath",
+    "rarity": "rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "With every blow the skullcap seems to compress, narrowing the vision of the wearer. At start of each of your turns while wearing this item, you gain 2 wrath charges if you have no more than half your hit points left. Wrath Charges. You can have a number of wrath charges equal to your proficiency bonus. You gain a +1 bonus to your melee damage rolls for each wrath charge you have. One wrath charge is consumed at the end of each of your turns, and all wrath charges are consumed after combat."
+  },
+  {
+    "name": "Circle of Bones",
+    "rarity": "rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A coldness clings to this macabre circlet, like the chill of a grave. While wearing this item, you create an aura of deathly vigor with a 20-foot radius. Undead allies within your aura have resistance to slashing, piercing, and bludgeoning damage. Additionally, you can use this item to cast animate dead at 3rd level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Circle of Mental Anguish",
+    "rarity": "rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Fell magic has seeped into this circlet, rejoicing at the slightest touch of despair. While wearing this item and a hostile creature fails a Charisma, Intelligence, or Wisdom saving throw against one of your spells, you regain 1d4 hit points."
+  },
+  {
+    "name": "Circle of Psionic Revenge",
+    "rarity": "rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "You get the eerie feeling that the jewelsmith used more than alien metals to forge this circlet - something like ancient magic, or shards of a soul. While wearing this item, you gain a +1 bonus to Intelligence, Wisdom and Charisma saving throws. In addition, when you succeed a saving throw against a hostile creature's spell or ability, you use your reaction to deal 1d4 psychic damage to that creature."
+  },
+  {
+    "name": "Diadem of Arcane Synergy",
+    "rarity": "rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "This circlet shimmers with a hundred otherworldly metals. When you subject a creature to a condition (such as paralyzed, poisoned, or prone) while wearing this item, you can add your spellcasting modifier to your weapon damage rolls until the end of your next turn."
+  },
+  {
+    "name": "Fistbreaker Helm",
+    "rarity": "rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "'If your foe rains down blows upon your head, turn not the other cheek, but let your pricking helm bleed the bastards dry.' While wearing this item, you gain a +1 bonus to your spell save DC and initiative rolls."
+  },
+  {
+    "name": "Flawed Helldusk Helmet",
+    "rarity": "rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "'When I found Carixim, he turned to me, all those poor people's souls crammed into him like too many bees in a rotten hive, and he... He grinned at me. And he said: I been expecting you, boy.' - Overheard from the smith Dammon. While wearing this item, you gain a +1 bonus to Constitution saving throws. In addition, you gain a +2 bonus to all saving throws made against spells."
+  },
+  {
+    "name": "Gibus of the Worshipful Servant",
+    "rarity": "rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Corroded by Sceleritas' insouciant perversion, this little gibus hat was worn by the Butler before he sank throat-deep into Bhaal's clutches. Once, it was beyond besmirchment. Once, it was lovely. While wearing this item, you gain advantage on Constitution saving throws to maintain concentration. In addition, when you roll initiative, your speed increases by 10 until the end of your next turn."
+  },
+  {
+    "name": "Haste Helm",
+    "rarity": "rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The helm throbs when violence is near, filling the wearer with a compulsion to act. When you roll initiative, and before the first creature takes their turn, you can move up to your speed to an unoccupied space you can see. In addition, at the end of your first turn each combat, you can take the Dash action, no action required."
+  },
+  {
+    "name": "Hat of the Sharp Caster",
+    "rarity": "rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "All you need now is a holster for your wand, tobacco to chew, and some sort of pack animal to ride, and you'll look like a complete and utter bingus. When you roll a 1 or 2 on a damage die for a spell attack you make, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2."
+  },
+  {
+    "name": "Hat of Uninhibited Kushigo",
+    "rarity": "rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Coming upon a wise woman, Kushigo got drunk and grew maudlin, and told her about Irishi's scalping. She gave him some clothes - light and fine - and encouraged him to take his time to grieve. He did. And, when he was ready, he fought again, uninhibited by steel or fellowship - for they only weighed him down. Once per turn, when you hit a creature with an unarmed strike, you gain a +1 bonus to your spell and ability save DC until the end of your next turn."
+  },
+  {
+    "name": "Scabby Pugilist Circlet",
+    "rarity": "rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Every adventuring party has at least one 'chaotic element'. In the case of one such party, this was the infamous Scabby, a barbarous goblin who was trained by monks. While wearing this item, your weapon attacks and unarmed strikes deal an additional 2 damage of their type if at least two or more hostile creatures are within 5 feet of you."
+  },
+  {
+    "name": "Shadow of Menzoberranzan",
+    "rarity": "rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "You sense the shadows that envelop this drowcraft cowl, eagerly awaiting to envelop you and shield you from view. As an action, you can become invisible until the end of your next turn. This invisibility ends early if you attack, cast a spell, take an action, or take damage. You can use this property a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+  },
+  {
+    "name": "Steelwatch Helm",
+    "rarity": "rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "'When I found Carixim, he turned to me, all those poor people's souls crammed into him like too many bees in a rotten hive, and he... He grinned at me. And he said: I been expecting you, boy.' - Overheard from the smith Dammon. While wearing this item, you gain darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet."
+  },
+  {
+    "name": "The Pointy Hat",
+    "rarity": "rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Sages over the course of ages have dealt very constructive and useful advice - however, none so sagacious as that of the wizard Otiluke, who once advised one of his students thusly: 'Never cast Speak with Dead on a loved one if there's unresolved tension there. It's never worth it. Trust me.' While wearing this item, you can add your Intelligence modifier to Charisma (Persuasion) checks you make."
+  },
+  {
+    "name": "Assassin of Bhaal Cowl",
+    "rarity": "very_rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "When he was killed, Bhaal's blight upon the world was not destroyed. For the many people upon whom he had sired his spawn slithered out of tainted wombs, and with their arrival Bhaal's malcontent returned with force. While wearing this item, you gain darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet. In addition, you can add your proficiency bonus to your initiative rolls. Moreover, you can use this item to cast see invisibility at 2nd level. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Birthright",
+    "rarity": "very_rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "'The thing that you poor sods simply cannot grasp is how effortless all this magical hootie-wootie castie-spellsie business is for me!’ - A very stupid sorcerer at a wizard academy ball. While wearing this item, your Charisma score increases by 2, to a maximum of 22."
+  },
+  {
+    "name": "Bonespike Helmet",
+    "rarity": "very_rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The tibia of a storm giant was ground and chiselled and reworked till it became this helm. The wearer can actually smell summer tempest clouds like maroon-dark dread while wearing the helm. While wearing this item, your proficiency bonus is doubled for Charisma (Intimidation) checks you make. Additionally, you learn the menacing attack maneuver. You gain one superiority die, which is a d6 (this die is added to any superiority dice you have from another source). This die is used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest. Moreover, when you rage, hostile creatures within 10 feet of you must make a DC 14 Wisdom saving throw or take 2d4 psychic damage. On a successful save, a creature takes half as much damage."
+  },
+  {
+    "name": "Circlet of Hunting",
+    "rarity": "very_rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Huntresses prowling in the least hospitable woods of Toril hold one rule as cardinal: kill quickly. This is not about suffering. It's about sound, and its necessary absence. While wearing this item, you can roll a d4 and add the number rolled to attack rolls you make against targets that are marked by hex, hunter's mark, faerie fire, or guiding bolt."
+  },
+  {
+    "name": "Dark Justiciar Helmet",
+    "rarity": "very_rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Adorned in a fanned coronet of speartip points, its mask fixed with stiff-lipped intent, this helmet evokes a frightful, almost alien aspect that gestures to Shar. For she is strange and terrible indeed. While wearing this item, you gain a +1 bonus to all saving throws against spells and Constitution saving throws. In addition, while you're Lightly or Heavily obscured, attacks you make score a critical hit on a 19 or 20."
+  },
+  {
+    "name": "Helldusk Helmet",
+    "rarity": "very_rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "It is said that Carixim, the fiending titan whose flesh squirms with twenty-thousand trapped souls, forged the pieces of this armor set. While wearing this item, you can see normally in darkness , both magical and nonmagical, to a distance of 40 feet and you can't be blinded. In addition, you gain a +2 bonus to saving throws against spells and any critical hit against you becomes a normal hit. Moreover, this item has the following property: Immolating Gaze. You can attempt to set a creature ablaze with an immolating gaze. As an action, you can choose a creature within 30 feet of you. The target must make a DC 14 Intelligence saving throw. On a failed save, the target takes 2d8 fire damage and an additional 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames. In addition, the creature becomes frightened of you for 1 minute. A creature can repeat this properties saving throw at the end of each of its turns, ending the effect. On a successful save, a creature takes half as much damage and isn't burned or frightened."
+  },
+  {
+    "name": "Helmet of Grit",
+    "rarity": "very_rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "At the barest touch, you feel a surge of exuberance and stamina - like you could take on anyone and anything. While wearing this item, you gain a +1 bonus to Dexterity saving throws. In addition, when you have no more than half of your hit points, you gain an additional bonus action."
+  },
+  {
+    "name": "Hood of the Weave",
+    "rarity": "very_rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Worn by the wizard Tenser when he was inducted into the Circle of Eight. While wearing this item, you gain a +2 bonus to your spell save DC and spell attack rolls."
+  },
+  {
+    "name": "Horns of the Berserker",
+    "rarity": "very_rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "This was created by a designer and an enchanter who were going through a messy divorce at the time. As such, the armor is filled with active-aggressive rage. It also makes you feel like you've wasted the last ten years picking up after a complete tit. While wearing this item, you gain a +2 bonus to attack rolls when attacking creatures that have already taken damage. In addition, your weapon attacks and unarmed strikes deal an additional 2 necrotic damage as long as you're not at your hit point maximum. Curse. In combat, when you don't deal damage during your turn, you take 1d4 necrotic damage at the end of your turn."
+  },
+  {
+    "name": "Jannath's Hat",
+    "rarity": "very_rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The corner of modern fashion that this hat currently occupies might well be called Optimistic. While wearing this item, you gain advantage on Charisma (Deception) and Charisma (Persuasion) checks."
+  },
+  {
+    "name": "Mask of Soul Perception",
+    "rarity": "very_rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Formerly worn by Autumnal Baskin, a professional mediator turned bare-knuckle champion, who gained enlightenment via two methods. The first was giving up her addictive reliance on secluded caves and lonely mountaintops, and getting a bit more sociable. This involved many new skirts. Most of them lavender. While wearing this item, you gain a +2 bonus to attack rolls, initiative rolls, and Wisdom (Perception) checks. Additionally, you can use this item to cast detect thoughts at 2nd level. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Pyroquickness Hat",
+    "rarity": "very_rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Merely holding the circlet makes your skin flush, filling you with determination and righteous fury. When you cast a spell of 1st-level or higher that deals fire damage, you deal 1d4 fire damage to yourself and you gain an additional bonus action until the start of your next turn."
+  },
+  {
+    "name": "Sarevok's Horned Helmet",
+    "rarity": "very_rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The last sight Sarevok witnessed as a mortal was his sibling's knife. This duel, the first between Bhaalspawn, is worshipped still by the cult of Bhaal, who now believe that no act is more sacred than fratricide between spawn before the altar of their Dread Lord. While wearing this item, you can't be charmed or frightened. In addition, you gain darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet. Moreover, attacks you make score a critical hit on a 19 or 20."
+  },
+  {
+    "name": "Shapeshifter Hat",
+    "rarity": "very_rare",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "'Trust is the most fundamental part of wild-shaping. Not trusting others, but trusting yourself. Because the assumption of an animalistic form comes part and parcel with risk - that you'll like being a beast. Like it too much. You've got to trust yourself to the extent that you're comfortable courting that danger. Trust yourself the way you trust a marital partner with your heart.' - Mac Tire, Moon Druid. While wearing this item, you gain a +1 bonus to Intelligence (Nature) checks. In addition, you gain an additional use of your Wild Shape feature."
+  },
+  {
+    "name": "Helm of Balduran",
+    "rarity": "legendary",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "This helm, worn atop the pate of Balduran the Brave, still gleams as if with the untarnished splendour of his legacy. Baldur's Gate itself bears his name, and tales of his exploits have turned the heads and hearts of many. While wearing this helmet, any hit critical hit against you becomes a normal hit and you are immune to the stunned condition. In addition, this item has the following properties: Balduran's Vitality. At the start of each of your turns in combat, if you're not incapacitated, you regain a number of hit points equal to proficiency bonus. Baldruan's Favor. You gain a +1 bonus to your AC and all saving throws."
+  },
+  {
+    "name": "Mask of the Shapeshifter",
+    "rarity": "legendary",
+    "category": "helmet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The magic of this mask comes from its gory provenance and makes it perfect for the discerning actor, sleuth or person with a mirror and time to kill. When you attune to this item, it doesn't count towards your total alloted attunement slots. As an action, you can make yourself a member of another race. You determine the specifics of the changes, including your coloration, hair length, and sec. You can also adjust your height between Medium and Small. You can't duplicate the appearance of an individual you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this item. This item merges with your new form and you stay in the new form until you use an action to revert to your true form or until you die. When you take the form of a different race, you are considered a member of that race, and gain all traits and game statistics associated with that race and lose all traits of your original race. For example, if you choose an elf, your aging slows, you can go into a trance instead of sleeping, and you gain proficiency in the Perception skill."
+  }
+]

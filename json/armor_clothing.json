@@ -1,0 +1,596 @@
+[
+  {
+    "name": "Armor of Uninhibited Kushigo",
+    "rarity": "uncommon",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Long ago, Kushigo was a warrior. Bedecked in an enormous set of plate steel, its shoulder pauldrons fashioned like great antlered stags, his arrival on a battlefield spelled doom for the enemy. This clothing has the following property: Kushigo Counter. Until the start of your next turn, when you use patient defense, when a creature misses you with a melee attack, you can use your reaction to make an unarmed strike against the creature."
+  },
+  {
+    "name": "Bided Time",
+    "rarity": "uncommon",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Revenge is best served. Hot or cold makes no difference. When a hostile creature hits you with a melee attack, you gain a +2 bonus to your spell attack damage rolls until the end of your next turn."
+  },
+  {
+    "name": "Blazer of Benevolence",
+    "rarity": "uncommon",
+    "category": "armor",
+    "type": "Padded armor",
+    "bonus": null,
+    "attunement": true,
+    "description": "Even though the embroidered velvet won't help against a sharp blade, wearing it fills you with self-assuredness. When you isnpire an ally using your bardic inspiration, you gain 4 temporary hit points."
+  },
+  {
+    "name": "Bloodguzzler Garb",
+    "rarity": "uncommon",
+    "category": "clothing",
+    "type": "Wondrous itme",
+    "bonus": null,
+    "attunement": true,
+    "description": "No sooner does blood speck the armor than it's absorbed, as if sustaining something within. When a hostile creature damages you, you gain 1 charge of wrath granting you the following benefit: Wrath Charges. You can have a number of wrath charges equal to your proficiency bonus. You gain a +1 bonus to your melee damage rolls for each wrath charge you have. One wrath charge is consumed at the end of each of your turns, and all wrath charges are consumed after combat."
+  },
+  {
+    "name": "Dark Justiciar Mail",
+    "rarity": "uncommon",
+    "category": "armor",
+    "type": "Chain shirt",
+    "bonus": null,
+    "attunement": true,
+    "description": "Though well-preserved, the armor's gleam is somewhat muted - as if half-shadowed, even in brightest day. Whenever a creature within 5 feet of you hits you with a melee attack while you're Lightly or Heavily obscured, the armor lashes out with shadows. The attacker takes 1d4 necrotic damage. g"
+  },
+  {
+    "name": "Hedge Wanderer Armor",
+    "rarity": "uncommon",
+    "category": "armor",
+    "type": "Hide armor",
+    "bonus": 1,
+    "attunement": true,
+    "description": "This simple cured goat hide was enchanted by a traveling druid. A goatherd once helped her negotiate a strange maze of hedges, so she blessed all his goats in thanks. While wearing this armor, you gain a +1 bonus to Dexterity checks and Dexterity saving throws you make. In addition, you gain a +1 bonus to Wisdom (Nature) checks you make."
+  },
+  {
+    "name": "Luminous Armor",
+    "rarity": "uncommon",
+    "category": "armor",
+    "type": "Breastplate",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Many an adventurer has found themselves swallowed up by the dark throat of some nameless dungeon, aching for a glimpse of light. When you deal radiant damage to a hostile creature, each hostile creature within 10 feet of the target gains 1 charge of radiant orb. Radiant Orb Charges. A creature can have a number of radiant orb charges equal to your proficiency bonus. While a creature has one or more radiant orb charges a pale-moon orb appears above them shedding bright light in a 10-foot radius and dim light for an additional 10 feet. Additionally, they have a -1 to attack rolls they make for each radiant orb charge they have. One radiant orb charge is consumed at the end of each affected creature's turn, and all radiant orb charges are consumed after combat."
+  },
+  {
+    "name": "Poisoner's Robe",
+    "rarity": "uncommon",
+    "category": "clothing",
+    "type": "Wondrous itme",
+    "bonus": null,
+    "attunement": true,
+    "description": "Found in the Spider Queen's stomach, this robe emanates a sour smell and stings to the touch. When you deal poison damage to a creature with a spell, you deal an additional 1d4 poison damage."
+  },
+  {
+    "name": "Robe of Summer",
+    "rarity": "uncommon",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "This robe's thin fabric is pleasantly warm to the touch. While wearing this robe, you have resistance to cold damage."
+  },
+  {
+    "name": "Scarlet Leather Armor",
+    "rarity": "uncommon",
+    "category": "armor",
+    "type": "Leather armor",
+    "bonus": 1,
+    "attunement": true,
+    "description": "This well-tailored leather tunic is reinforced by geometric quilting. While wearing this armor, you gain a +1 bonus to Dexterity (Stealth) checks you make."
+  },
+  {
+    "name": "Slippery Chain Shirt",
+    "rarity": "uncommon",
+    "category": "armor",
+    "type": "Chain shirt",
+    "bonus": null,
+    "attunement": false,
+    "description": "paladin Scored with slime and blood, it seems this chain mail shirt couldn't save its previous owner. Although it may help the next. When you heal a creature using a spell of 1st-level or higher, channel divinity, or lay on hands, you can use your reaction to take the disengage action."
+  },
+  {
+    "name": "The Oak Father's Embrace",
+    "rarity": "uncommon",
+    "category": "armor",
+    "type": "Hide armor",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Embroidered with a simple maxim - 'Nature is the True State of the World' - these hides radiate a faint divine power. Whenever an undead creature within 5 feet of you hits you with a melee attack, the expels holy light. The attacker takes 1d6 radiant damage. Curse. Whenever a beast within 5 feet of you hits you with a melee attack, they deal an additional 1d6 radiant damage to you."
+  },
+  {
+    "name": "Armor of Devotion",
+    "rarity": "rare",
+    "category": "armor",
+    "type": "Plate armor",
+    "bonus": null,
+    "attunement": true,
+    "description": "The soft hum of a fervent prayer reverberates throughout the armored plates. This armor has the following property: Eternal Devotion. As an action, you can recite an oath or prayer to regain one expended use of your Channel Divinity. Once your use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Barkskin Armor",
+    "rarity": "rare",
+    "category": "armor",
+    "type": "Hide armor",
+    "bonus": null,
+    "attunement": true,
+    "description": "The bark motifs in this armor are like the boles of oak trees in a wood where the acorns slept long and grew proud. While wearing this armor, your skin becomes a rough, bark-like material, and your AC can't be less than 16."
+  },
+  {
+    "name": "Cerebral Citadel Armor",
+    "rarity": "rare",
+    "category": "armor",
+    "type": "Plate armor",
+    "bonus": null,
+    "attunement": true,
+    "description": "The little tentacle engravings are a nice touch. While wearing this armor, you can't be frightened. In addition, if your Intelligence score is 14 or higher, you gain a +1 bonus to your Intelligence, Wisdom, and Charisma saving throws."
+  },
+  {
+    "name": "Cloth of Authority",
+    "rarity": "rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "One can hardly be called a lord if they aren't dressed as such. A cursory glance at Gortash's finery would reveal intricate garb - a closer look would reveal a maddening attention to even the most minute details of the filigree. While wearing this robe, you can't be charmed or frightened. In addition, you have advantage on Charisma (Intimidation) and Wisdom (Insight) checks. Moreover, you gain a +1 bonus to your AC."
+  },
+  {
+    "name": "Dark Justiciar Half-Plate",
+    "rarity": "rare",
+    "category": "armor",
+    "type": "Half-plate armor",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Shar's aspect winds its way though the patterns and pauldrons of this half plate, and any light cast nearby seems to almost quiver away from it, afraid. For even the light knows that the clank of this armor is swiftly followed by the Dark Justiciar's silent blade. While wearing this armor and you're Lightly or Heavily obscured, you have advantage on Dexterity (Stealth) checks and Constitution saving throws you make. In addition, this armor has the following property: Shar's Aegis. You can use this armor to cast shield of faith on yourself at 1st-level. Once you use this property, you can't do so again until you finish a long rest"
+  },
+  {
+    "name": "Drow Studded Leather Armor",
+    "rarity": "rare",
+    "category": "armor",
+    "type": "Studded leather armor",
+    "bonus": null,
+    "attunement": false,
+    "description": "Tracings of glossy black spider-web mark this drown-made armor. Its supple, but strong - and made to blend in with the dark caves and crevices of the Underdark. While wearing this armor, you gain a +1 bonus to Dexterity (Stealth) checks you make."
+  },
+  {
+    "name": "Drunken Cloth",
+    "rarity": "rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Long ago, Kushigo was a warrior. Bedecked in enormous, stag-antlered plate, his arrival spelled doom for the enemy. This flimsy cloth speaks nothing to that legacy. While wearing this robe, you have advantage on Constitution saving throws. In addition, at the start of each of your turns, you gain temporary hit points equal to your Constitution modifier if you have no more than half of your hit points left."
+  },
+  {
+    "name": "Dwarven Splintmail",
+    "rarity": "rare",
+    "category": "armor",
+    "type": "Splint armor",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Skilled hands crafted this armor, reinforcing the metal plates while sacrificing none of the flexibility. While wearing this armor, piercing damage that you take from attacks is reduced by 1. In addition, you gain a +1 bonus to Strength checks and Strength saving throws you make. Moreover, your Constitution increases by 2, to a maximum of 20."
+  },
+  {
+    "name": "Elven Chain",
+    "rarity": "rare",
+    "category": "armor",
+    "type": "Chain shirt",
+    "bonus": 1,
+    "attunement": true,
+    "description": "The weight of the interwoven steel rings is offset by clever elven craftsmanship - rustling against your undershirt, the mail feels like you're wearing a cloud. While wearing this armor, you are considered proficient with it. In addition, you gain a +2 bonus to your initiative rolls and advantage on Dexterity saving throws you make."
+  },
+  {
+    "name": "Enraging Heart Garb",
+    "rarity": "rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Created by a designer and an enchanter who were going through a messy divorce at the time. As such the armor is filled with passive-aggresive rage. While wearing this clothing, your Constitution score increases by 2 to a maximum of 20. In addition, when you rage, you gain to charges of wrath granting you the following benefit: Wrath Charges. You can have a number of wrath charges equal to your proficiency bonus. You gain a +1 bonus to your melee damage rolls for each wrath charge you have. One wrath charge is consumed at the end of each of your turns, and all wrath charges are consumed after combat."
+  },
+  {
+    "name": "Flawed Helldusk Armor",
+    "rarity": "rare",
+    "category": "armor",
+    "type": "Plate armor",
+    "bonus": null,
+    "attunement": true,
+    "description": "'I learned so much from Carixim. All sorts of forgecraft that... S-sorry. Just when I think of him, and the whimpers those people inside him made... I don't know. Anyway, it was worth it. Worth it to be the best.' - Overheard from the smith Dammon While wearing this armor, piercing damage that you take from attacks is reduced by 1. In addition, whenever a creature within 5 feet of you hits you with a melee attack, the armor lashes out with licking flames. The attacker takes 1d4 fire damage."
+  },
+  {
+    "name": "Garb of the Land and Sky",
+    "rarity": "rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Long ago, Kushigo was a warrior. Bedecked in an enormous set of plate steel, its shoulder pauldrons fashioned like great antlered stags, his arrival on a battlefield spelled doom for the enemy. While wearing this clothing, you gain a +1 bonus to your AC. Additionally, until the start of your next turn, when you use patient defense, you gain resistance to slashing, piercing and bludgeoning damage. Moreover, until the end of your turn, when you use step of the wind, your next attack roll has advantage and deals an additional 1d8 force damage."
+  },
+  {
+    "name": "Icebite Robe",
+    "rarity": "rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Delicate ferns of frost glitter in the lining of this robe. While wearing this clothing, you have resistance to cold damage. In addition, you can use this item to cast armor of agathys at 3rd level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Mutilated Carapace",
+    "rarity": "rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Hard, fleshy leather has been derived from a countless slew of victims to form this armor for Bhaal's fetid chosen. While wearing this clothing, you gain a +1 bonus to your AC. Additionally, while under the effects of disguise self, polymorph, seeming, shapechanger, or wild shape, you gain a +1 bonus to attack and damage rolls you make. Moreover, you have advantage on Charisma (Deception) and Charisma (Persuasion) checks."
+  },
+  {
+    "name": "Obsidian Laced Robes",
+    "rarity": "rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The inside of this robe is dark and faceted like volcanic glass, yet the material is light and soft. Against the skin, it also produces a heat like a toasty fire on a day of snow. While wearing this clothing, you have resistance to fire damage. In addition, when you succeed on a saving throw against a hostile creature's spell or ability, you deal 1d4 + your proficiency bonus fire damage to the creature."
+  },
+  {
+    "name": "Penumbral Armor",
+    "rarity": "rare",
+    "category": "armor",
+    "type": "Studded leather armor",
+    "bonus": null,
+    "attunement": true,
+    "description": "One of the Relics of Deep Duerra's rebellious children. Kitted out though they were for escape, the older siblings had a horrible time encouraging their younger brothers and sisters, who at the crux were frightened of what their mother would do to them should they be caught. While wearing this armor and your Lightly or Heavily obscured, you can add your proficiency bonus to your Dexterity (Stealth) checks."
+  },
+  {
+    "name": "Psionic Ward Armor",
+    "rarity": "rare",
+    "category": "armor",
+    "type": "Half-plate armor",
+    "bonus": null,
+    "attunement": true,
+    "description": "After all that was done to them at the illithids' caprice, it is little wonder that the gith would construct armaments fit for combating the psionic might. While wearing this armor, you have resistance to psychic damage. In addition, when you succeed on a saving throw against a hostile creature's spell, you regain 1d4 hit points."
+  },
+  {
+    "name": "Riplling Force Mail",
+    "rarity": "rare",
+    "category": "armor",
+    "type": "Chain mail",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Dents, notches, and nicks add character to each ring of this mail - yet each blemish also speaks to those who tasted magical vengeance on the armor's behalf. When you take slashing, piercing, or bludgeoning damage, you become shrouded in force conduit, granting you the following benefit: Force Conduit. You can choose to gain resistance to nonmagical bludgeoning, piercing, or slashing damage until the start of your next turn. When a creature hits you with an attack that deals damage from your chosen damage type that you have resistance to, you can use your reaction to deal 1d8 force damage to the creature and ending your resistance to that damage type."
+  },
+  {
+    "name": "Robe of Exquisite Focus",
+    "rarity": "rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "This robe once belonged to one of the great wizard Tenser's lecturers. While in university, Tenser used to practise spells on this robe, sometimes resulting in wonderful arcane discovery. While wearing this clothing, you gain a +1 bonus to your spell save DC and spell attack rolls."
+  },
+  {
+    "name": "Shadeclinger Armor",
+    "rarity": "rare",
+    "category": "armor",
+    "type": "Leather armor",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Glutted with lone wolves and well-meaning scallywags, the Harpers are not averse to shadows - quite the contrary. For many such individuals, being swallow in the dark throat of the night is the only method they know or care to know. While wearing this armor, you gain a +1 bonus to Dexterity (Stealth) checks you make. In addition, while you're Lightly or Heavily obscured, you have advantage on all saving throws."
+  },
+  {
+    "name": "Shelter of Athkatla",
+    "rarity": "rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Mantled in the sublime majesty of this cloak, you magically sense Lorroakan's complex feelings for his homeland. Merriment and comfort go hand in hand with a jilted sentiment around his lovers and his family. And the old friends he thought of, but would never see again. While wearing this clothing, you have advantage on saving throws against spells. Additionally, you can use this item to cast mirror image at 2nd-level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Spidersilk Armor",
+    "rarity": "rare",
+    "category": "armor",
+    "type": "Studded leather armor",
+    "bonus": null,
+    "attunement": true,
+    "description": "Tracings of glossy black spider-web mark this drow-made armor. It is supple, but strong - and made to blend in with the dark caves and crevices of the Underdark. While wearing this armor, you gain a +1 bonus to Dexterity (Stealth) checks and Constitution saving throws your make."
+  },
+  {
+    "name": "The Graceful Cloth",
+    "rarity": "rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A garment worn by one of three monks who fought together against Headless Serpent, Secret Venom, a gang in the port city of Nyanzaru. This was worn by Roahton Mobar, whose stances were broad and strong. While wearing this item, your Dexterity score increases by 2, to a maximum of 20. Additionally, you gain a +1 bonus to your Dexterity saving throws and your jump distance increases by 5 feet."
+  },
+  {
+    "name": "The Jolty Vest",
+    "rarity": "rare",
+    "category": "armor",
+    "type": "Chain shirt",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Yrre the Sparkstruck got their nickname for both their obsession with lightning and the inventions they created, which had the habit of electrocuting both Yrre and any poor observers that got too close. While wearing this armor, slashing damage that you take from attacks is reduced by 1. In addition, whenever a creature within 10 feet of you hits you with an attack while you have lighting charges, lighting arcs towards them. The attacker must make a DC 14 Dexterity saving throw. On a failed save a creature can't take reactions and has disadvantage on ability checks and saving throws using Dexterity until the end of its next turn."
+  },
+  {
+    "name": "The Mighty Cloth",
+    "rarity": "rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A garment worn by one of three monks who fought together against Headless Serpent, Secret Venom, a gang in the port city of Nyanzaru. This was worn by Kimigha Poji, whose stances were narrow and swift. While wearing this item, your Strength score increases by 2, to a maximum of 20. Additionally, you can't be pushed against your will and you have advantage on saving throws against being restrained. Moreover, this item has the following property: Bull Rush. As an action, you can use your movement to charge forward up to 20 feet in a straight line. Each creature you pass through must make a DC 15 Strength saving throw or be knocked prone."
+  },
+  {
+    "name": "The Protecty Sparkswall",
+    "rarity": "rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A garment worn by one of three monks who fought together against Headless Serpent, Secret Venom, a gang in the port city of Nyanzaru. This was worn by Kimigha Poji, whose stances were narrow and swift. While wearing this clothing, you gain a +1 bonus to your spell save DC and spell attack rolls. Additionally, if you have at least 1 lightning charge, you gain a +1 to your AC and to all saving throws."
+  },
+  {
+    "name": "Unwanted Masterwork Scale Mail",
+    "rarity": "rare",
+    "category": "armor",
+    "type": "Scale mail",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Nothing stings the master blacksmith more than a canceled commission - not even molten iron. This mail is engraved with the mark of a devilish forgemaster, as well as several curses stamped out in infernal, and hums with diabolic magic. While wearing this armor, you can apply your full Dexterity modifier (instead of a maximum of +2) when determining your Armor Class. In addition, this armor does not impose disadvantage on your Dexterity (Stealth) checks. Moreover, you gain resistance to fire damage."
+  },
+  {
+    "name": "Viconia's Priestess Robe",
+    "rarity": "rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Listening to the magical hum this robe emits dulls your senses, thoughts, feelings - everything. Listen too long, and you can almost hear the screaming chitters of a thousand spiders devoured by encroaching, hungry darkness. Almost. While wearing this clothing, you gain a +1 bonus to your AC Additionally, while you're Lightly or Heavily obscured, you have advantage on Dexterity (Stealth) checks. Moreover, for you, shield of faith also grants a +2 to all saving throws."
+  },
+  {
+    "name": "Yuan-ti Scale Mail",
+    "rarity": "rare",
+    "category": "armor",
+    "type": "Scale mail",
+    "bonus": 1,
+    "attunement": true,
+    "description": "The Snakefolk of Chult are not known for waste, so often forge lightweight and robust armor like this from their own shed skin. While wearing this armor, you can apply your full Dexterity modifier (instead of a maximum of +2) when determining your Armor Class. In addition, this armor does not impose disadvantage on your Dexterity (Stealth) checks."
+  },
+  {
+    "name": "Adamantine Scale Mail",
+    "rarity": "very_rare",
+    "category": "armor",
+    "type": "Scale Mail",
+    "bonus": 2,
+    "attunement": true,
+    "description": "The adamantine scales hug your body like a second skin - a heavy, near-impregnable skin. While wearing this armor, all damage that you take from attacks is reduced by 1, and any critical hit made against you becomes a normal hit. In addition, whenever a creature within 5 feet of you hits you with an attack, they're sent reeling from your shell. The attacker must make a DC 15 Strength saving throw. On a failed save a creature receives a -2 to their weapon attack rolls until the end of their next turn."
+  },
+  {
+    "name": "Adamantine Splint Armor",
+    "rarity": "very_rare",
+    "category": "armor",
+    "type": "Splint armor",
+    "bonus": 1,
+    "attunement": true,
+    "description": "The adamantine plates lock and slide together perfectly offering protection against even the deadliest of blades. While wearing this armor, all damage that you take from attacks is reduced by 2, and any critical hit made against you becomes a normal hit. In addition, whenever a creature within 5 feet of you hits you with an attack, they're sent reeling from your shell. The attacker must make a DC 15 Strength saving throw. On a failed save a creature receives a -3 to their weapon attack rolls until the end of their next turn."
+  },
+  {
+    "name": "Armor of Agility",
+    "rarity": "very_rare",
+    "category": "armor",
+    "type": "Half-plate",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Layered sheets of smelted, shaped, and smithed steel have been etched with a sweetly luminous gold. Its outward appearance is heavy. And yet it's so light when you lift it, like lifting a bag of shrunken dead leaves. While wearing this armor, you can apply your full Dexterity modifier (instead of a maximum of +2) when determining your Armor Class and this armor doesn't impose disadvantage on Dexterity (Stealth) checks. In addition, you gain a +2 bonus to all saving throws."
+  },
+  {
+    "name": "Armor of Landfall",
+    "rarity": "very_rare",
+    "category": "armor",
+    "type": "Leather armor",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Smelling of long-abandoned gardens grown wild with thorny roses, moss and hibiscus, this armor was worn by a powerful druid who spent so long from people that she forgot to miss them. While wearing this armor, you gain a +1 bonus to your spell save DC and spell attack rolls. In addition, you have advantage on Constitution saving throws. Moreover, when starting your turn in magical plants or vines, you regain 1d4 hit points. Additionally, you can use this armor to cast plant growth at 3rd-level. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Armor of Moonbasking",
+    "rarity": "very_rare",
+    "category": "armor",
+    "type": "Leather armor",
+    "bonus": null,
+    "attunement": true,
+    "description": "This armor was designed by lunar-obsessed Cuthbertina, a gnomish arcane smith who now lives peacefully on a mountain plateau with her magical forge. When you use your wild shape feature, you gain 25 temporary hit points. While you have these temporary hit points all damage that you take from attacks is reduced by 1. Additionally, you gain a +2 bonus to your AC. You also have advantage on saving throws against spells. These properties persists when you use your wild shape feature."
+  },
+  {
+    "name": "Armor of Persistance",
+    "rarity": "very_rare",
+    "category": "armor",
+    "type": "Plate armor",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Great sheets of steel were hammered and bashed into something like a carapace, thick and dense - you can almost feel the hammer blows, flooded with rich magic. While wearing this armor, all damage that you take from attacks is reduced by 2. In addition, when you make a saving throw, you can roll a d4 and add the number rolled to your saving throw. Moreover, you gain resistance to slashing, piercing, and bludgeoning damage."
+  },
+  {
+    "name": "Armor of the Sporekeeper",
+    "rarity": "very_rare",
+    "category": "armor",
+    "type": "Leather armor",
+    "bonus": 2,
+    "attunement": true,
+    "description": "According to one story, this armor was enriched by the cascading spores of a myconid sovereign, its great fungal head shimmering and twinkling as it shook upon the material. While wearing this armor, you gain a +1 bonus to your spell save DC and spell attack rolls. In addition, when you deal necrotic damage, you deal an additional 1 necrotic damage. Additionally, while you have temporary hit points from your symbiotic entity feature, you gain additional benefits which use your spell save DC: Bibberbang Spores. As an action, you create a 5-footradius sphere of poisonous spores centered on a point you choose within 60 feet. The spores spreads around corners and lasts until the end of your next turn or until a strong disperses it. The area is heavily obscured. When a creature enters the spores for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. The creature takes 2d4 + your proficiency bonus poison damage on a failed save, or half as much damage on a successful one. Creatures are affected even if they hold their breath or don't need to breathe. Timmask Spores. As an action, you create a 5-foot-radius sphere of psychedelic spores centered on a point you choose within 60 feet. The spores spreads around corners and lasts until the end of your next turn or until a strong disperses it. The area is heavily obscured. When a creature enters the spores for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. A creature automatically succeeds of it is immune to being frightened. On a failed save, a creature loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies until the end of their next turn. Creatures are affected even if they hold their breath or don't need to breathe. Haste Spores. As an action, you can induce euphoria into a creature within 30 feet. Until the end of the targets next turn, the target's speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on its turn. that action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action."
+  },
+  {
+    "name": "Bhaalist Armor",
+    "rarity": "very_rare",
+    "category": "armor",
+    "type": "Studded leather",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Bhaal, Lord of Murder, was forced to walk the world as a mortal man during a period of history called the Time of Troubles. He was more vulnerable than he had ever been. But Bhaal was cunning. He had contingencies in case he died. While wearing this armor, you gain a +2 bonus to initiative rolls. In addition, this armor has the following property: Aura of Murder. Hostile creatures within 5 feet of you become vulnerable to piercing, unless they resistant or immune to piercing damage."
+  },
+  {
+    "name": "Blackguard's Plate",
+    "rarity": "very_rare",
+    "category": "armor",
+    "type": "Plate armor",
+    "bonus": 1,
+    "attunement": true,
+    "description": "To break one's oath is a dangerous game - it marks you as a faithless cur, an exile without a cause. The armor is tempered by an age of rocks, blades, and persecution turned against it and is buffed by the immutable, unbindable will of its wearer. While wearing this armor, all damage that you take from attacks is reduced by 2, and you have advantage on Wisdom saving throws."
+  },
+  {
+    "name": "Bonespike Garb",
+    "rarity": "very_rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Sharp juts and knobbly nodules of bone stud this armor, as if something ancient sank its teeth deep into the leather and they got stuck there. While wearing this armor, when you use your rage feature, you gain 15 temporary hit points. In addition, all damage that you take from attacks is reduced by 2 Moreover, whenever a creature within 5 feet of you hits you with a melee attack, the armor pricks them. The attacker takes piercing damage equal to your Constitution modifier."
+  },
+  {
+    "name": "Dark Justiciar Half-Plate",
+    "rarity": "very_rare",
+    "category": "armor",
+    "type": "Half-plate armor",
+    "bonus": 2,
+    "attunement": true,
+    "description": "Shar's aspect winds its way though the patterns and pauldrons of this half plate, and any light cast nearby seems to almost quiver away from it, afraid. For even the light knows that the clank of this armor is swiftly followed by the Dark Justiciar's silent blade. While wearing this armor and you're Lightly or Heavily obscured, you have advantage on Dexterity (Stealth) checks and Constitution saving throws you make. In addition, this armor has the following property: Shar's Aegis. You can use this armor to cast shield of faith on yourself at 1st level. For you, when you cast shield of faith on yourself it reduces all damage that you take by 2, and whenever a creature within 5 feet of you hits you with a melee attack the armor lashes out with shadows. The attacker takes 1d4 necrotic damage. Once you use this property, you can't do so again until you finish a long rest"
+  },
+  {
+    "name": "Elegant Studded Leather",
+    "rarity": "very_rare",
+    "category": "armor",
+    "type": "Studded leather",
+    "bonus": 2,
+    "attunement": true,
+    "description": "After she returned from her confinement at the hands of the demon prince Graz'zt, the Goddess of prosperity, Waukeen, appointed a champion, who donned this studded leather and took up arms against those who had schismed and corrupted her church in the interim. While wearing this armor, you gain a +2 bonus to initiative rolls and you have advantage on Dexterity (Stealth) checks. Additionally, you can use this armor to cast shield at 1stlevel. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Emblazoned Plate of the Marshal",
+    "rarity": "very_rare",
+    "category": "armor",
+    "type": "Plate armor",
+    "bonus": 1,
+    "attunement": true,
+    "description": "The tabard adoring this perfectly-kept platemail denotes the status of its wearer - Marshal of the Flaming Fist and ultimate military authority in Baldur's Gate. While wearing this armor, all damage that you take from attacks is reduced by 2. In addition, you have resistance to fire damage and you gain a +2 bonus to all saving throws. Additionally, you can use this armor to cast fire shield at 4th-level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Flame Enamelled Armor",
+    "rarity": "very_rare",
+    "category": "armor",
+    "type": "Breastplate",
+    "bonus": 2,
+    "attunement": true,
+    "description": "The air around this armor shimmers, oven-hot. From the seams of the armor you can hear a red-tinted rumble, like coals digesting in a furnace. While wearing this armor, you gain a +1 bonus to your initiative rolls. In addition, you have resistance to fire damage and you gain a +2 bonus to all saving throw. Additionally, you can use this armor to cast fire shield at 4th-level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Infernal Robe",
+    "rarity": "very_rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Presumably Mizora was not always a sensuous and manipulative benefactor of troubled souls like Wyll. Negotiating the hierarchies of hell result in changes of form but was she ever less beautiful, less erudite, less willful? While wearing this clothing, you gain a +1 bonus to your AC. In addition, you have resistance to fire damage. Additionally, you can use this item to cast fire shield at 4thlevel. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Moon Devotion Robe",
+    "rarity": "very_rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A memory from her childhood: a warm bed. Through the cracked window, she could see the moonlight cupping the plums in the tree as if in silver hands. The name of the goddess Selûne came to her, and never left. While wearing this armor you gain a +1 bonus to all saving throws and you have advantage on Constitution saving throws. Additionally, you can use this item to cast mage armor on yourself at 1st-level. For you, when you're under the affects of mage armor and you succeed on a saving throw against an enemy spell or ability, the creature who cast the spell against you must make a DC 15 Wisdom saving throw or take 1d4 radiant damage. Moreover, you know and can cast the produce flame cantrip which uses your highest spellcasting ability."
+  },
+  {
+    "name": "Potent Robe",
+    "rarity": "very_rare",
+    "category": "armor",
+    "type": "Wondrous Armor",
+    "bonus": null,
+    "attunement": true,
+    "description": "This robe is a difficult look to pull off unless one is blessed with an otherwordly charisma. While wearing this clothing, you gain a +1 bonus to your AC. In addition, at the start of each of your turns, you gain temporary hit points equal to your Charisma modifer. Moreover, when you cast a cantrip, add your Charisma modifier to the damage it deals on a hit."
+  },
+  {
+    "name": "Reaper's Embrace",
+    "rarity": "very_rare",
+    "category": "armor",
+    "type": "Plate armor",
+    "bonus": 1,
+    "attunement": true,
+    "description": "Heavy steel bones and teeth enclose the armor's chest and neck like a grotesque exoskeleton that both swallows and protects the wearer. While wearing this armor, all damage that you take from attacks is reduced by 2. In addition, this armor has the following properties: Reaper's Rigidity. As a bonus action, you can choose to have disadvantage on Dexterity saving throws. If you do, you can't be moved against your will until the end of your next turn. Howl of the Dead. As a bonus action, the armor lets out a bone chilling howl. Each creature of your choice within 10 feet must make a DC 14 Wisdom saving throw. On a failed save, the target's speed is halves and you have advantage on attack rolls made against them until the end of their next turn. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Robe of Supreme Defense",
+    "rarity": "very_rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Long ago, the young wizard Bigby noticed his friend Tenser spending a lot of time with his robe. One of nature's pranksters, Bigby sent his dog, Bigboy, to savage the garment. The ensuing struggle between canine and nude wizard was brutal, and eventually led to Tenser designing more durable robes like this one. While wearing this clothing, you gain a +1 bonus to your AC. In addition, while you're concentrating on a spell, you can add your spellcasting modifier to saving throws you make."
+  },
+  {
+    "name": "Robe of the Weave",
+    "rarity": "very_rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Earnest little Edith Cluckle was a small girl when she asked to be the great wizard Otiluke's apprentice. He scoffed at her, but was quickly abashed when Mystra herself endowed Edith with this very cloak. While wearing this clothing, you gain a +2 bonus to your AC. In addition, you gain a +1 bonus to your spell save DC and spell attack rolls. Moreover, when you succeed on a saving throw against a hostile creature's spell or ability, you regain 1d6 hit points."
+  },
+  {
+    "name": "Sharpened Snare Cuirass",
+    "rarity": "very_rare",
+    "category": "armor",
+    "type": "Hide armor",
+    "bonus": 2,
+    "attunement": true,
+    "description": "This magnificent hide was harvested from a rare mythological creature of the Feywild, a cross between a unicorn and a stoat. While wearing this armor, you can apply your full Dexterity modifier (instead of a maximum of +2) when determining your Armor Class. In addition, creatures have disadvantage on their saving throws made to resist becoming restrained against you."
+  },
+  {
+    "name": "Veil of Mourning",
+    "rarity": "very_rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Crafted from celestial feathers, bottled sunlight, and ink from the pages of sacred scripture, it's a wonder the maker didn't hang cloves of garlic from this robe, so anathema is it to the undead. While wearing this clothing, you have advantage on saving throws you make to resist spells and abilities from undead creatures. In addition, undead creatures have disadvantage on attack rolls made against you. Additionally, you can use your turn undead feature an additional time before taking a long rest."
+  },
+  {
+    "name": "Vest of Soul Rejuvenation",
+    "rarity": "very_rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A garment worn by one of three monks who fought together against Headless Serpent, Secret Venom, a gang in the port city of Nyanzaru. This was worn by Strigga Morkoscavich, whose stances moved fluidly, flawlessly, and who defanged the Serpent one blustery night. While wearing this clothing, you gain a +2 bonus to your AC. In addition, when you succeed on a saving throw against a hostile creature's spell or ability, you regain 1d4 hit points. Additionally, when a creature misses you with a melee attack, you can use your reaction to make an unarmed strike against the creature."
+  },
+  {
+    "name": "Wavemother's Robe",
+    "rarity": "very_rare",
+    "category": "clothing",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Tales tell of a most wondrous fish, scales resplendent, an intricate jewel that shone beneath the sea. When it died, the Wavemother gifted its hide as a robe to her most devoted follower - and demanded she drown the sailors that killed her gem-bright fish. While wearing this clothing, you gain a +1 bonus to your AC. In addition, you have resistance to cold and fire damage. Moreover, when you cast create or destroy, tidal wave, wall of water, water breathing, water walk, control water, or watery sphere you regain hit points equal to 1d4 + the spells level. Additionally, you can use this item to cast create or destroy water at 1st-level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Helldusk Armor",
+    "rarity": "legendary",
+    "category": "armor",
+    "type": "Plate armor",
+    "bonus": 3,
+    "attunement": true,
+    "description": "Carixim, soul-stuffed forgemaster of hellish Avernus, hammers away ceaselessly at new creations. Questions of morality and destiny do not concern him. Conscience is for his betters. He works with cheer, his swollen skin moaning soothingly. You are considered proficient with this armor while wearing it. While wearing this armor, all damage that you take is reduced by 3, and you have resistance to fire damage. In addition, you have a fly speed of 30 feet and can hover. Additionally, when you succeed on a saving throw against a hostile creature's spell or ability, the creature ignites. The creature takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."
+  }
+]

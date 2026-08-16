@@ -1,0 +1,308 @@
+[
+  {
+    "name": "Boots of Aid and Comfort",
+    "rarity": "uncommon",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Sturdy and well-worn, these boots make a snug fit on any wearer. While wearing these boots, the healing spells you cast leaves those affected invigorated. When you cast a spell of 1st-level or higher that restores hit points to a creature, they gain temporary hit points equal to your proficiency bonus."
+  },
+  {
+    "name": "Boots of Elemental Momentum",
+    "rarity": "uncommon",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Toughened metal boots, highly insulated with heavy leather and padding for use in any and all elements. While wearing these boots, you gain a +1 bonus to Strength (Athletics) checks. In addition, when you cast a spell that deals acid, cold, fire, lightning, or thunder damage, your speed increases by 10 feet until the end of your next turn."
+  },
+  {
+    "name": "Boots of Stormy Clamor",
+    "rarity": "uncommon",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Peals of thunder rumble at the back of your skull with every step taken in these boots. While wearing these boots, when you subject a hostile creature to a condition (such as paralyzed, poisoned, or prone), they gain 2 reverberation charges. Reverberation Charges. A creature can have up to 5 reverberation charges. A creature has -1 penalty to their Strength, Dexterity, and Constitution saving throws for each reverberation charge they have. When a creature has 5 reverberation charges, it takes 1d4 thunder damage and must succeed a DC 10 Constitution saving throw or be knocked prone. One reverberation charge is consumed at the end of each affected creature's turn, and all reverberation charges are consumed after combat. A creature immune to thunder damage can't gain reverberation charges."
+  },
+  {
+    "name": "Boots of Striding",
+    "rarity": "uncommon",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The metal of these greaves is comfortably warm against your shins, as though heated by your mere presence. While wearing these boots, you gain a +1 bonus to Strength (Athletics) checks. In addition, when you cast a spell of 1stlevel or higher that requires concentration, your speed increases by 5 feet until the end of your next turn, and you can't be pushed or knocked prone against your will."
+  },
+  {
+    "name": "Boots of Very Fast Blinking",
+    "rarity": "uncommon",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "You can cast Misty Step, with the caveat that you will teleport leaving your clothes behind. You can use these boots to cast misty step at 2nd-level. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Cinder Shoes",
+    "rarity": "uncommon",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": false,
+    "description": "Despite the many scorch marks, these leather boots are somehow still supple and intact. While you're wearing these boots, and you set a hostile creature on fire, you gain 2 heat charges granting you the following benefit: Heat Charges. While you have heat charges, you take 1d4 fire damage at the start of each of your turns as flames wreathe your body. When you hit a creature with an attack, you can deal additional fire damage equal to the number of heat charges you have and all your heat charges are consumed (up to a maximum of 7). One heat charge is consumed at the end of each of your turns, and all charges are consumed after combat."
+  },
+  {
+    "name": "Hoarfrost Boots",
+    "rarity": "uncommon",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A smattering of tiny ice crystals have formed cleats on the soles of these hardy boots. While wearing these boots, you can pass through difficult terrian, terrain made by spells, and other similar surfaces without being knocked prone or restrained."
+  },
+  {
+    "name": "Mystra's Grace",
+    "rarity": "uncommon",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Wearing these boots is like walking on cotton clouds. You can use these boots to cast feather fall at 1st-level."
+  },
+  {
+    "name": "Spiderstep Boots",
+    "rarity": "uncommon",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": false,
+    "description": "Slightly sticky to the touch, these boots have an excellent grip. While wearing these boots, difficult terrain made by webs costs you no extra movement and you can't be restrained by it."
+  },
+  {
+    "name": "Tyrannical Jackboots",
+    "rarity": "uncommon",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Each step taken in Gortash's shoes is a reflection of the man himself: quick, sharp, and terrible. While wearing these boots, you gain a +1 bonus to Charisma saving throws and ability checks."
+  },
+  {
+    "name": "Varsh Ko'kuu's Boots",
+    "rarity": "uncommon",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Though the leather is slick with acid, the corrosive liquid doesn't seem to damage the boots - nor does it penetrate. While wearing these boots, items you're wearing and holding can't be corroded or tarnished, and your AC can't be reduced. In addition, you have resistance to acid damage."
+  },
+  {
+    "name": "Acrobat Shoes",
+    "rarity": "rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "These flexible shoes were once owned by Audreyne Willoughs, who, in a somewhat ironic twist of fate, ran away from the circus to join her parents back home. While wearing these boots, you gain a +1 bonus to Dexterity (Acrobatics) checks. In addition, you have advantage on Dexterity saving throws."
+  },
+  {
+    "name": "Blackguard's Boots",
+    "rarity": "rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Clad on the desiccated feet of a death knight, these boots have walked a long and terrible path. They strode through the tattered remains of their owner's oath. With every heavy footstep, they have sounded pure fear into the hearts of men. while wearing these boots, you gain a +1 bonus to Strength (Athletics) checks. In addition, your speed increases by 10 feet."
+  },
+  {
+    "name": "Boots of Apparent Death",
+    "rarity": "rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Practical jokes with these boots often involve all your stuff being stolen by opportunistic cousins. You can use these boots to cast feign death at 3rd level. Once you use this property, you can't do so again until you finish short or long rest."
+  },
+  {
+    "name": "Boots of Arcane Bolstering",
+    "rarity": "rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Fizzling barbs of enchantment magic crackle from the laces of these boots. When you take the dash action, you gain a +2 bonus to your spell attack damage rolls until the end of your next turn."
+  },
+  {
+    "name": "Boots of Brilliance",
+    "rarity": "rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Tiny bells are sewn into the boots' cuffs. They jingle subtly with every step. As an action, you can regain one expended use of your bardic inspiration. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Boots of Genial Striding",
+    "rarity": "rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The soles of these boots warp and shift like warm clay manipulated by an unseen sculptor's hands. While wearing these boots, difficult terrain costs you no extra movement."
+  },
+  {
+    "name": "Boots of Uninhibited Kushigo",
+    "rarity": "rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "During a hilltop battle that soaked the slopes in gore, Kushigo's best friend Irishi was scalped before he could help her. The enemy held up the bloody wig, and Kushigo fell upon one, and then another, until he had killed so many that they hung from his antlered shoulders like skewered effigies. While wearing these boots, your unarmed strikes deal additional damage equal to your Wisdom modifier."
+  },
+  {
+    "name": "Dark Justiciar Boots",
+    "rarity": "rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Scratched in places, scorched in others, and worn thin at the heel, these boots bear the indelible marks of experience. While wearing these boots, you gain a +1 bonus to Dexterity saving throws. In addition, these boots have the following property: Shadow Teleportation. You can teleport up to 60 feet to an unoccupied space you can see that is in dim light or darkness. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Evasive Shoes",
+    "rarity": "rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Rogues in Waterdeep prefer these spring-loaded boots that make evading the city watch a breeze. While wearing these boots, you gain a +1 bonus your AC and to Dexterity (Acrobatics) checks."
+  },
+  {
+    "name": "Linebreaker Boots",
+    "rarity": "rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Lightweight fur and leather, designed to speed the wearer's charge into battle. When you take the Dash action, you gain 2 wrath charges granting you the following benefit: Wrath Charges. You can have a number of wrath charges equal to your proficiency bonus. You gain a +1 bonus to your melee damage rolls for each wrath charge you have. One wrath charge is consumed at the end of each of your turns, and all wrath charges are consumed after combat."
+  },
+  {
+    "name": "Slinging Shoes",
+    "rarity": "rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "These shoes were formerly enchanted to return to their owner's feet. This caused a great deal of trouble for owners, who, while wearing a slipper or a nice heeled number, kept being kicked in the ankles by jealous footwear. While wearing these boots, you gain a +1 bonus to Dexterity saving throws. In addition, you can use these boots as an improvised weapon with the thrown property with a normal range of 20 feet and a long range of 60 feet. When you make a ranged attack with these boots, you deal an additional 2d4 psychic damage and it automatically returns to your hand whether you hit or miss your target."
+  },
+  {
+    "name": "Spaceshunt Shoes",
+    "rarity": "rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "These boots are well-maintained and clean, though their soles are thin from wear. You can use these boots to cast dimension door at 4th-level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Springstep Boots",
+    "rarity": "rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Supple leather rebounds with every step, as if urging the wearer on. When you take the Dash action, your speed increased by 15 feet until the end of your next turn."
+  },
+  {
+    "name": "Swiresy Shoes",
+    "rarity": "rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Likely fashioned in tribute to the extremely small, highvaulting rascal who pillaged many a hen house Lupperdiddle Swires. While wearing these boots, you gain a +1 bonus to Dexterity (Acrobatics) checks. In addition, your jump distance increases by 5 feet."
+  },
+  {
+    "name": "The Speedy Lightfeet",
+    "rarity": "rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "It is said The Speedy Lightfeet were the first of many lightning inventions made by Yrre the Sparkstruck. The boots' old, frayed edges zap and crackle with even the slightest movement. While wearing these boots, you gain a +1 bonus to Dexterity (Acrobatics) checks. In addition, when you take the Dash action, you gain 3 lightning charges which grants you the following benefit: Lightning Charges. While you have lightning charges, you gain a +1 to your weapon attack rolls and deal an additional 1 lightning damage on your attacks. When you make a weapon attack against a creature and have 5 or more lightning charges, you deal an additional 1d8 lightning damage and all of your lightning charges are consumed. One lightning charge is consumed at the end of each of your turns, and all lightning charges are consumed after combat."
+  },
+  {
+    "name": "The Watersparkers",
+    "rarity": "rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "An enormous storm was raging the first time Yrre the Sparkstruck left the Underdark. The deep gnome's interest in lightning became at once an all-consuming obsession, and they would spend the rest of their years striving to recreate that storm's power themselves. At the start of each of your turns, if you're standing in difficult terrain created by water, you gain 3 lightning charges granting your the following benefit: Lightning Charges. While you have lightning charges, you gain a +1 to your weapon attack rolls and deal an additional 1 lightning damage on your attacks. When you make a weapon attack against a creature and have 5 or more lightning charges, you deal an additional 1d8 lightning damage and all of your lightning charges are consumed. One lightning charge is consumed at the end of each of your turns, and all lightning charges are consumed after combat."
+  },
+  {
+    "name": "Unwanted Masterwork Greaves",
+    "rarity": "rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": false,
+    "description": "These boots are stamped with the marks of a canceled commission. Despite their discarded fate, they still hum with complex infernal arcana. While wearing these boots, you gain a +1 bonus to Strength (Athletics) checks."
+  },
+  {
+    "name": "Vital Conduit Boots",
+    "rarity": "rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Tenser's notes on arcane displacement were not only read by wizards - other avid readers included entreprising smiths eager to break into the magic items market. While wearing these boots, you gain a +1 bonus to Strength (Athletics) checks. In addition, when you cast a spell of 1st-level or higher that requires concentration, you gain 8 temporary hit points."
+  },
+  {
+    "name": "Bonespike Boots",
+    "rarity": "very_rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Armor designed for the aerodynamic leaping and striking and general screaming of your standard barbarian. While wearing these boots, you gain a +1 bonus to you AC and all saving throws as long as you're not wearing armor or holding a shield. In addition, your jump distance increases by 5 feet. Moreover, these boots have the following property: Brutal Leap. As a bonus action on each of your turns, you can jump your full distance without moving and land with exploding power. Each creature within 10 feet of where you land must make a DC 14 Strength saving throw or be knocked prone."
+  },
+  {
+    "name": "Boots of Persistence",
+    "rarity": "very_rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "'If I had a copper for all the adventurin folk I seen gutted or cut up, or clawed like they was made of wet paper, just cause they couldn't move quick enough when speed might have saved em... well, I'd be suckin good brandy from crystal rather than this fuckin swill.' - Overheard in a tavern in Baldur's Gate. While wearing these boots, you gain a +1 bonus to Dexterity saving throws. In addition, your speed increases by 10 feet. Moreover, difficult terrain costs you no extra movement, and spells and other magical effects can neither reduce your speed nor cause you to be paralyzed or restrained."
+  },
+  {
+    "name": "Boots of Psionic Movement",
+    "rarity": "very_rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "When not atop their dragons, gith are not particularly airworthy. This is probably for the best. The imposition of downward gravity tends to put most people in a mood. While wearing these boots, you gain a +1 bonus to Dexterity saving throws. In addition, these boots have the following property: Githborn. As a bonus action, you can use these boots to cast fly at 3rd-level. When you cast fly this way, the next weapon attack you make this turn deals an additional 1d4 psychic damage. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Disintegrating Night Walkers",
+    "rarity": "very_rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Darker than a starless night, Night Walkers are made for secrecy in the honour of Shar. This particular pair was found deep in the ruins of an Underdark fortress. Though the leather is old and the magic is fading, the boots were recently cleaned and oiled with care. While wearing these boots, difficult terrain costs you no extra movement, and spells and other magical effects can neither reduce your speed nor cause you to be paralyzed or restrained. Additionally, you can use these boots to cast misty step at 2nd-level. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Helldusk Boots",
+    "rarity": "very_rare",
+    "category": "boot",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "No ore takes better to being forged than the infernal iron of Avernus, where the archdevil Zariel presides. While wearing these boots, difficult terrain costs you no extra movement, and you can't be moved against your will. In addition, these boots have the following properties: Legendary Resistance. When you fail saving throw, you can use your reaction to succeed instead. Once you use this property you can't do so again until you finish a long rest. Hellcrawler. As a bonus action, you can teleport up to 60 feet to an unoccupied space you can see. When you appear in your new space, each creature within 10 feet of you must succeed a DC 15 Dexterity saving throw or take 2d8 fire damage. Once you use this property, you can't do so again until you finish a short or long rest."
+  }
+]

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Magic Item Search</title>
+  <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Magic Item Search</h1>
+
+    <div class="panel filter-panel">
+      <div class="filter-row">
+        <label class="field">
+          <span>Group</span>
+          <select id="groupFilter" aria-label="Filter by item group"></select>
+        </label>
+
+        <label class="field">
+          <span>Rarity</span>
+          <select id="rarityFilter" aria-label="Filter by item rarity"></select>
+        </label>
+      </div>
+
+      <div class="search-bar">
+        <input id="itemSearch" type="text" placeholder="Search by name or type" aria-label="Search item names or types" />
+        <button id="clearFilters" type="button">Clear</button>
+      </div>
+    </div>
+
+    <div id="results" class="results" aria-live="polite"></div>
+    <div id="noResults" class="no-results" style="display:none">No items found for the current filters.</div>
+  </div>
+
+  <script src="item_search.js"></script>
+</body>
+
+</html>

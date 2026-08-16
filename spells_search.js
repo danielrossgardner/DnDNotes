@@ -9,9 +9,9 @@
 */
 
 const JSON_PATHS = [
-  'phb_spells.json',
-  'tce_spells.json',
-  'xgte_spells.json'
+  './json/phb_spells.json',
+  './json/tce_spells.json',
+  './json/xgte_spells.json'
 ];
 
 const schoolMap = {

@@ -1,0 +1,434 @@
+[
+  {
+    "name": "Aberration Hunters' Amulet",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Woundrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Many a Githyanki hunter has worn this amulet before you. The strange stones set in swirling silver reverberate with echoes of their magic. While wearing this amulet, you have advantage on Intelligence saving throws. Aberrations also have disadvantage on attack rolls against you. In addition, this amulet has the following property: Ancient Grudges. As a bonus action, you can touch this amulet to inherit the partial power of your ancestors. Until the start of your next turn, you have advantage on attack rolls you make against aberrations."
+  },
+  {
+    "name": "Absolute Confidence Amulet",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The interlocked bronze links of this necklace tinkle softly every time you move. While wearing this amulet, you gain a +1 bonus to Charisma (Performance) and Charisma (Intimidation) checks."
+  },
+  {
+    "name": "Absolute's Talisman",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Stained by blood, and gifted to only the most faithful of True Souls to help preserve their lives. While wearing this amulet, you have advantage on death saving throws. Additionally, you can use this amulet to cast aid at 2nd level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Amulet of Elemental Torment",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Each jewel gleams with the energy of the natural elements. If you have taken fire, acid, or poison damage since your last turn, and you deal damage of the same type, you deal an additional 1d4 damage of that type."
+  },
+  {
+    "name": "Amulet of Misty Step",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "This necklace allows the wearer to cast Misty Step. Made of blue gems unique to a privately-owned mine in Menzoberranzan, this necklace was likely a token of esteem or perhaps a desperate attempt to win its recipient's mercy. You can use this amulet to cast misty step at 2nd level. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Amulet of Selûne's Chosen",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The gems and pearls of this necklace have a brilliant shine to them, as if reflecting unseen moonlight. You can use this amulet to cast selûne's dream using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a long rest. Selûne's Dream Evocation cantrip Casting Time: 1 action Range: Touch Components: V,S Duration: Instantaneous You chant a prayer to your goddess, Selûne, to grant aid to those in need. A friendly creature you touch falls unconscious until the end of its next turn. A creature made unconscious this way can't be woken as divine magic envelopes them. When the creature wakes, it regains 1d8 hit points. You must finish a long rest before you can cast this spell on the same creature again. This spell has no effect on a creature who is already unconscious. This spell's healing increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+  },
+  {
+    "name": "Amulet of Silvanus",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "This amulet, engraved with a small waterfall, imparts a feeling of calm serenity when worn. You can use this amulet to cast lesser restoration at 2nd level. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Amulet of the Unworthy",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Once part of the Girdle of Blades, this buckle was torn off and fashioned into an amulet that can be worn by creatures of all sizes. While wearing this amulet, you have resistance to slashing damage. Curse. This item is cursed, a fact that is revealed only when you attune to it. Attuning to the amulet curses you until you are targeted by the remove curse spell or similar magic; removing the amulet fails to end the curse. While cursed you have vulnerability to bludgeoning damage."
+  },
+  {
+    "name": "Beastmaster's Chain",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The green jewel set into this necklace's pendant is carved to resemble a cat's slivered pupil. You can use this amulet to cast animal friendship at 1st level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Broodmother's Revenge",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Each of this amulet's jewels shines like a viper's eyes. When you regain hit points while wearing this amulet, your weapon attacks deal an additional 1d6 poison damage."
+  },
+  {
+    "name": "Fireheart",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The ruby's red reflections look like eerie flames dancing across your skin. When you take fire damage dealt by a hostile creature, you gain 2 heat charges. Heat Charges. While you have heat charges, you take 1d4 fire damage at the start of each of your turns as flames wreathe your body. When you hit a creature with an attack, you can deal additional fire damage equal to the number of heat charges you have and all your heat charges are consumed (up to a maximum of 7). One heat charge is consumed at the end of each of your turns, and all charges are consumed after combat."
+  },
+  {
+    "name": "Frost Prince",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Each sapphire feels like a tiny shard of sharpened ice. You can use this amulet to cast ice knife at 1st level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Hammergrim Mist Amulet",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "One of the relics of Deep Duerra's rebellious children. Drugging the Keykeeper of Duerra's vaults, the children crept in under cover of night and plundered their mother's treasure - searching desperately for anything that would aid in their flight. You can use this amulet to cast fog cloud at 1st level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Komira's Locket",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": false,
+    "description": "Worked carefully into the locket's metal back are the words, 'Never dark again.' While wearing this amulet, you know the dancing lights cantrip."
+  },
+  {
+    "name": "Moondrop Pendant",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The back bears an inscription under a delicate crescent moon. 'You're a novice no more, Robin. Only right you should carry a little of our Lady's light with you.' If you have no more than half your hit points while wearing this amulet, you don't provoke opportunity attacks."
+  },
+  {
+    "name": "Necklace of Elemental Augmentation",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The tourmaline in this necklace is almost uncomfortably hot, warmed by a heat all its own. When you deal acid, cold, fire, lightning, or thunder damage while wearing this amulet, you can add your spellcasting modifier to the damage dealt."
+  },
+  {
+    "name": "Pearl of Power Amulet",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "There are no molluscs of power, alas. As an action, you can touch this amulet to regain a spell slot of 3rd level or lower. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Psychic Spark",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Every gem hanging from this necklace is warm to the touch, as if waiting to ignite. When you cast magic missile, you create one additional dart. Additionally, you can use this amulet to cast magic missile at 1st level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Shar's Temptation",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The inlaid jewels are so rich in colour, so deep in hue, you could lose yourself in them. You can use this amulet to cast charm person at 1st level using your highest spellcasting ability. Once you use this property, you can't do so agian until you finish a short or long rest."
+  },
+  {
+    "name": "Silver Pendant",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": false,
+    "description": "Grime covers this necklace, but you can vaguely discern delicate engravings of a moon and harp. While wearing this amulet, you know the guidance cantrip."
+  },
+  {
+    "name": "Spineshudder Amulet",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Quivers creep up your enemy's back - the slow, longfingered hand of your magic. When you hit a creature with a spell attack while wearing this amulet, the target gains 2 charges of reverberation. Reverberation Charges. A creature can have up to 5 reverberation charges. A creature has -1 penalty to their Strength, Dexterity, and Constitution saving throws for each reverberation charge they have. When a creature has 5 reverberation charges, it takes 1d4 thunder damage and must succeed a DC 10 Constitution saving throw or be knocked prone. One reverberation charge is consumed at the end of each affected creature's turn, and all reverberation charges are consumed after combat. A creature immune to thunder damage can't gain reverberation charges."
+  },
+  {
+    "name": "Tarnished Charm",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A menacing cackle emanates from this twisted charm. It whispers to bite, to maim, to kill... Whenever you start your turn with 0 hit points and you make a death saving throw, roll a d20. If the roll is 5 or higher, you succeed."
+  },
+  {
+    "name": "The Blast Pendant",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Though they only worked together for a short time, it is hard to overstate the influence Lenore the cleric of Mystra had on Yrre the Sparkstruck, who often likened harnessing lightning to manipulating the Weave. This amulet has the following property: Lightning Blast. As a bonus action, you focus electricity through the weave. The next spell you cast this turn deals additional lightning damage equal to the number of lightning charges you have. On a hit, all of your lightning charges are expended. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "The Ever-Seeing Eye",
+    "rarity": "uncommon",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A pale green eye, pierced by the twisting branches of a dead tree - the result of a foolhardy woman begging Auntie for a favor. You can use this item to cast protection from good and evil at 1st level. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Amulet of Branding",
+    "rarity": "rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Though thin and delicate-looking, the amulet's pendant sits heavy against your chest. This amulet has the following property: Brand the Weak. As a bonus action, you can curse a creature. Choose a creature within 60 feet that you can see, it becomes vulnerable to your choice of slashing, piercing, or bludgeoning damage until the end of its next turn, or until it takes damage of the chosen type. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Amulet of Restoration",
+    "rarity": "rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The gemstone centrepiece of the amulet was long ago mottled and dyed by the tears of a martyr. You can use this amulet to cast healing word once at 1st level and mass healing word once at 3rd level using your highest spellcasting ability. Once you cast a spell using this amulet, you can't cast the same spell again until you finish a long rest."
+  },
+  {
+    "name": "Amulet of the Drunkard",
+    "rarity": "rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Donning this necklace causes the room to sway and tip - or maybe it was already swaying? Whatever, time for another pint. When you make a melee attack roll while wearing this amulet, you can choose to do so drunkenly. Doing so gives you disadvantage on the attack roll. If the attack hits, you regain 1d4 hit points."
+  },
+  {
+    "name": "Amulet of the Harpers",
+    "rarity": "rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Nobility can be found in suffering the slings and arrows of outrageous fortune. So can dying. Best to be on guard. While wearing this amulet, you have advantage on Wisdom saving throws. Additionally, you can use this amulet to cast shield at 1st level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Champion's Chain",
+    "rarity": "rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A plump mass torn from Sovereign Glut's own flesh. A marker of the colony's esteem - or perhaps its property. While wearing this amulet, you gain a +2 bonus to Charisma (Intimidation) checks."
+  },
+  {
+    "name": "Envoy's Amulet",
+    "rarity": "rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A fleshy amulet shaped by Sovereign Spaw's own hand. Wherever the bearer goes, so does the myconid circle. While wearing this amulet, you gain a +2 bonus to Charisma (Persuasion) checks."
+  },
+  {
+    "name": "Magic Amulet",
+    "rarity": "rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Imbued with a little luck after the item was pressed to the pursed lips of a saint of the goddess Tymora. Inscribed roughly and inexpertly on the underside: 'Lady Luck, don't you piss in my porridge oats!' This amulet has the following property: Innate Fortitude. When you make an attack roll or saving throw, you can use your reaction to make the roll with advantage. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Sentient Amulet (Dormant)",
+    "rarity": "rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Sun-graced warmth radiates from both the pendant and its chain. Somehow, even a brief glance of it brings a smile to your face. You can use this amulet to cast shatter at 2nd level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a short or long rest. In addition, this amulet has the following property: Lesser Ki Restoration. As an action, you can restore up to 2 ki points. Once you use this property, you can't do so again until you finish a long rest. Curse. This amulet is cursed and possessed by a cursed monk. Becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the amulet, keeping it on your person at all times. While attuned to this amulet, you must succeed a DC 10 Wisdom saving throw when using one of the amulet's properties. On a failure, you fall into a fit of laughter falling prone, becoming incapacitated and unable to stand up until the end of your next turn. The spirit within the amulet is a monk of the temple of Lathander. Cursed by Sharran warriors and trapped within the amulet, the monk seeks to reunite with his granddaughter, a worshiper of Ilmater within Baldur's Gate. The monk promises great power in returning him to his granddaughter before the curse takes full hold of your mind."
+  },
+  {
+    "name": "Spell Savant Amulet",
+    "rarity": "rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "When on the wrong side of a few sherries, the powerful wizards Bigby and Tenser would sometimes see how many spells they could fit into amulets like this one before they burst. While wearing this amulet, you gain an additional 2ndlevel spell slot."
+  },
+  {
+    "name": "Strange Tendril Amulet",
+    "rarity": "rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Eldritch sigils seem to coarse through the metalwork on this amulet. You can use this amulet to cast evard's black tentacles at 4th level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Surgeon's Subjugation Amulet",
+    "rarity": "rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A surgeon is only as reliable as her tools. And, indeed, as depraved. When you hit a humanoid creature with a weapon attack and score a critical hit, you can use your reaction to paralyze the target until the end of its next turn. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "The Amulet of Lost Voices",
+    "rarity": "rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The dead hold no secrets from Jergal's Scriveners of Doom. You can use this amulet to cast speak with dead at 3rd level."
+  },
+  {
+    "name": "Uncovered Mysteries",
+    "rarity": "rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Beneath the layers of dust covering this necklace, its inlaid gems still give off a blue sparkle - the colour of Mystra's clergy. You can use this amulet to cast detect thoughts at 1st level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Amulet of Greater Health",
+    "rarity": "very_rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Worn by Lumi, a cleric beholden to twilight, who sheltered her fellow adventurers as a bantam shelters her chicks. While wearing this amulet, you have advantage on Constitution saving throws. In addition, your Constitution score changes to 23. The amulet has no effect on you if your Intelligence without the amulet is equal to or greater than the amulet's score."
+  },
+  {
+    "name": "Amulet of the Devout",
+    "rarity": "very_rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Otto, a member of the powerful arcane organisation the Circle of Eight, had a penchant for amulets. So much so that they announced his arrival before he ever needed to. While wearing this amulet, you gain a +2 bonus to your spell save DC. In addition, you gain an additional use of your Channel Divinity feature. When you use your Channel Divinity feature this way, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Amulet of Windrider",
+    "rarity": "very_rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Heavily embossed with filigree, this necklace reflects light in all directions. You can use this amulet to cast gust of wind once at 2nd level and gaseous form once at 3rd level using your highest spellcasting ability. Once you cast a spell using this amulet, you can't cast the same spell again until you finish a long rest."
+  },
+  {
+    "name": "Corvid Token",
+    "rarity": "very_rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "'Let your lips turn black as night/On this eve of frightful wights/Let your throat be filled with screams/Nearby looms the Raven Queen!' - A song of dark festivity. While wearing this amulet, your speed and jump distance increases by 5 feet. In addition, you can use this amulet to cast feather fall at 1st level. Moreover, you can use this amulet to polymorph into a giant raven (The Savage Frontier pg.66). Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Fey Semblance Amulet",
+    "rarity": "very_rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Originally the kidney stone of an archfey, this object has been, ahem, passed down through the centuries. While wearing this amulet, you have advantage on Intelligence, Wisdom, and Charisma saving throws."
+  },
+  {
+    "name": "Khalid's Gift",
+    "rarity": "very_rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A gift from Khalid for Jaheira. While wearing this amulet, you can't be cursed. In addition, your Wisdom score increases by 1 to a maximum of 21. Moreover, you can use this amulet to cast aid at 3rd level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Sentient Amulet (Awakened)",
+    "rarity": "very_rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Sun-graced warmth radiates from both the pendant and its chain. Somehow, even a brief glance of it brings a smile to your face. You can use this amulet to cast shatter at 3rd level using your highest spellcasting ability. A creature targeted by this spell automatically fails their saving throw. Once you use this property, you can't do so again until you finish a long rest. In addition, this amulet has the following property: Greater Ki Restoration. As an action, you can roll your martial arts die. You regain a number of ki points equal to the number rolled. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Spellcrux Amulet",
+    "rarity": "very_rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Some scholars have speculated that spells have a mind of their own, suggesting that the spells get bored between being cast and restored. As a bonus action while wearing this amulet, you can recover one expended spell slot of 6th level or lower. Once you use this property, you can't do so agian until you finish a long rest."
+  },
+  {
+    "name": "The Spectator Eyes",
+    "rarity": "very_rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Spectators are hideous aberrations that float above the ground, fiercely staring around and shooting beams at anything they don't appreciate. This amulet has the following properties: Ray of Fear. You can attempt to fear a creature with a screeching ray. As an action, choose a creature you can see within 60 feet. The target must make a DC 15 Wisdom saving throw. On a failed save, the target is frightened of you and can't move for 1 minute. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the effect ends. Once you use this property, you can't do so again until you finish a long rest. Wounding Ray. You can attempt to give a creature necrotic wounds. As an action, choose a creature you can see within 60 feet. The target must make a DC 15 Constitution saving throw. On a failed save, the target takes 2d8 damage. At the beginning of its next turn, the target must make another Constitution saving throw or take an additional 2d8 necrotic damage. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Tressym Collar",
+    "rarity": "very_rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The gem in this collar's centre is placed as a common courtesy: it allows the tressym's summoner to be identified and complained to in the case of bereaved pet owners or pigeon-masters. This one glows with a Waterdhavian name: Gale Dekarios. You can use this amulet to cast telekinesis at 5th level using your highest spellcasting ability. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Unflinching Protector Amulet",
+    "rarity": "very_rare",
+    "category": "amulet",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Touching this amulet's centrepiece, you are imbued with a vision of woven strands, and the strands coming apart and holding true and firm over your friends, like shields banded in a haze of golden light. When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to make the attack miss. Once you use this property, you can't do so again until you finish a short or long rest."
+  }
+]

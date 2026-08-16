@@ -1,0 +1,308 @@
+[
+  {
+    "name": "Absolute's Warboard",
+    "rarity": "uncommon",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": null,
+    "attunement": true,
+    "description": "Blood is smeared across the shield's face, exalting wielders who bear the Absolute's mark. While holding this shield, you gain a +1 bonus to all saving throws. Additionally, you can use this shield to cast heroism at 1st level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Cindermoth Cloak",
+    "rarity": "uncommon",
+    "category": "cloak",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "With every rustle of this cloak, small moths like windblown embers appear around you - they flutter for a moment, then fade into inconsequence. Whenever a creature within 5 feet of you hits you with a melee attack, the wreathing flames of this cloak lash out. the attacker takes 1d4 fire damage."
+  },
+  {
+    "name": "Cloak of Cunning Brume",
+    "rarity": "uncommon",
+    "category": "cloak",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "One of the relics of Deep Durrea's rebellious children. The children found nothing of use in the vault and were discouraged. But in the morning the Vault Keykeeper's son, who admired the children, sought them out - and in his arms he brought a wealth of things, forged in shadow. When you take the Disengage action while wearing this cloak, you immediately create a 10-foot-radius sphere of fog centered on yourself. The sphere spreads around corners, and its area is heavily obscured. It lasts until the start of your next turn or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it."
+  },
+  {
+    "name": "Cloak of Elemental Absorption",
+    "rarity": "uncommon",
+    "category": "cloak",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "A favorite among fleet-footed gish, this cloak allows the wearer to wield a foe's elemental mastery against them. You can use this cloak to cast absorb elements at 1st level. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Fleshmelter Cloak",
+    "rarity": "uncommon",
+    "category": "cloak",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Droplets of foul acid drip from the tails of this cloak, as if from the stinger of a demonic scorpion. Whenever a creature within 5 feet of you hits you with a melee attack, acidic fumes of this cloak exude out. the attacker takes 1d4 acid damage."
+  },
+  {
+    "name": "Gloomstrand Shield",
+    "rarity": "uncommon",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": null,
+    "attunement": false,
+    "description": "Supposedly fashioned around a lock of hair stolen from the head of the Prince of Gloomwrought, shields of this ilk gladly welcome the dark. While holding this shield, you gain a +1 bonus to Dexterity (Stealth) chekcs."
+  },
+  {
+    "name": "Glowing Shield",
+    "rarity": "uncommon",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": null,
+    "attunement": false,
+    "description": "Soft, loving whispers emanate from this shield. Though barely audible and spoken in some long-forgotten language, they make you feel safe. While holding this shield, if you have no more than half your hit points, you gain 8 temporary hit points. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Ironvine Shield",
+    "rarity": "uncommon",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": null,
+    "attunement": true,
+    "description": "Each whorl and groove and worm-curled twist of this shield evokes a tangle of bog-stuck trees in rain-swollen vines. Whenever a creature within 5 feet of you hits you with a melee attack, and you are holding a weapon imbued with shillelagh, the attacker takes damage equal to your Wisdom modifier."
+  },
+  {
+    "name": "Reverse Rain Cloak",
+    "rarity": "uncommon",
+    "category": "cloak",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The wearer is perpetually just a little bit damp. While wearing this item, you have resistance to fire damage. Curse. This item is cursed, a fact that is revealed only when you attune to it. Attuning to the cloak curses you until you are targeted by the remove curse spell or similar magic; removing the cloak fails to end the curse. While cursed you have vulnerability to lightning damage."
+  },
+  {
+    "name": "Safeguard Shield",
+    "rarity": "uncommon",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": null,
+    "attunement": true,
+    "description": "Magic got caught in this heirloom by being exposed to too many wizard family dinners. While holding this shield, you gain a +1 bonus to all saving throws."
+  },
+  {
+    "name": "The Real Sparky Sparkswall",
+    "rarity": "uncommon",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": null,
+    "attunement": true,
+    "description": "'Is there anything as beautiful as lightning striking all around you?' Yrre the Sparkstruck said, letting lightning strike all around them. While holding this shield it has the following property: Lightning Aura. As an action, if you have lightning charges, you can expend 3 of those charges to release a blast of electricity within a 20-foot radius around you. Each creature of your choice within range must make a DC 13 Dexterity saving throw or take 1d6 lightning damage. Afterwards, a charged area persists creating an aura of lightning with a 20-foot radius until the end of your next turn. Until this aura ends, the aura moves with you, centered on you. When a hostile creature enters the area for the first time on a turn or starts its turn there, it must make a DC 13 Dexterity saving throw. On a failed save, a target takes 1d4 lightning damage, and can't take reactions until the start of its next turn."
+  },
+  {
+    "name": "Thunderskin Cloak",
+    "rarity": "uncommon",
+    "category": "cloak",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Through a gap in the long snarls of thread, you are sure you can glimpse a great black thunderhead swollen with purple lightning and spears of rain. When a creature with reverberation charges hits you with a melee attack, it must make a DC 13 Constitution saving throw. On a failed save, a target has disadvantage on Wisdom saving throws, can't take reactions, and can't add their Dexterity bonus to their AC until the end of their next turn."
+  },
+  {
+    "name": "Vivacious Cloak",
+    "rarity": "uncommon",
+    "category": "cloak",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The sheer mortal terror of the low-vitality spellcaster (who can be blown over by a wafted spoon) can be partially offset by cloaks like this one. While wearing this item, when you cast a spell of 1st level or higher while within 5 feet of a hostile creature, you gain 8 temporary hit points."
+  },
+  {
+    "name": "Watcher's Shield",
+    "rarity": "uncommon",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": null,
+    "attunement": true,
+    "description": "To hold this shield is to be vigilant in duty, wary of danger, and mindful in crisis. While holding this shield, you have advantage on Wisdom (Perception) checks."
+  },
+  {
+    "name": "Wood Woad Shield",
+    "rarity": "uncommon",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": null,
+    "attunement": true,
+    "description": "'And with her arm the dryad linked a man who had once been her lover, and once of flesh and bone. Now his flesh was bark, and his bone heartwood. In his eyes a feverish love still blazed like a thousand fireflies in a spring meadow.' You can use this shield to cast ensnaring strike at 1st level. When you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Absolute's Protector",
+    "rarity": "rare",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": null,
+    "attunement": true,
+    "description": "The Absolute's power radiates from this shield, invisible waves of energy beckoning to the Branded. While holding this shield, spell damage that you take is reduced by 1. In addition, when a creature hits you with a melee attack, you can use your reaction to attempt to shield bash the creature. The target must make a DC 14 Strength saving throw or be knocked prone. Additionally, you can use this shield to cast fire shield at 4th level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Adamantine Shield",
+    "rarity": "rare",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": null,
+    "attunement": true,
+    "description": "The dull shine of the adamantine promises this shield could take a thousand beatings -- and still look as good as new. While holding this shield, any critical hit made against you becomes a normal hit. In addition, when a creature hits you with a melee attack, you can use your reaction to attempt to shield bash the creature. The target must make a DC 14 Strength saving throw or be knocked prone. Moreover, whenever a creature within 5 feet of you misses you with an attack, they're sent reeling from the hardness of the shield. The attacker must make a DC 14 Strength saving throw. On a failed save a creature receives a -2 to their weapon attack rolls until the end of their next turn."
+  },
+  {
+    "name": "Derivation Cloak",
+    "rarity": "rare",
+    "category": "cloak",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Based on a mad alchemist's experiments to derive youth from his victims by poisoning them, this cloak relies on a much more reliable arcane formula. When you subject a hostile creature with the poison condition, you regain 1d4 hit points."
+  },
+  {
+    "name": "Justiciar's Greatshield",
+    "rarity": "rare",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": null,
+    "attunement": true,
+    "description": "It's never the shield that kills you - but hearing your frantic steel thudding uselessly against this reinforced oak in the darkness is a good sign the end is near. While holding this shield, you have advantage on Wisdom (Perception) checks. In addition, when a creature hits you with a melee attack, you can use your reaction to attempt to shield bash the creature. The target must make a DC 14 Strength saving throw or be knocked prone. Moreover, this item has the following property: Darkness Cloak. As a bonus action, you can expunge a fog of magical darkness from this shield which fills the space you're in which you can see through while holding the shield. The darkness last until the end of your next turn and moves with you, centered on you. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Ketheric's Shield",
+    "rarity": "rare",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": null,
+    "attunement": true,
+    "description": "In the theatre of dreams, Ketheric killed his wife every night. That wasn't how things happened... but always upon waking, he would glare into the dark, long-faced and solemn, and he would think: 'I keep you alive with my memories, beloved. I kill you with what I've become.' While holding this shield, you gain a +1 bonus to your spell save DC and spell attack rolls. In addition, you have advantage on Dexterity saving throws. Moreover, when a creature hits you with a melee attack, you can use your reaction to attempt to shield bash the creature. The target must make a DC 14 Strength saving throw or be knocked prone."
+  },
+  {
+    "name": "Sentinel Shield",
+    "rarity": "rare",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": null,
+    "attunement": true,
+    "description": "Clever enchantments dance between the grooves of this shield, which emanates a magic of heightened awareness. While holding this shield, you gain a +3 bonus to initiative rolls. In addition, you have advantage on Wisdom (Perception) checks. Moreover, when a creature hits you with a melee attack, you can use your reaction to attempt to shield bash the creature. The target must make a DC 14 Strength saving throw or be knocked prone."
+  },
+  {
+    "name": "Shield of Scorching Reprisal",
+    "rarity": "rare",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": null,
+    "attunement": true,
+    "description": "Local rumour claims a devil's tear gives these city militia shields their fire - much to the chagrin of the barracks blacksmith. While holding this shield, you have resistance to fire damage. In addition, when a creature hits you with a melee attack, you can use your reaction to attempt to shield bash the creature. The target must make a DC 14 Strength saving throw or be knocked prone. Moreover, this shield has the following property: Blazing Retaliation. As a bonus action, you can huddle behind your shield for the next minute to gain a +1 bonus to your AC. For the duration, whenever a creature within 5 feet of you hits you with a melee attack, the wreathing flames of this shield lash out. the attacker must make a DC 14 Dexterity saving throw or take 1d6 fire damage or half as much damage on a successful save. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Shield of Shielding",
+    "rarity": "rare",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": null,
+    "attunement": true,
+    "description": "Named in the style of Extremely Unimaginative Jimmy, the geographer and interior decorator who named the 'waterfall' and the 'fireplace'. When a creature hits you with a melee attack, you can use your reaction to attempt to shield bash the creature. The target must make a DC 14 Strength saving throw or be knocked prone. Additionally, you can use this shield to cast shield at 1st level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "The Deathstalker Mantle",
+    "rarity": "rare",
+    "category": "cloak",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Let hill and hollow be a door to screams that last forevermore. When you reduce a hostile creature to 0 hit points, you become invisible until the end of your next turn. This invisibility ends early if you attack, cast a spell, take an action, or take damage."
+  },
+  {
+    "name": "Wavemother's Cloak",
+    "rarity": "rare",
+    "category": "cloak",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Little jellyfish-shaped pockets line the inside of this cloak. When you take fire damage while wearing this cloak, you can use your reaction to gain resistance to that damage until the start of your next turn."
+  },
+  {
+    "name": "Abdel's Trusted Shield",
+    "rarity": "very_rare",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": null,
+    "attunement": true,
+    "description": "Attached to this shield is a faded note. 'G, I've found the best defence against an arrow is to be the one behind the bow - but this shield also does the trick in a pinch. Yours, AA.' When a creature hits you with a melee attack, you can use your reaction to attempt to shield bash the creature. The target must make a DC 15 Strength saving throw or be knocked prone. Additionally, you can cast protection from missles at 2nd level. Once you use this property, you can't do so again until you finish a short or long rest. Protection from Missiles 2nd-level abjuration Casting Time: 1 action Range: Self Components: V,S,M (an obsidian arrowhead) Duration: Concentration, up to 1 minute You create a personal bubble of pressurized air around you making it difficult for arrows and other objects to pass through. For the duration, ranged weapon attack rolls made against you have disadvantage and you have resistance to piercing damage."
+  },
+  {
+    "name": "Cloak of the Weave",
+    "rarity": "very_rare",
+    "category": "cloak",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Part of an outfit worn by the wizard Tenser when he was inducted into the organization of eminent wizards called the Circle of Eight. While wearing this item, you gain a +1 bonus to your spell save DC and spell attack rolls. Additionally, you can use this item to cast absorbe elements at 1st level. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Mantle of the Holy Warrior",
+    "rarity": "very_rare",
+    "category": "cloak",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "This garment accidentally fell into the communal steambaths during the All Saints Morning Retreat And Candlelit Guided Meditation. You can use this item to cast crusader's mantle at 3rd level. Once you use this property, you can't do so again until you finish a short or long rest."
+  },
+  {
+    "name": "Nymph Cloak",
+    "rarity": "very_rare",
+    "category": "cloak",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "The charmers, seducers, philanderers, flirts, gallants, beguilers, ravishers, rogues, tempters, and tantalisers of the Feywild all share one common trait: they make you feel as if you are the only diamond among the drift. You can use this item to cast dominate person at 5th level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Shade-Slayer Cloak",
+    "rarity": "very_rare",
+    "category": "cloak",
+    "type": "Wondrous item",
+    "bonus": null,
+    "attunement": true,
+    "description": "Rough and coarse, the cloak's materials soften to solk when immersed in shadow. While wearing this cloak, attacks you make while hiding score a critical hit on a roll of 19 or 20."
+  },
+  {
+    "name": "Shield of Devotion",
+    "rarity": "very_rare",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": null,
+    "attunement": true,
+    "description": "Any tales about the Paladins of Velen are so ancient as to be almost certainly hearsay. Irrefutable, however, is the powerful blessing they left on this ancient shield, which inspires heart-fluttering bravery to this day. While attuned to this shield, you gain an additional 1st-level spell slot. In addition, when a creature hits you with a melee attack, you can use your reaction to attempt to shield bash the creature. The target must make a DC 15 Strength saving throw or be knocked prone. Moreover, you can use this item to cast aid at 3rd level. Once you use this property, you can't do so again until you finish a long rest."
+  },
+  {
+    "name": "Shield of the Undevout",
+    "rarity": "very_rare",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": null,
+    "attunement": true,
+    "description": "Where once this shield would protect the rallying forces of good - now it pushes them back, crushing them against their allies until they pop. While attuned to this shield, you gain an additional 1st-level spell slot. In addition, creatures you attempt to frighten have disadvantage on their saving throws. Moreover, when a creature hits you with a melee attack, you can use your reaction to attempt to shield bash the creature. The target must make a DC 14 Strength saving throw or be knocked prone."
+  },
+  {
+    "name": "Swires' Sledboard",
+    "rarity": "very_rare",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": null,
+    "attunement": true,
+    "description": "A gnomish adventurer once used this to outpace his enemies down a slope. When a creature hits you with a melee attack, you can use your reaction to attempt to shield bash the creature. The target must make a DC 15 Strength saving throw or be knocked prone. Additionally, at the beginning of each of your turns, you become shrouded in for conduit granting you the following benefit: Force Conduit. You can choose to gain resistance to nonmagical bludgeoning, piercing, or slashing damage until the start of your next turn. When a creature hits you with an attack that deals damage from your chosen damage type that you have resistance to, you can use your reaction to deal 1d8 force damage to the creature and ending your resistance to that damage type."
+  },
+  {
+    "name": "Viconia's Walking Fortress",
+    "rarity": "legendary",
+    "category": "shield",
+    "type": "Shield",
+    "bonus": 1,
+    "attunement": true,
+    "description": "'Walking Fortress' is a defensive technique reliant on a shield of this caliber. It involves upsetting your opponent who just wants to land a single blow. While holding this shield, you gain advantage on saving throws against spells and spell attack rolls made against you have disadvantage. In addition, you can use this shield to cast warding bond at 2nd level. Once you use this property, you can't do so again until you finish a long rest. Moreover, this shield has the following properties: Rebuke the Mighty. When a creature hits you with a melee attack, you can use your reaction to attempt to shield bash the creature. The target must make a DC 16 Strength saving throw or take 2d4 force damage and is knocked prone. Reflective Shell. As a bonus action, you can put up a reflective barrier around yourself. Until the end of your next turn, ranged attacks made against you reflect back and deal damage to the attacker instead of you."
+  }
+]
