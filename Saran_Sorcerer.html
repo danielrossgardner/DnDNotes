@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Silver Sorcerer - D&D Character Sheet</title>
+<style>
+  :root {
+    --parchment: #f4ecd8;
+    --parchment-dark: #e8dcc0;
+    --ink: #2b2421;
+    --ink-soft: #5a4f47;
+    --rule: #b8a98e;
+    --accent: #7a2e2e;
+    --gold: #a8842c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: #d8cdb8;
+    color: var(--ink);
+    margin: 0;
+    padding: 20px;
+  }
+  .sheet {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: var(--parchment);
+    border: 3px double var(--accent);
+    padding: 20px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.25);
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 12px;
+    margin-bottom: 14px;
+  }
+  .header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .field { margin-top: 6px; flex: 1 1 auto; }
+  .field label {
+    display: block;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--ink-soft);
+  }
+  .field .val {
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid var(--rule);
+    min-height: 18px;
+  }
+  .columns {
+    display: grid;
+    grid-template-columns: 230px 1fr 1fr 1fr;
+    gap: 12px;
+  }
+  .box {
+    border: 1px solid var(--rule);
+    background: var(--parchment-dark);
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+  .box-title {
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--ink-soft);
+    margin-top: 4px;
+  }
+  .ability {
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px 4px;
+    margin-bottom: 10px;
+    background: var(--parchment-dark);
+  }
+  .ability .name { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--accent); font-weight: bold; }
+  .ability .mod { font-size: 22px; font-weight: bold; margin: 2px 0; }
+  .ability .score {
+    display: inline-block;
+    border: 1px solid var(--rule);
+    border-radius: 50%;
+    width: 34px; height: 34px; line-height: 34px;
+    background: #fff;
+    font-size: 14px;
+  }
+  .stat-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .stat-circle {
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px 2px;
+    background: var(--parchment-dark);
+  }
+  .stat-circle .big { font-size: 22px; font-weight: bold; }
+  .stat-circle .label { font-size: 9px; text-transform: uppercase; letter-spacing: 1px; color: var(--ink-soft); }
+  ul.savelist, ul.skilllist { list-style: none; padding: 0; margin: 4px 0; font-size: 12px; }
+  ul.savelist li, ul.skilllist li {
+    display: grid;
+    grid-template-columns: 22px 30px 1fr;
+    gap: 4px;
+    padding: 1px 0;
+    border-bottom: 1px dotted var(--rule);
+    align-items: center;
+  }
+  .dot {
+    width: 11px; height: 11px;
+    border: 1px solid var(--ink-soft);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .dot.filled { background: var(--accent); }
+  .mod-val { font-weight: bold; text-align: right; padding-right: 4px; }
+  .small-label { font-size: 9px; text-transform: uppercase; letter-spacing: 1px; color: var(--ink-soft); }
+  .center { text-align: center; }
+  table.atk { width: 100%; font-size: 12px; border-collapse: collapse; }
+  table.atk th { font-size: 9px; text-transform: uppercase; color: var(--ink-soft); text-align: left; border-bottom: 1px solid var(--rule); }
+  table.atk td { padding: 2px 4px; border-bottom: 1px dotted var(--rule); }
+  .feature-text, .traits-text, .equip-text { font-size: 12px; line-height: 1.6; white-space: pre-line; }
+  h3.section-title {
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--accent);
+    border-top: 3px solid var(--accent);
+    margin: 0 0 6px 0;
+    padding-bottom: 3px;
+    padding-top: 3px;
+  }
+  .pp-box {
+    border: 2px solid var(--accent);
+    border-radius: 50%;
+    width: 85px; height: 85px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    margin: 0 auto 10px auto;
+    background: var(--parchment-dark);
+  }
+  .pp-box .num { font-size: 22px; font-weight: bold; }
+  .pp-box .lbl { font-size: 8px; text-align: center; line-height: 1.1; text-transform: uppercase; color: var(--ink-soft); }
+  .death-saves { display: flex; gap: 10px; justify-content: center; font-size: 11px; }
+  .death-saves .grp { text-align: center; }
+  .death-saves .dot { margin: 2px; }
+  .spell-page { padding-top: 14px; }
+  .spell-header { display: flex; margin-bottom: 14px; }
+  .spell-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .spell-level-box {
+    border: 1px solid var(--rule);
+    background: var(--parchment-dark);
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  .spell-level-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--accent);
+    margin-bottom: 4px;
+    padding-bottom: 2px;
+  }
+  .spell-level-header .lvl-num {
+    border: 1px solid var(--accent);
+    border-radius: 50%;
+    width: 22px; height: 22px; line-height: 22px; text-align: center;
+    font-weight: bold; font-size: 12px;
+  }
+  .spell-level-header .slots { font-size: 11px; font-weight: bold; }
+  .spell-slots-pips { display: flex; gap: 4px; margin-top: 3px; }
+  .pip {
+    width: 13px; height: 13px;
+    border: 1px solid var(--accent);
+    border-radius: 50%;
+    display: inline-block;
+  }
+  ul.spelllist { list-style: none; margin: 0; padding: 0; font-size: 12px; }
+  ul.spelllist li { padding: 2px 0; border-bottom: 1px dotted var(--rule); }
+  ul.spelllist li.empty { color: var(--rule); height: 16px; }
+  .src-tag { font-size: 9px; color: var(--gold); font-style: italic; margin-left: 4px; }
+  strong { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-row">
+      <div class="field">
+        <label>Character Name</label>
+        <div class="val">&nbsp;</div>
+      </div>
+      <div class="field">
+        <label>Class &amp; Level</label>
+        <div class="val">Sorcerer (Draconic Bloodline) 8</div>
+      </div>
+      <div class="field">
+        <label>Background</label>
+        <div class="val">Sage</div>
+      </div>
+    </div>
+    <div class="header-row">
+      <div class="field">
+        <label>Race</label>
+        <div class="val">Dragonborn (Silver)</div>
+      </div>
+      <div class="field">
+        <label>Alignment</label>
+        <div class="val">&nbsp;</div>
+      </div>
+      <div class="field">
+        <label>Experience Points</label>
+        <div class="val">&nbsp;</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN COLUMNS -->
+  <div class="columns">
+
+    <!-- COLUMN 1: Abilities -->
+    <div>
+      <!-- STR 8 (-1) | DEX 11 (+0) | CON 12 (+1) | INT 11 (+0) | WIS 10 (+0) | CHA 17 (+3) -->
+      <!-- Raw assigned: CHA14, CON12, INT11, DEX11, WIS10, STR6 -->
+      <!-- Racial: STR+2=8, CHA+1=15 -->
+      <!-- ASI L4: CHA+2=17 -->
+      <!-- ASI L8: Metamagic Adept (feat) -->
+      <div class="ability">
+        <div class="name">Strength</div>
+        <div class="mod">+0</div>
+        <div class="score">10</div>
+      </div>
+      <div class="ability">
+        <div class="name">Dexterity</div>
+        <div class="mod">+1</div>
+        <div class="score">12</div>
+      </div>
+      <div class="ability">
+        <div class="name">Constitution</div>
+        <div class="mod">+2</div>
+        <div class="score">14</div>
+      </div>
+      <div class="ability">
+        <div class="name">Intelligence</div>
+        <div class="mod">+2</div>
+        <div class="score">14</div>
+      </div>
+      <div class="ability">
+        <div class="name">Wisdom</div>
+        <div class="mod">+0</div>
+        <div class="score">10</div>
+      </div>
+      <div class="ability">
+        <div class="name">Charisma</div>
+        <div class="mod">+4</div>
+        <div class="score">18</div>
+      </div>
+      <div class="pp-box">
+        <div class="num">10</div>
+        <div class="lbl">Passive Wisdom (Perception)</div>
+      </div>
+    </div>
+
+    <!-- COLUMN 2: Combat, Saves, Skills, Proficiencies -->
+    <div>
+      <!-- AC: 13 + DEX (Draconic Resilience, unarmored) = 13 + 0 = 13 -->
+      <!-- Initiative: +0 (DEX) -->
+      <!-- Speed: 30 ft -->
+      <div class="stat-row">
+        <div class="stat-circle">
+          <div class="big">14</div>
+          <div class="label">Armor Class</div>
+          <div class="small-label" style="margin-top:2px;">Draconic Resilience</div>
+        </div>
+        <div class="stat-circle">
+          <div class="big">+1</div>
+          <div class="label">Initiative</div>
+        </div>
+        <div class="stat-circle">
+          <div class="big">30</div>
+          <div class="label">Speed</div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="box-title">Proficiency Bonus</div>
+        <div class="center" style="font-size:18px; font-weight:bold;">+3</div>
+      </div>
+
+      <!-- Sorcerer saves: CON + CHA -->
+      <div class="box">
+        <div class="box-title">Saving Throws</div>
+        <ul class="savelist">
+          <li><span class="dot"></span><span class="mod-val">+0</span><span>Strength</span></li>
+          <li><span class="dot"></span><span class="mod-val">+1</span><span>Dexterity</span></li>
+          <li><span class="dot filled"></span><span class="mod-val">+5</span><span>Constitution</span></li>
+          <li><span class="dot"></span><span class="mod-val">+2</span><span>Intelligence</span></li>
+          <li><span class="dot"></span><span class="mod-val">+0</span><span>Wisdom</span></li>
+          <li><span class="dot filled"></span><span class="mod-val">+7</span><span>Charisma</span></li>
+        </ul>
+      </div>
+
+      <!-- Sorcerer: no skill proficiencies by default — choose 2 from: Arcana, Deception, Insight, Intimidation, Persuasion, Religion -->
+      <!-- Sage background: Arcana + History -->
+      <!-- Dragonborn: no bonus skills -->
+      <!-- Chosen: Arcana (Sage), History (Sage), Persuasion (Sorcerer), Arcana already taken → Investigation (Sorcerer 2nd pick, since Arcana covered by Sage) -->
+      <!-- Sorcerer 2 skills from list: Arcana, Deception, Insight, Intimidation, Persuasion, Religion -->
+      <!-- We want: Arcana✓(Sage), History✓(Sage), Persuasion✓(Sorc), Investigation — NOT in Sorcerer list; pick Nature? Not in list either. -->
+      <!-- Sorcerer skills must come from: Arcana, Deception, Insight, Intimidation, Persuasion, Religion -->
+      <!-- Best fit: Persuasion + Arcana (even though Arcana from Sage, pick another: Insight or Deception... pick Persuasion + one more) -->
+      <!-- Final proficiencies: Arcana (Sage), History (Sage), Persuasion (Sorc choice 1), Arcana already done → 2nd Sorc: Religion (closest to intellectual theme) -->
+      <!-- Nature & Investigation are NOT available to Sorcerer or Sage, so note that -->
+      <div class="box">
+        <div class="box-title">Skills</div>
+        <ul class="skilllist">
+          <li><span class="dot"></span><span class="mod-val">+1</span><span>Acrobatics (Dex)</span></li>
+          <li><span class="dot"></span><span class="mod-val">+0</span><span>Animal Handling (Wis)</span></li>
+          <li><span class="dot filled"></span><span class="mod-val">+5</span><span>Arcana (Int)</span></li>
+          <li><span class="dot"></span><span class="mod-val">+0</span><span>Athletics (Str)</span></li>
+          <li><span class="dot"></span><span class="mod-val">+4</span><span>Deception (Cha)</span></li>
+          <li><span class="dot filled"></span><span class="mod-val">+5</span><span>History (Int)</span></li>
+          <li><span class="dot"></span><span class="mod-val">+0</span><span>Insight (Wis)</span></li>
+          <li><span class="dot"></span><span class="mod-val">+4</span><span>Intimidation (Cha)</span></li>
+          <li><span class="dot"></span><span class="mod-val">+2</span><span>Investigation (Int)</span></li>
+          <li><span class="dot"></span><span class="mod-val">+0</span><span>Medicine (Wis)</span></li>
+          <li><span class="dot"></span><span class="mod-val">+2</span><span>Nature (Int)</span></li>
+          <li><span class="dot"></span><span class="mod-val">+0</span><span>Perception (Wis)</span></li>
+          <li><span class="dot filled"></span><span class="mod-val">+7</span><span>Persuasion (Cha)</span></li>
+          <li><span class="dot filled"></span><span class="mod-val">+5</span><span>Religion (Int)</span></li>
+          <li><span class="dot"></span><span class="mod-val">+1</span><span>Sleight of Hand (Dex)</span></li>
+          <li><span class="dot"></span><span class="mod-val">+1</span><span>Stealth (Dex)</span></li>
+          <li><span class="dot"></span><span class="mod-val">+0</span><span>Survival (Wis)</span></li>
+        </ul>
+        <div style="font-size:9px; color:var(--ink-soft); margin-top:4px; font-style:italic;">Note: Investigation & Nature not on Sorcerer/Sage skill lists.</div>
+      </div>
+
+      <div class="box">
+        <div class="box-title">Other Proficiencies &amp; Languages</div>
+        <div class="feature-text" style="font-size:11px;">Weapons: Daggers, darts, slings, quarterstaffs, light crossbows
+Tools: None
+
+Languages: Common, Draconic (racial), plus two from Sage (e.g. Elvish, Primordial)</div>
+      </div>
+    </div>
+
+    <!-- COLUMN 3: HP, Combat, Attacks -->
+    <div>
+      <!-- HP: Draconic Resilience = 6 (L1) + 7×avg(d6=4) + CON×8 + 8 (draconic = 1/level) -->
+      <!-- Sorcerer d6. L1: 6+1(con)+1(drac)=8. L2-8: avg 4 + 1(con) + 1(drac) = 6 each × 7 = 42. Total = 8+42 = 50 -->
+      <div class="box">
+        <div class="box-title">Hit Point Maximum</div>
+        <div class="center" style="font-size:18px; font-weight:bold;">58</div>
+        <div class="center" style="font-size:10px; font-style:italic;">(d6 per level + CON mod +2 + Draconic Resilience)</div>
+      </div>
+      <div class="box">
+        <div class="box-title">Current Hit Points</div>
+        <div style="min-height:24px;"></div>
+      </div>
+      <div class="box">
+        <div class="box-title">Temporary Hit Points</div>
+        <div style="min-height:24px;"></div>
+      </div>
+      <div class="box">
+        <div class="box-title">Hit Dice</div>
+        <div class="center" style="min-height:24px;">Total: 8d6</div>
+      </div>
+      <div class="box">
+        <div class="box-title">Death Saves</div>
+        <div class="death-saves">
+          <div class="grp">Successes<br><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+          <div class="grp">Failures<br><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="box-title">Attacks &amp; Spellcasting</div>
+        <table class="atk">
+          <tr><th>Name</th><th>Atk Bonus</th><th>Damage/Type</th></tr>
+          <tr><td>Ray of Frost</td><td>+7</td><td>2d8+4 cold</td></tr>
+          <tr><td>Dagger</td><td>+4</td><td>1d4+1 piercing</td></tr>
+          <tr>
+            <td colspan="3" style="font-size:10px; color:var(--ink-soft); padding-top:4px;">
+              Breath Weapon (Cold, 15 ft cone): 4d6 cold — DC 15 DEX save for half. Once per short/long rest.
+            </td>
+          </tr>
+        </table>
+        <!-- Sorcery Points: 8 base + 2 from Metamagic Adept = 10 -->
+        <div style="font-size:12px; margin-top:8px;">
+          <strong>Sorcery Points: 8</strong>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="box-title">Inspiration / Inspiration</div>
+        <div class="box-title" style="margin-top:2px;">Researcher (Sage)</div>
+        <div class="feature-text" style="font-size:11px;">When you can't recall lore, you know where to find it — a library, sage, or institution.</div>
+      </div>
+    </div>
+
+    <!-- COLUMN 4: Features & Traits -->
+    <div>
+      <div class="box">
+        <div class="box-title">Personality Traits</div>
+        <div class="traits-text">&nbsp;</div>
+      </div>
+      <div class="box">
+        <div class="box-title">Ideals / Bonds / Flaws</div>
+        <div class="traits-text">&nbsp;</div>
+      </div>
+      <div class="box">
+        <div class="box-title">Features &amp; Traits</div>
+        <div class="feature-text"><strong>Dragonborn Traits</strong>
+Dragon Ancestor: Silver (Cold)
+Breath Weapon: 15 ft cone, 4d6 cold, DC 15 DEX save (half on success). Once per short/long rest.
+Damage Resistance: Cold
+
+<strong>Draconic Bloodline</strong>
+Dragon Ancestor (Silver / Cold) — Draconic language proficiency; Cha check advantage with dragons.
+Draconic Resilience — +8 HP (1/level); unarmored AC = 13 + DEX.
+Elemental Affinity (L6) — Add CHA modifier (+4) to one cold damage roll per cold spell cast. Spend 1 sorcery point for cold resistance for 1 hour.
+Dragon Wings (L14) — not yet unlocked.
+
+<strong>Sorcerer Features</strong>
+Spellcasting (CHA) — Spell save DC 15 | Spell attack +7.
+Flexible Casting — Convert spell slots ↔ sorcery points.
+Sorcery Points: 8
+
+Metamagic Options:
+• Quickened Spell (2 pts) — Cast a spell with a casting time of 1 action as a bonus action.
+• Heightened Spell (3 pts) — One target of a spell with a save has disadvantage on first save.
+• Twinned Spell (1 pt/spell level, min 1) — Target a second creature with a single-target spell.
+
+<strong>Feat: Elemental Adept (Cold)</strong>
+Cold spells ignore resistance to cold damage. When rolling cold damage, treat any 1 on a damage die as a 2.
+
+<strong>Sage Background</strong>
+Researcher — Know where to find lore you can't recall.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- SPELLCASTING PAGE -->
+  <h3 class="section-title">Spellcasting</h3>
+  <div class="spell-page">
+    <div class="spell-header">
+      <div class="field">
+        <label>Spellcasting Class</label>
+        <div class="val">Sorcerer</div>
+      </div>
+      <div class="field">
+        <label>Spellcasting Ability</label>
+        <div class="val center">Charisma</div>
+      </div>
+      <div class="field">
+        <label>Spell Save DC</label>
+        <!-- 8 + 3 (prof) + 4 (CHA) = 15 -->
+        <div class="val center">15</div>
+      </div>
+      <div class="field">
+        <label>Spell Attack Bonus</label>
+        <!-- 3 (prof) + 4 (CHA) = +7 -->
+        <div class="val center">+7</div>
+      </div>
+    </div>
+
+    <!-- Slot progression L8 Sorcerer: 1st×4, 2nd×3, 3rd×3, 4th×3, 5th×1 -->
+    <div class="spell-grid">
+
+      <!-- Cantrips — Sorcerer gets 5 at L8 -->
+      <div class="spell-level-box">
+        <div class="spell-level-header">
+          <span class="lvl-num">0</span>
+          <span style="font-weight:bold; font-size:11px; text-transform:uppercase;">Cantrips (5 known)</span>
+        </div>
+        <ul class="spelllist">
+          <li>Ray of Frost <span class="src-tag">2d8+4 cold, spd -10</span></li>
+          <li>Frostbite <span class="src-tag">XGtE · CON save or disadv next atk</span></li>
+          <li>Prestidigitation</li>
+          <li>Message</li>
+          <li>Minor Illusion</li>
+        </ul>
+      </div>
+
+      <!-- Level 1 — 4 slots, 2 spells known (running total 2) -->
+      <div class="spell-level-box">
+        <div class="spell-level-header">
+          <span class="lvl-num">1</span>
+          <span class="slots">Slots: 4</span>
+        </div>
+        <div class="spell-slots-pips"><span class="pip"></span><span class="pip"></span><span class="pip"></span><span class="pip"></span></div>
+        <ul class="spelllist">
+          <li><span class="dot"></span> Ice Knife <span class="src-tag">XGtE · 1d10 pierc + 2d6 cold</span></li>
+          <li><span class="dot"></span> Shield</li>
+        </ul>
+      </div>
+
+      <!-- Level 2 — 3 slots -->
+      <div class="spell-level-box">
+        <div class="spell-level-header">
+          <span class="lvl-num">2</span>
+          <span class="slots">Slots: 3</span>
+        </div>
+        <div class="spell-slots-pips"><span class="pip"></span><span class="pip"></span><span class="pip"></span></div>
+        <ul class="spelllist">
+          <li><span class="dot"></span> Dragon's Breath <span class="src-tag">XGtE · 3d6+4 cold, 15 ft cone</span></li>
+          <li><span class="dot"></span> Misty Step <span class="src-tag">Bonus action teleport 30 ft</span></li>
+        </ul>
+      </div>
+
+      <!-- Level 3 — 3 slots -->
+      <div class="spell-level-box">
+        <div class="spell-level-header">
+          <span class="lvl-num">3</span>
+          <span class="slots">Slots: 3</span>
+        </div>
+        <div class="spell-slots-pips"><span class="pip"></span><span class="pip"></span><span class="pip"></span></div>
+        <ul class="spelllist">
+          <li><span class="dot"></span> Sleet Storm <span class="src-tag">Area control, difficult terrain</span></li>
+          <li><span class="dot"></span> Counterspell</li>
+          <li><span class="dot"></span> Fly</li>
+        </ul>
+      </div>
+
+      <!-- Level 4 — 3 slots -->
+      <div class="spell-level-box">
+        <div class="spell-level-header">
+          <span class="lvl-num">4</span>
+          <span class="slots">Slots: 3</span>
+        </div>
+        <div class="spell-slots-pips"><span class="pip"></span><span class="pip"></span><span class="pip"></span></div>
+        <ul class="spelllist">
+          <li><span class="dot"></span> Ice Storm <span class="src-tag">2d8 bludg + 4d6 cold, area</span></li>
+          <li><span class="dot"></span> Greater Invisibility</li>
+        </ul>
+      </div>
+
+      <!-- Level 5 — 1 slot -->
+      <div class="spell-level-box">
+        <div class="spell-level-header">
+          <span class="lvl-num">5</span>
+          <span class="slots">Slots: 1</span>
+        </div>
+        <div class="spell-slots-pips"><span class="pip"></span></div>
+        <ul class="spelllist">
+          <li><span class="dot"></span> Cone of Cold <span class="src-tag">8d8 cold · 60 ft cone</span></li>
+        </ul>
+      </div>
+
+      <!-- 6+ empty -->
+      <div class="spell-level-box">
+        <div class="spell-level-header">
+          <span class="lvl-num">6</span>
+          <span class="slots">Slots: 0</span>
+        </div>
+        <ul class="spelllist"><li class="empty"></li></ul>
+      </div>
+      <div class="spell-level-box">
+        <div class="spell-level-header">
+          <span class="lvl-num">7</span>
+          <span class="slots">Slots: 0</span>
+        </div>
+        <ul class="spelllist"><li class="empty"></li></ul>
+      </div>
+      <div class="spell-level-box">
+        <div class="spell-level-header">
+          <span class="lvl-num">8</span>
+          <span class="slots">Slots: 0</span>
+        </div>
+        <ul class="spelllist"><li class="empty"></li></ul>
+      </div>
+    </div>
+
+    <!-- Spells Known Summary -->
+    <div class="box" style="margin-top:4px;">
+      <div class="box-title">Spells Known Summary — L8 Sorcerer knows 11 spells (+ 5 cantrips)</div>
+      <div class="feature-text" style="font-size:11px;">Cantrips (5): Ray of Frost, Frostbite, Prestidigitation, Message, Minor Illusion
+1st (2): Ice Knife, Shield
+2nd (2): Dragon's Breath, Misty Step
+3rd (3): Sleet Storm, Counterspell, Fly
+4th (2): Ice Storm, Greater Invisibility
+5th (1): Cone of Cold
+      </div>
+    </div>
+
+    <!-- Elemental Affinity + Elemental Adept Note -->
+    <div class="box" style="margin-top:4px; border-color: var(--accent);">
+      <div class="box-title" style="color:var(--accent);">Elemental Affinity + Elemental Adept (Cold)</div>
+      <div class="feature-text" style="font-size:11px;">Elemental Affinity: Add <strong>+4 (CHA mod)</strong> to one cold damage roll per cold spell cast. Spend 1 sorcery point → Cold resistance for 1 hour.
+Elemental Adept: Cold spells ignore resistance. Treat any 1 on a cold damage die as a 2.
+
+Ray of Frost: 2d8+4 | Ice Knife: 1d10 pierc + 2d6+4 cold | Dragon's Breath: 3d6+4 cold | Ice Storm: 2d8 bludg + 4d6+4 cold | Cone of Cold: 8d8+4 cold</div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
